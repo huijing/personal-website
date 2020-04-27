@@ -1,6 +1,7 @@
 ---
 date: "2019-11-18T00:00:00Z"
 hastweet: true
+image: project-28
 images: 
 - /assets/images/posts/projects/project-28@2x.png
 project: React Knowledgeable
