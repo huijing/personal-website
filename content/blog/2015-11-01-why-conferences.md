@@ -22,7 +22,7 @@ Our industry moves ridiculously fast, and it doesn't seem like we're slowing dow
 
 I haven't been to conferences in other industries so I'm not sure how things work there, but for developer conferences, a lot of value comes from the content. The pace of our industry ensures that there will always be fresh content on new technologies, the latest practices and innovative techniques. Most people are caught up in the daily grind of their 9-to-5 (or 9-to-9 for that matter), and don't have time to read articles, tutorials and books. Attending a conference is like receiving an instant power-up. 
 
-<img alt="Instant power-up" srcset="http://localhost:4321/assets/images/posts/conference/powerup-480.jpg 480w, http://localhost:4321/assets/images/posts/conference/powerup-640.jpg 640w, http://localhost:4321/assets/images/posts/conference/powerup-960.jpg 960w, http://localhost:4321/assets/images/posts/conference/powerup-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="http://localhost:4321/assets/images/posts/conference/powerup-640.jpg">
+<img alt="Instant power-up" srcset="/assets/images/posts/conference/powerup-480.jpg 480w, /assets/images/posts/conference/powerup-640.jpg 640w, /assets/images/posts/conference/powerup-960.jpg 960w, /assets/images/posts/conference/powerup-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/conference/powerup-640.jpg">
 
 Of course, you won't become an expert just by showing up, but it really helps bring you up to speed so you can explore using these new technologies and techniques moving forward. That's infinitely better than not being aware of them at all.
 
@@ -68,7 +68,7 @@ But you get back from a conference as much as you put in it. If we fully immerse
 
 What we lack in volume, we make up in quality. Although we don't have a big-name conference every other fortnight, we do have an awesome event this year. [Dev.Fest Asia 2015](http://2015.devfest.asia/index.html) is Southeast Asia's first community organized web developer festival taking place from **Nov 12 till Nov 22**. It's a week-long event filled with workshops and meet-ups, building up to the main events of [CSSConf.Asia 2015](http://2015.cssconf.asia/) on **Nov 18** and [JSConf.Asia 2015](http://2015.jsconf.asia/) on **Nov 19-20**. 
 
-<img alt="Dev.Fest 2015 logo" srcset="http://localhost:4321/assets/images/posts/conference/devfest@2x.png 2x" src="http://localhost:4321/assets/images/posts/conference/devfest.png">
+<img alt="Dev.Fest 2015 logo" srcset="/assets/images/posts/conference/devfest@2x.png 2x" src="/assets/images/posts/conference/devfest.png">
 
 <div class="figure-wrapper">
     <figure class="multiple">

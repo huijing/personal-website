@@ -73,7 +73,7 @@ By the end of Phase 1, the team of content migrators could start porting over th
 This was one of the most challenging projects I've ever worked on. And yes, it was a stressful endeavour (I'd like to think I'm not the only person who thinks 27 sites in 30 days is challenging) but I learnt so much from this experience.
 <figure>
     <figcaption><strong>Magazine sites</strong></figcaption>
-    <img alt="Magazine sites" src="http://localhost:4321/assets/images/posts/xinmsn/magazines.jpg">
+    <img alt="Magazine sites" src="/assets/images/posts/xinmsn/magazines.jpg">
 </figure>
 
 I can't say enough about the importance of planning. And yet, it must be expected that things will not go according to plan. For all the preparation in the world, you will never be able to predict what happens during the game. The key to winning the game is the ability to react to game situations. Preparation provides the confidence required to make those game-time decisions.
