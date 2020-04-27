@@ -49,7 +49,7 @@ With blood, sweat and tears! Nah, I'm just kidding.
 
 *Update: major migration from Jekyll to Hugo which took X days during the COVID-19 pandemic.*
 
-This is a ~~[Jekyll](http://jekyllrb.com/)~~ [Hugo]() site, hosted on ~~[GitHub Pages](https://pages.github.com/)~~ [Netlify](). It was ~~built~~ migrated after months of procrastination and hours upon hours of ~~pressing ⌘-⇧-R, resizing windows~~ ploughing through documentation, googling and of course, actual coding. This site is a constant work-in-progress as I add tweaks, features and content. 
+This is a ~~[Jekyll](http://jekyllrb.com/)~~ [Hugo](https://gohugo.io/) site, hosted on ~~[GitHub Pages](https://pages.github.com/)~~ [Netlify](https://www.netlify.com/). It was ~~built~~ migrated after months of procrastination and hours upon hours of ~~pressing ⌘-⇧-R, resizing windows~~ ploughing through documentation, googling and of course, actual coding. This site is a constant work-in-progress as I add tweaks, features and content. 
 
 Since ~~Jekyll~~ Hugo is a static site generator, everything here is HTML, CSS and JS. 
 
