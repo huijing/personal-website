@@ -1,7 +1,7 @@
 ---
 date: "2017-12-17T00:00:00Z"
 external_site: alphabettes
-external_url: http://www.alphabettes.org/remember-december-the-typefaces-of-tikhvin-cemetery/
+external_url: https://www.alphabettes.org/remember-december-the-typefaces-of-tikhvin-cemetery/
 nofeed: true
 noindex: true
 tags:

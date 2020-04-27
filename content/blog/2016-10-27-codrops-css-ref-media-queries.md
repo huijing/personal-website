@@ -194,7 +194,7 @@ https://jsfiddle.net/huijing/kavftbwc/8/
 
 <div class="ct-cssref-support">
     <h2>Browser Support</h2>
-    <iframe src="http://caniuse.com/css-mediaqueries/embed/"></iframe>
+    <iframe src="https://caniuse.com/css-mediaqueries/embed/"></iframe>
 </div>
 
 <div class="ct-cssref-further-reading">

@@ -1,7 +1,7 @@
 ---
 date: "2018-12-30T00:00:00Z"
 external_site: alphabettes
-external_url: http://www.alphabettes.org/a-visit-to-the-islamic-arts-museum-malaysia/
+external_url: https://www.alphabettes.org/a-visit-to-the-islamic-arts-museum-malaysia/
 nofeed: true
 noindex: true
 tags:

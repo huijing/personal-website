@@ -183,7 +183,7 @@ title: 'Codrops CSS reference: Combinators'
     <p>
         All the above combinators are supported in Chrome, Firefox, Safari, Opera 9.5+, Internet Explorer 9+, and on Android and iOS.
     </p>
-    <iframe src="http://caniuse.com/css-sel3/embed/"></iframe>
+    <iframe src="https://caniuse.com/css-sel3/embed/"></iframe>
 </div>
 <div class="ct-cssref-further-reading">
     <h2>Further Reading</h2>
