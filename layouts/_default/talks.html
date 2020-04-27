@@ -1,0 +1,83 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1 class="page-header__title">{{ .Params.title }}</h1>
+</header>
+
+<div class="page-content">
+  <p>Sometimes, I'm so overwhelmed by my love for all things HTML and CSS that I feel compelled to tell a large group of people about it. All slides are created with <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>, so you can go ahead and click on the slide image to see the full presentation. Source code is available on <a href="https://github.com/huijing/slides">GitHub</a>.</p>
+
+  <h2>Conferences</h2>
+  <div class="grid">
+    {{ range sort .Site.Data.slides ".count" "desc" }}
+    {{ if eq .type "conference" }}
+      {{ if eq .released true }}
+    <div class="talk">
+        {{ if eq .host true }}
+      <a class="no-underline" href="{{ .host }}">
+        {{ else }}
+      <a class="no-underline" href="{{ .Site.Params.baseUrl }}/slides/{{ .count }}-{{ .id }}">
+        {{ end }}
+        <img srcset="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}">
+      </a>
+
+        {{ if isset . "video" }}
+      <p class="no-margin"><a class="talk__video" href="{{ .video }}">Watch video</a></p>
+        {{ else }}
+      <p class="no-margin"><span style="font-size:85%;" class="emoji" role="img" tabindex="0" aria-label="no">&#x274C;</span><span style="font-size:85%;" class="emoji" role="img" tabindex="0" aria-label="video">&#x1F4F9;</span><span style="font-size:85%;" class="emoji" role="img" tabindex="0" aria-label="sorry">&#x1F937;</span> <a href="https://github.com/huijing/slides/tree/gh-pages/{{ .count }}-{{ .id }}">Read transcript</a></p>
+        {{ end }}
+
+        {{ if isset . "pdf" }}
+      <p><a class="talk__pdf no-margin" href="{{ .Site.Params.baseUrl }}/slides/pdf/{{ .id }}.pdf">Download PDF</a></p>
+        {{ else }}
+      <p>No slides, no pdf</p>
+        {{ end }}
+    </div>
+      {{ else }}
+    <div class="talk">
+      <img srcset="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}"/>
+      <p class="no-margin">Coming soon!</p>
+      <p><a class="no-margin" href="{{ .website }}">Event details</a></p>
+    </div>
+      {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
+
+  <h2>Meet-ups & Workshops</h2>
+  <div class="grid">
+    {{ range sort .Site.Data.slides ".count" "desc" }}
+    {{ if not (eq .type "conference") }}
+      {{ if eq .released true }}
+    <div class="talk">
+      <a class="no-underline" href="{{ .Site.Params.baseUrl }}/slides/{{ .count }}-{{ .id }}">
+        <img srcset="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}"/>
+      </a>
+
+        {{ if isset . "video" }}
+      <p class="no-margin"><a class="talk__video" href="{{ .video }}">Watch video</a></p>
+        {{ else }}
+      <p class="no-margin">No video <span class="emoji" role="img" tabindex="0" aria-label="neutral face">&#x1F610;</span></p>
+        {{ end }}
+
+        {{ if isset . "pdf" }}
+      <p><a class="talk__pdf no-margin" href="{{ .Site.Params.baseUrl }}/slides/pdf/{{ .id }}.pdf">Download PDF</a></p>
+        {{ else }}
+      <p>No slides, no pdf</p>
+        {{ end }}
+    </div>
+      {{ else }}
+    <div class="talk">
+        <img srcset="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}"/>
+        <p class="no-margin">Coming soon!</p>
+        <p><a class="no-margin" href="{{ .website }}">Event details</a></p>
+    </div>
+      {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
+
+{{ .Content }}
+
+</div>
+{{ end }}
+

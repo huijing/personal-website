@@ -1,0 +1,113 @@
+client-work:
+  name: Client work
+
+codrops:
+  name: Codrops
+
+computing:
+  name: Computing
+
+css:
+  name: CSS
+
+design:
+  name: Design
+
+devlife:
+  name: Developer life
+
+devrel:
+  name: Developer relations
+
+devtools:
+  name: DevTools
+
+drupal7:
+  name: Drupal 7
+
+drupal8:
+  name: Drupal 8
+
+emoji:
+  name: Emoji
+
+frameworks:
+  name: Frameworks
+
+git:
+  name: Git
+
+github-pages:
+  name: GitHub Pages
+
+gitlab-pages:
+  name: GitLab Pages
+
+gulp:
+  name: Gulp
+
+hardware:
+  name: Hardware
+
+html:
+  name: HTML
+
+i18n:
+  name: i18n
+
+javascript:
+  name: Javascript
+
+jekyll:
+  name: Jekyll
+
+kohana:
+  name: Kohana
+
+nexmo:
+  name: Nexmo
+
+nodejs:
+  name: Node.js
+
+opinion:
+  name: Opinion
+
+performance:
+  name: Performance
+
+podcasts:
+  name: Podcasts
+
+react:
+  name: React
+
+retrotech:
+  name: Retro tech
+
+rtc:
+  name: Real-time communications
+
+servers:
+  name: Servers
+
+side-project:
+  name: Side project
+
+site-building:
+  name: Site building
+
+specifications:
+  name: Specifications
+
+theming:
+  name: Theming
+
+translated:
+  name: Translated
+
+typography:
+  name: Typography
+
+workflow:
+  name: Workflow

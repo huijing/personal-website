@@ -1,0 +1,93 @@
+// =======
+// Generic
+// =======
+// Resets
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+a,
+img,
+section,
+blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+main,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+input,
+textarea {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+embed,
+iframe,
+img,
+object,
+video,
+svg {
+  @include center;
+  display: block;
+  max-width: 100%;
+}
+
+// Ground-zero styles
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: url('/assets/images/bg-body.jpg');
+  min-width: calc(320em / 18);
+}
+
+main {
+  @include center;
+  font-family: $base-font;
+  max-width: 48em;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: $header-font;
+  }
+}
+
+.content {
+  @include center;
+  max-width: 40rem;
+  background-color: color('sugarcane');
+  padding: 1.5em;
+  line-height: 1.5;
+}

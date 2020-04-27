@@ -1,0 +1,26 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1 class="page-header__title">{{ .Params.title }}</h1>
+</header>
+
+<div class="page-content">
+  {{ partial "tagcloud.html" . }}
+
+  {{ range .Pages.GroupByDate "2006" }}
+  <span class="post-meta">{{ .Key }} ({{ len .Pages}} posts)</span>
+  <ul class="post-list">
+    {{ range .Pages }}
+    <li class="no-list-style no-margin post-item">
+      {{ if .Params.external_url }}
+      <a class="external-url no-underline {{ .Params.external_site }}" href="{{ .Params.external_url }}">{{ .Title }}</a>
+      {{ else }}
+      <a class="no-underline" href="{{ .Permalink }}">{{ .Title | safeHTML }}</a>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</div>
+
+{{ .Content }}
+{{ end }}

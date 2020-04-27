@@ -1,0 +1,757 @@
+- title: "Using responsive images (now)"
+  id: resp-imgs
+  count: "01"
+  video: https://engineers.sg/video/using-responsive-images-now-talk-js--269
+  event: talk.js
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Why you should be excited about CSS shapes"
+  id: css-shapes
+  count: "02"
+  video: https://engineers.sg/video/css-shapes-singapore-css--432
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Let's ⚡ talk about CSS triggers"
+  id: css-triggers
+  count: "03"
+  video: https://engineers.sg/video/tips-on-eliminating-jank-talk-css--505
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Web development: breaking it down"
+  id: intro-html-css
+  count: "04"
+  event: General Assembly
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "Coding for beginners: HTML and CSS"
+  id: begin-html-css
+  count: "05"
+  event: General Assembly
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "The epic git bomb"
+  id: git-bomb
+  count: "06"
+  video: https://engineers.sg/video/an-epic-git-bomb-git-meetup-0-4-0--630
+  event: Grumpy Gits
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Code in One Day: HTML & CSS Crash Course"
+  id: code-crash-course
+  count: "07"
+  event: General Assembly
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "So your designer wants a masthead"
+  id: build-masthead
+  count: "08"
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "TechLadies Pre-Bootcamp Workshop #2"
+  id: tl-workshop-2
+  count: "10"
+  video: https://engineers.sg/video/techladies-pre-bootcamp-workshop-2-front-end-development--965
+  event: TechLadies
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "A Chinese typography experiment"
+  id: zh-type
+  count: "11"
+  video: https://engineers.sg/video/a-chinese-typography-experiment-talk-css--1273
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "How I learn to CSS"
+  id: cssconf-2016
+  count: "12"
+  video: https://youtu.be/gJA5sdyCWNQ
+  event: CSSConf.Asia 2016
+  website: https://2016.cssconf.asia/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "CSS grid + writing-mode = 🎉"
+  id: css-grid
+  count: "13"
+  video: https://engineers.sg/video/css-grid-writing-mode-singaporecss--1384
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "TechLadies in KL 🇲🇾"
+  id: tl-in-kl
+  count: "14"
+  event: TechLadies
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "Deciphering the CSS property syntax"
+  id: css-syntax
+  count: "15"
+  video: https://engineers.sg/video/deciphering-the-css-property-syntax-in-specifications-singaporecss--1453
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "What the web means to me"
+  id: wwc-2017
+  count: "16"
+  video: https://engineers.sg/video/what-the-web-means-to-me-women-who-code-singapore--1609
+  event: Women Who Code
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Web typography: East meets West"
+  id: webconf-asia-2017
+  count: "17"
+  event: Webconf.asia 2017
+  website: https://webconf.asia/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Chinese typography on the web"
+  id: pitercss-2017
+  count: "18"
+  video: https://www.youtube.com/watch?v=QGAb9Ugv3TQ
+  event: pitercss conference
+  website: https://pitercss.com/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "CSS fonts trivia"
+  id: css-fonts
+  count: "19"
+  video: https://engineers.sg/video/css-fonts-trivia-singaporecss--1952
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Say no to cookie cutter web layouts"
+  id: ffc-2017
+  count: "20"
+  event: Form, Function, Class 8
+  website: http://2017.formfunctionclass.com/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Be like water: applying Bruce Lee's philosophy to web design"
+  id: moz-roadshow-2017
+  count: "21"
+  video: https://youtu.be/c3sv43SMLiE
+  event: Mozilla Developer Roadshow Asia 2017
+  website: https://mozilla.github.io/devroadshow2017/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Say no to cookie cutter web layouts extended"
+  id: web-layouts-hk
+  count: "22"
+  event: Harbour Front
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "When East meets West: web typography and how it can inspire modern layouts"
+  id: yglf-2017
+  count: "23"
+  video: https://www.youtube.com/watch?v=jFGyvIHufRY
+  event: You Gotta Love Frontend 2017
+  website: https://yougottalovefrontend.com/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "2017: The Year of CSS Grid"
+  id: gdaygt-2017
+  count: "24"
+  event: DevFest & GDay 2017 George Town
+  website: http://devfest-gday.gdggeorgetown.com/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Love the web for what it is"
+  id: love-the-web
+  count: "25"
+  video: https://engineers.sg/video/love-the-web-for-what-it-is-talk-css-24-max-content-edition-singaporecss--2245
+  event: Talk.CSS max-content
+  website: https://singaporecss.github.io/24
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Between East and West: web typography and how it can inspire modern layouts"
+  id: jsconf-2018
+  count: "26"
+  video: https://www.youtube.com/watch?v=Tqxo269aORM
+  event: JSConf.Asia 2018
+  website: https://2018.jsconf.asia/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Grid is the new black"
+  id: grid-workshop
+  count: "27"
+  video: https://youtu.be/nx0yboEhUNc
+  event: JSConf.Asia 2018
+  website: https://2018.jsconf.asia/
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "Tech Briefing: Modern CSS with Hui Jing"
+  id: modern-layouts
+  count: "28"
+  video: https://youtu.be/ahPRvVyw9Eo
+  event: Mozilla Tech Briefing
+  website: https://air.mozilla.org/
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Why CSS is a game-changer for web design"
+  id: constellation-2018
+  count: "29"
+  video: https://youtu.be/24vLH3MC4bc
+  event: GitHub Constellation Singapore
+  website: https://githubconstellation.com/singapore/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Vertical writing on the web: inadvertent layout inspiration from a search for cultural identity"
+  id: smashingsf-2018
+  count: "30"
+  video: https://vimeo.com/266779370
+  event: SmashingConf San Francisco
+  website: https://smashingconf.com/sf-2018/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "East Asian web typography: crossing cultural boundaries for web layout inspiration"
+  id: yglf-2018
+  count: "31"
+  video: https://youtu.be/hAL5MjhIqbs
+  event: You Gotta Love Frontend Kyiv
+  website: http://yglf.com.ua/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "The web is not just left-to-right"
+  id: cssconf-2018
+  count: "32"
+  video: https://youtu.be/YpqKrVcth34
+  event: CSSconf EU 2018
+  website: https://2018.cssconf.eu/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Box Alignment"
+  id: cssday-2018
+  count: "33"
+  video: https://vimeo.com/289479045
+  event: CSS Day
+  website: https://cssday.nl/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Why performance"
+  id: why-performance
+  count: "34"
+  event: Talk.CSS
+  type: meetup
+  released: true
+
+- title: "TechLadies in Penang 🇲🇾"
+  id: tl-in-pen
+  count: "35"
+  event: TechLadies
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "TechLadies Pre-Bootcamp Workshop #1"
+  id: tl-ws1-2018
+  count: "36"
+  event: TechLadies
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "Not in Kansas anymore: a new frontier for web design"
+  id: code-2018
+  count: "37"
+  event: Web Directions Code 2018
+  website: https://www.webdirections.org/code/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Layout the web with CSS grid (and friends)"
+  id: ffc-2018
+  count: "38"
+  event: Form Function Class 9
+  website: https://2018.formfunctionclass.com/
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "East Asian Typography On The Web"
+  id: refresh-2018
+  count: "39"
+  video: https://youtu.be/uHEsO_LCA6s
+  event: Refresh 2018
+  website: http://refresh.rocks/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "The case for modern CSS"
+  id: ts-meetup-2018
+  count: "40"
+  video: https://youtu.be/4nthGV7lIpM
+  event: Tech Speakers meetup 2018
+  website: https://wiki.mozilla.org/TechSpeakers
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Rich Dynamic Design with Modern CSS"
+  id: w3c-workshop-2018
+  count: "41"
+  event: W3C Workshop on Digital Publication Layout and Presentation (from Manga to Magazines)
+  website: https://www.w3.org/publishing/events/tokyo18-workshop/
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "Typesetting East Asian languages on the web"
+  id: css-minsk-js-2018
+  count: "42"
+  video: https://youtu.be/OenrUM2ijaw
+  event: CSS-Minsk-JS 2018
+  website: http://css-minsk-js.by/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Be like water: applying Bruce Lee's philosophy to web design"
+  id: view-source-2018
+  count: "43"
+  video: https://youtu.be/ERIYWnPyeWw
+  event: View Source London 2018
+  website: https://events.mozilla.org/viewsource2018
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Laying out the web with CSS grid (and friends)"
+  id: btconfws-2018
+  count: "44"
+  event: beyond tellerrand 2018
+  website: https://beyondtellerrand.com/events/berlin-2018
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "Box Alignment"
+  id: btconf-2018
+  count: "45"
+  video: https://vimeo.com/299215505
+  event: beyond tellerrand 2018
+  website: https://beyondtellerrand.com/events/berlin-2018
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Laying out the web with modern CSS"
+  id: detech-2018
+  count: "46"
+  event: deTECH Conference 2018
+  website: https://detechconf.com
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "Directions of the web"
+  id: directions-of-the-web
+  count: "47"
+  video: https://engineers.sg/video/directions-of-the-web-talk-css-34--3034
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "CSS wizarding world"
+  id: css-wizarding-world
+  count: "48"
+  event: MozKopdar JKT
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "State of the Web Singapore"
+  id: state-of-the-web-sg
+  count: "49"
+  video: https://youtu.be/bq4LRxzADd0
+  event: SmashingTV Webinar
+  website: https://www.smashingmagazine.com/smashing-tv/state-of-the-web-in-south-east-asia/
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Using Firefox DevTools to understand modern layout techniques"
+  id: devtools-for-layouts
+  count: "50"
+  event: SmashingTV Webinar
+  website: https://www.smashingmagazine.com/smashing-tv/firefox-devtools-css-layout/
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Creating art with CSS"
+  id: css-art
+  count: "51"
+  video: https://youtu.be/8fThZGnrJTU
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "The value of sharing our persectives"
+  id: devrelcon-2019
+  count: "52"
+  video: https://youtu.be/m9Bp3GGKz8s
+  event: DevRelCon Tokyo 2019
+  website: https://tokyo-2019.devrel.net/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "新时代CSS布局"
+  id: cssconfcn-2019
+  count: "53"
+  video: https://youtu.be/-tZNci6Ajos
+  event: CSSConf China 2019
+  website: https://css.w3ctech.com/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "网络的四面八方"
+  id: web-is-not-just-ltr
+  count: "54"
+  event: Sharing sessions with 唯品会 and YY.com
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Web typography: a non-English perspective"
+  id: jsheroes-2019
+  count: "55"
+  video: https://youtu.be/yLQHDGRLOwQ
+  event: JSHeroes 2019
+  website: https://jsheroes.io/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "A deep dive into images on the web"
+  id: imagecon-2019
+  count: "56"
+  video: https://youtu.be/2ARZmuSi8JI
+  event: ImageCon 2019
+  website: https://www.imagecon.com/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Typesetting for a global web"
+  id: yglf-2019
+  count: "57"
+  video: https://youtu.be/mraMWuOXhjw
+  event: YGLF Vilnius
+  website: https://lithuania.yglfconf.com/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Using DevTools to understand modern CSS layouts"
+  id: cssconf-2019
+  count: "58"
+  video: https://youtu.be/ZRtzk0371tk
+  event: CSSconf EU 2019
+  website: https://2019.cssconf.eu/
+  type: conference
+  released: true
+
+- title: "Using DevTools to understand modern CSS layouts"
+  id: pixel-pioneers-2019
+  count: "59"
+  video: https://youtu.be/9lGyfc2q1VM
+  event: Pixel Pioneers Bristol 2019
+  website: https://pixelpioneers.co/events/bristol-2019
+  type: conference
+  released: true
+
+- title: "Can your site work on IE3"
+  id: ie3-challenge
+  count: "60"
+  video: https://youtu.be/dVdBD3SQMl4
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Frontend Crash Course: CSS"
+  id: css-crash-course
+  count: "61"
+  event: DevRelWeek July 2019
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "Interesting things I learned about layout"
+  id: interesting-layout-css
+  count: "62"
+  event: Talk.CSS (MelbourneCSS)
+  type: talk
+  released: true
+  pdf: true
+
+- title: "Understanding modern CSS layouts with Firefox DevTools"
+  id: moz-roadshow-eu-2019
+  count: "63"
+  video: https://youtu.be/so6LqPZG80M
+  event: Mozilla Developer Roadshow Europe 2019
+  website: https://mozilla-tito-devr.netlify.com/
+  type: conference
+  released: true
+  pdf: false
+
+- title: "Creating art with CSS"
+  id: connect-asia-2019
+  count: "64"
+  video: https://youtu.be/SXwBxro6y40
+  event: CONNECT Asia 2019
+  website: https://asia.womenwhocode.dev/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Using DevTools to understand modern CSS layouts"
+  id: connectfest-2019
+  count: "65"
+  event: Connect Fest 2019
+  website: https://connectfest.pt/
+  type: conference
+  released: true
+  pdf: false
+
+- title: "Using DevTools to understand modern CSS layouts"
+  id: wwktm-2019
+  count: "66"
+  event: Web Weekend Kathmandu 2019
+  website: https://2019.wwktm.co/
+  type: conference
+  released: true
+  pdf: false
+
+- title: "Why I love data files in Jekyll"
+  id: jekyllconf-2019
+  count: "67"
+  video: https://youtu.be/CERXESTZ5w4
+  event: JekyllConf 2019
+  website: https://jekyllconf.com/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Using DevTools to understand modern layouts"
+  id: finch-frontend-2019
+  count: "68"
+  event: Finch Front-End
+  website: https://finchconf.uk/
+  type: conference
+  released: true
+  pdf: false
+
+- title: "Demystify modern CSS layouts with DevTools"
+  id: view-source-2019
+  count: "69"
+  video: https://youtu.be/22ejQuAmZqo
+  event: View Source Amsterdam 2019
+  website: https://2019.viewsourceconf.org/
+  type: conference
+  released: true
+  pdf: false
+
+- title: "Neither here nor there"
+  id: queerjs-ams-2019
+  count: "70"
+  event: QueerJS Amsterdam 2019
+  website: https://queerjs.com/amsterdam
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "A deep dive into images on the web"
+  id: fronteers-2019
+  count: "71"
+  video: https://vimeo.com/364358241
+  event: Fronteers Conference 2019
+  website: https://fronteers.nl/congres/2019
+  type: conference
+  released: true
+  pdf: true
+
+- title: "You mean you don't resize your browser 1000 times a day?"
+  id: browser-resize-1000
+  count: "72"
+  video: https://youtu.be/yV3_09UUsSM
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: false
+
+- title: "Talk colours to your browser"
+  id: talking-colours
+  count: "73"
+  event: React Knowledgeable
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Making CSS from Good to Great: The Power of Subgrid"
+  id: mdr-asia-2019
+  count: "74"
+  event: Mozilla Developer Roadshow Asia 2019
+  website: https://mozilla-tito-devr.netlify.com/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "How CSS evolves, a look back at 2 years of CSS grid"
+  id: devfestgt-2019
+  count: "75"
+  event: Devfest & Bizfest Georgetown 2019
+  website: https://www.meetup.com/GDG-George-Town/events/264424881/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Making CSS from Good to Great: The Power of Subgrid"
+  id: devfestkl-2019
+  count: "76"
+  event: DevFest 2019 Kuala Lumpur
+  website: https://devfest.gdgkl.dev/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "DevTools, the CSS advocate in your browser"
+  id: jsbangkok-2020
+  host: https://devtools-jsbangkok.herokuapp.com/devtools
+  count: "77"
+  event: Javascript Bangkok 1.0.0
+  website: https://javascriptbangkok.com/
+  type: conference
+  released: true
+  pdf: false
+
+- title: "Women in Tech, anecdotes from Singapore"
+  id: iwd-nexmo-2020
+  count: "78"
+  video: https://youtu.be/csV8gxbr1Ok
+  event: Vonage IWD Breakfast event
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Talk.CSS, 4 years and counting"
+  id: ignite-2020
+  count: "79"
+  video: https://youtu.be/YQbpzSGLjlg
+  event: Tech Community APAC Online
+  website: https://techcommunity.microsoft.com/t5/community-events-list/microsoft-tech-community-apac-online/m-p/1187340
+  type: conference
+  released: true
+  pdf: true
+
+- title: "What is this? Why must bind?"
+  id: what-is-this
+  count: "80"
+  video: https://youtu.be/qKG7a8mTqqE?t=899
+  event: React Knowledgeable
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "East Asian typography on the modern web"
+  id: typetechmunich-2020
+  count: "81"
+  event: TypeTechMunich Meetup 2020
+  website: https://type-tech.net/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "DevTools, more than just a debugger"
+  id: jsfwdays-2020
+  host: https://devtools-jsfwdays.herokuapp.com/devtools
+  count: "82"
+  video: https://youtu.be/QRyE2cHk8Q4
+  event: JavaScript fwdays'20
+  website: https://fwdays.com/en/event/js-fwdays-2020
+  type: conference
+  released: true
+  pdf: false
+
+- title: "DevTools, the CSS advocate in your browser"
+  id: frontconf-2020
+  host: https://devtools-frontconf.herokuapp.com/devtools
+  count: "83"
+  video: https://youtu.be/waYrmyVGvio
+  event: Munich Frontend Conference 2020
+  website: https://frontconf.com/
+  type: conference
+  released: true
+  pdf: false

@@ -1,0 +1,252 @@
+// CSS architecture for Talk.CSS website
+// Developed by Chen Hui Jing <kakyou_tensai@yahoo.com>
+// -----
+// Structure based on ITCSS by Harry Roberts
+// http://csswizardry.net/talks/2014/11/itcss-dafed.pdf
+// Rationale for class name-spacing can be found at
+// http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
+
+// ==========
+// SETTINGS - Global variables, config switches
+// ==========
+@import 'settings';
+// ==========
+// TOOLS - Default mixins and functions
+// ==========
+@import 'tools';
+// ==========
+// VENDOR LIBRARIES - Third-party stylesheets
+// ==========
+@import 'lib/prism';
+// ==========
+// GENERIC - Ground-zero styles (Normalize.css, resets, box-sizing)
+// ==========
+@import 'generic';
+// ==========
+// BASE - Unclassed HTML elements (type selectors)
+// ==========
+@import 'base';
+// ==========
+// OBJECTS - Cosmetic-free design patterns
+// ==========
+@import 'objects';
+// ==========
+// COMPONENTS - Designed components, chunks of UI
+// ==========
+@import 'component-header';
+@import 'component-footer';
+
+.post-content {
+  @include center;
+  max-width: 36rem;
+
+  img {
+    margin-bottom: 1rem;
+  }
+}
+
+.figure-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @include mappy-bp(small) {
+    flex-flow: row nowrap;
+    margin-bottom: 1.5em;
+  }
+}
+
+figure {
+  margin: 0 0 1.5em;
+  font-size: 85%;
+
+  iframe {
+    margin-bottom: 0;
+  }
+}
+
+.multiple {
+  margin: 0 1.5em 1.5em;
+
+  @include mappy-bp(small) {
+    flex-flow: row nowrap;
+    margin: 0 1.5em;
+  }
+}
+
+.double {
+  img:first-of-type {
+    margin-bottom: 1rem;
+  }
+
+  @include mappy-bp(small) {
+    display: grid;
+    grid-template-columns: calc((100% - 1em) / 2) calc((100% - 1em) / 2);
+    gap: 1em;
+
+    img:first-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.twitter-tweet {
+  margin: 0 auto 1.5em !important;
+}
+
+.shape {
+  float: left;
+  shape-image-threshold: 0.5;
+  shape-margin: 1em;
+  shape-outside: url('/assets/images/posts/css-shapes/beyonce.png');
+  width: 50%;
+
+  @include mappy-bp(small) {
+    width: auto;
+  }
+}
+
+.table {
+  margin-bottom: 1.5em;
+
+  @include mappy-bp(medium) {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+  }
+}
+
+.tr {
+  margin-bottom: 1.5em;
+
+  @include mappy-bp(medium) {
+    display: table-row;
+  }
+}
+
+.td {
+  @include mappy-bp(medium) {
+    display: table-cell;
+    border: #f0f0f0 1px solid;
+    padding: 0.5em;
+  }
+}
+
+.th {
+  font-family: $header-font;
+
+  @include mappy-bp(medium) {
+    font-family: $base-font;
+    font-weight: 700;
+    vertical-align: top;
+  }
+}
+
+.display {
+  .th {
+    &::before {
+      content: 'display: ';
+
+      @include mappy-bp(medium) {
+        content: '';
+      }
+    }
+
+    &::after {
+      content: ';';
+
+      @include mappy-bp(medium) {
+        content: '';
+      }
+    }
+  }
+
+  .td {
+    &:first-child {
+      width: 11em;
+    }
+  }
+}
+
+.sass-maps {
+  .th {
+    width: 15em;
+  }
+}
+
+.sp-font {
+  font-family: $special-font;
+  font-size: 1.414em;
+}
+
+.ciu_embed {
+  iframe {
+    height: 421px !important;
+  }
+}
+
+.note {
+  background: url('/assets/images/bg-note.jpg');
+  padding: 0.5em 1em;
+  font-size: 85%;
+  border-left: 0.5em solid color('winter-hazel');
+  margin-bottom: 1rem;
+}
+
+// Key styles
+.p159 {
+  display: flex;
+  overflow-x: scroll;
+  background-color: color('apple');
+  margin-bottom: 1rem;
+}
+
+.p159__item {
+  width: 9em;
+  flex: none;
+  margin-right: 1em;
+  background-color: white;
+  
+  img {
+    object-fit: cover;
+  }
+
+  p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .card__txt {
+    padding: 0.5em;
+  }
+}
+
+.p159.problem {
+  padding: 1em;  
+}
+
+.p159.border {
+  border: 1em #4abc41 solid;
+}
+
+.p159.pseudo-elem {
+  padding: 1em;
+  
+  &::after {
+    content: '';
+    padding: 0.5em;
+  }
+}
+// ==========
+// TRUMPS - Helpers and overrides
+// ==========
+@import 'trumps';
+// ==========
+// SHAME - For ad-hoc debugging or testing. Should be empty by default.
+// ==========
+@import 'shame';

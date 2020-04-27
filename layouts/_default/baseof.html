@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head.html" . }}
+  <body>
+    <div class="blender" id="blender"></div>
+    <input type="checkbox" class="blend-checkbox" id="blendToggle">
+    <label for="blendToggle" class="blend-toggle"></label>
+    {{ partial "header.html" . }}
+    <main class="content">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

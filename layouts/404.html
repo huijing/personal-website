@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="page-content">
+  <div class="error__wrapper">
+    <img class="error__image" src="{{ `/assets/images/404.gif` | relURL }}">
+    <div class="error__text">
+      <p>This is not the page you're looking for.</p>
+      <p>Click <a href="{{ .Site.Params.baseurl }}/">here</a> to return to the homepage.</p>
+      <p>When the page reloads, a feeling of bliss will wash over you and you will forget this ever happened.</p>
+    </div>
+  </div>
+</div>
+{{ end }}
