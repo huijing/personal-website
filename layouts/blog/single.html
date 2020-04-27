@@ -22,7 +22,7 @@
     {{ end }}
     {{ range $i, $e := .Params.tags }}
       {{ if $i }}, {{ end }}
-      <a class="post-content__tag small" href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e }}</a>
+    <a class="post-content__tag small" href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e }}</a>
     {{ end }}
     </p>
 
