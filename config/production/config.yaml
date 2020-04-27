@@ -6,6 +6,7 @@ summaryLength: 20
 params:
   title: Chen Hui Jing
   baseURL: https://chenhuijing.com
+  slidesURL: https://huijing.github.io
   description: The chronicles of a self-taught designer and developer.
   images:
   - assets/images/avatar.jpg
