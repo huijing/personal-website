@@ -8,7 +8,7 @@
 
   <h2>Conferences</h2>
   <div class="grid">
-    {{ $slidesUrl := .Site.Params.slidesURL }}
+    {{ $slidesUrl := .Site.Params.githubURL }}
     {{ range sort .Site.Data.slides ".count" "desc" }}
     {{ if eq .type "conference" }}
       {{ if eq .released true }}

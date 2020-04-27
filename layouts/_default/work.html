@@ -34,13 +34,13 @@
       </a>
     </div>
     {{ end }}
-
+    {{ $projectUrl := .Site.Params.githubURL }}
     {{ range $project := .Site.Data.projects }}
     <div class="project">
       {{ if $project.external_url }}
       <a class="no-underline" href="{{ $project.external_url }}">
       {{ else }}
-      <a class="no-underline" href="{{ .Site.Params.baseUrl }}/{{ $project.id }}">
+      <a class="no-underline" href="{{ $projectUrl }}/{{ $project.id }}">
       {{ end }}
         <img class="project__image" srcset="{{ .Site.Params.baseUrl }}/assets/images/posts/projects/{{ $project.image }}@2x.png 2x" src="{{ .Site.Params.baseUrl }}/assets/images/posts/projects/{{ $project.image }}.png" alt="{{ $project.title }}"/>
         <h3 class="project__title no-margin">{{ $project.title }}</h3>
