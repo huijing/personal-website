@@ -368,7 +368,7 @@ At the speaker dinner, I got to know [Anna Wszeborowska](https://twitter.com/ani
 
 <img srcset="/assets/images/posts/talking-css-2019/connectfest2-480.jpg 480w, /assets/images/posts/talking-css-2019/connectfest2-640.jpg 640w, /assets/images/posts/talking-css-2019/connectfest2-960.jpg 960w, /assets/images/posts/talking-css-2019/connectfest2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/talking-css-2019/connectfest2-640.jpg" alt="On stage at Connect Fest">
 
-It was a 2-track conference with one stage in an auditorium style and the other at the top floor of the venue. That second stage had a stunning view of Porto. At lunch, we naturally hovered together and were joined by some other speakers, including [Roméo Farinacci](https://www.tedxgrandcanyonuniversity.org/romo-farinacci). Somehow our band of 4 stuck together the rest of the time.
+It was a 2-track conference with one stage in an auditorium style and the other at the top floor of the venue. That second stage had a stunning view of Porto. At lunch, we naturally hovered together and were joined by some other speakers, including Dr. Roméo Farinacci. Somehow our band of 4 stuck together the rest of the time.
 
 I soon realised that the audience was NOT majority web developers and wasn't feeling particularly confident about resizing the browser a thousand times on stage talking about flexbox and grid. But my 3 new-found friends were so incredibly supportive that I felt much better about it. A couple of people who did do web development also said nice things to me after, so that was a relief.
 

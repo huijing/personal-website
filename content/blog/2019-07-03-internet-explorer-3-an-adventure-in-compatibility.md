@@ -43,7 +43,7 @@ Regardless of end result, I figured it'd be a relatively amusing talk to do at [
 
 Note that there is no desire to make the website look the same in every browser, because that's missing the point. Personally, I find it fascinating that a single codebase can give you different results in different browsers. I can literally feel the disdain from functional programming aficionados everywhere.
 
-You say bug, I say feature. Be like water, as Bruce Lee says. [Applies to web design](/slides/43-view-source-2018/), IMHO.
+You say bug, I say feature. Be like water, as Bruce Lee says. [Applies to web design](https://huijing.github.io/slides/43-view-source-2018/), IMHO.
 
 ## Hardware and sysadmin stuff
 

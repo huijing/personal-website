@@ -191,7 +191,7 @@ Another fun part of the app was the bit where you could snap a photo of your gov
 
 For this, we used the [Google Vision API](https://cloud.google.com/vision/) for text extraction, and it's actually pretty good. I suppose the cards themselves are clearly printed and standard format, so maybe it wasn't all that hard for Google to extract the text. Based on the processed image, we could display the extracted text in the UI, instead of having users manually type it in.
 
-[card.io](https://www.card.io/) is made by the folks at PayPal and provides easy credit card scanning in mobile apps. Our demo also had a credit card scanning component. The library comes with a set of functions that return relevant fields from the credit card scan so you can use them how you want. And if the scan fails for some reason, there is always the option for manual entry via the device keyboard.
+[card.io](https://github.com/card-io) is made by the folks at PayPal and provides easy credit card scanning in mobile apps. Our demo also had a credit card scanning component. The library comes with a set of functions that return relevant fields from the credit card scan so you can use them how you want. And if the scan fails for some reason, there is always the option for manual entry via the device keyboard.
 
 One thing I learned from this exercise is that the first six digits of a credit card identifies the card's brand, financial institution that issued it, as well as country of issue. Basic credit card number validation is dependent on the [Luhn algorithm](https://planetcalc.com/2464/), which is a simple checksum formula that considers the number sequence valid if the checksum mod 10 equals to zero.
 

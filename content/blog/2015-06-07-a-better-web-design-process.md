@@ -111,7 +111,7 @@ Our processes must facilitate our ability to be agile and respond to rapid chang
 <p class="no-margin">On the differences between print and web</p>
 
 <ul>
-  <li class="no-margin"><a href="http://www.cactusflower.org/the-web-is-not-print/">The Web is not Print</a> by <a href="http://www.cactusflower.org/colin/">Colin Lieberman</a></li>
+  <li class="no-margin"><a href="https://web.archive.org/web/20170317031214/http://www.cactusflower.org/the-web-is-not-print">The Web is not Print</a> by <a href="https://web.archive.org/web/20191022063154/http://cactusflower.org/colin/">Colin Lieberman</a></li>
   <li class="no-margin"><a href="http://www.nngroup.com/articles/differences-between-print-design-and-web-design/">Differences Between Print Design and Web Design</a> by <a href="http://www.nngroup.com/people/jakob-nielsen/">Jakob Nielsen</a></li>
   <li><a href="http://www.authormedia.com/why-print-designers-can-be-poor-web-designers/">Why print designers fail at web design</a> by <a href="http://www.thomasumstattd.com/">Thomas Umstattd Jr.</a></li>
 </ul>

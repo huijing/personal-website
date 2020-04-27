@@ -18,7 +18,7 @@ As with most content management systems, Drupal has some [system requirements](h
 
 You can choose to install each of these components separately on your machine, or you can download a [software bundle](https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages) that comes with all of them. [XAMPP](https://www.apachefriends.org/index.html) is very popular because it's cross-platform.
 
-Some Windows users go with [WAMP](http://www.wampserver.com/en/) and some Mac users use [MAMP](https://www.mamp.info/en/). All of them generally provide the same functionality, but each have their own pros and cons. I chose to install all my components separately, but if you don't want to do that, just go with a software bundle.
+Some Windows users go with [WAMP](https://web.archive.org/web/20200403015747/http://www.wampserver.com/en/) and some Mac users use [MAMP](https://www.mamp.info/en/). All of them generally provide the same functionality, but each have their own pros and cons. I chose to install all my components separately, but if you don't want to do that, just go with a software bundle.
 
 ### Apache
 

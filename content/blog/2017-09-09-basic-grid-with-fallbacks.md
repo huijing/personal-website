@@ -15,7 +15,7 @@ I've been using CSS grid (which henceforth will be referred to as Grid) for quit
 
 Many conversations with fellow developers about using Grid involve the dreaded “but” statement, i.e. “but what about older browsers? I have to support \**INSERT_RANDOM_OLD_BROWSER_HERE*\*”. And it's totally understandable, because I also realised that not enough people know about the magic that is [Feature Queries](https://drafts.csswg.org/css-conditional-3/#at-supports).
 
-This post got too long again <span class="emoji" role="img" tabindex="0" aria-label="relieved face">&#x1F60C;</span>, so here's a table of contents, if there's a particular section you're interested in. And [source code](https://github.com/huijing/demos/tree/master/grids-basic) for the [demo](https://www.chenhuijing.com/demos/grids-basic/) is available on GitHub.
+This post got too long again <span class="emoji" role="img" tabindex="0" aria-label="relieved face">&#x1F60C;</span>, so here's a table of contents, if there's a particular section you're interested in. And [source code](https://github.com/huijing/demos/tree/master/grids-basic) for the [demo](https://huijing.github.io/demos/grids-basic/) is available on GitHub.
 
 <h3 class="no-margin">TL:DR (skip those which bore you)</h3>
 <ul>

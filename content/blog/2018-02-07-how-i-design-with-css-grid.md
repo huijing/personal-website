@@ -271,7 +271,7 @@ The min-height query was put in there to take care of the black line underneath 
 Here's the final end result in action:
 
 <figure>
-  <figcaption>Play around with the <a href="/demos/grids-tycho">stand-alone demo</a> if you like</figcaption>
+  <figcaption>Play around with the <a href="https://huijing.github.io/demos/grids-tycho">stand-alone demo</a> if you like</figcaption>
   {{<video filename="grid-tycho">}}
 </figure>
 

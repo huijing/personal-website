@@ -51,7 +51,7 @@ Nothing fancy, it's a practically a blank slate, even the grid isn't pre-written
 
 <p class="no-margin">I gravitated toward front-end development largely because HTML and CSS were very easy for me to pick up and understand. I also liked the fact that I could make things look pretty (yes, I'm shallow like that). Brilliant developers create amazing things almost every day. Let me give you a list:</p>
 <ul>
-  <li class="no-margin"><a href="http://www.species-in-pieces.com/">In Pieces - 30 Endangered Species, 30 Pieces</a> by <a href="http://bryanjamesdesign.co.uk/">Bryan James</a></li>
+  <li class="no-margin"><a href="http://www.species-in-pieces.com/">In Pieces - 30 Endangered Species, 30 Pieces</a> by <a href="https://brybry.co">Bryan James</a></li>
   <li class="no-margin"><a href="http://leaverou.github.io/awesomplete/">Awesomplete</a> by <a href="http://lea.verou.me/">Lea Verou</a></li>
   <li class="no-margin"><a href="http://sarasoueidan.com/tools/circulus/">Circulus SVG</a> by <a href="http://sarasoueidan.com/">Sara Soueidan</a></li>
   <li class="no-margin"><a href="http://glench.com/hash/">URL animations</a> by <a href="http://glench.com/">Glen Chiacchieri</a></li>

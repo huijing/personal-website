@@ -278,7 +278,7 @@ For browsers that do not support feature queries, that is essentially what happe
 
 ## Sprinkle on some Javascript
 
-Okay, here I want to give credit to [Mike Riethmuller](https://www.madebymike.com.au/), who created a really nice version of the [HTML periodic table](https://www.madebymike.com.au/demos/html5-periodic-table/) as well. It's much prettier than mine, PLUS, it has a definition feature.
+Okay, here I want to give credit to [Mike Riethmuller](https://www.madebymike.com.au/), who created a really nice version of the [HTML periodic table](https://web.archive.org/web/20190323075856/https://www.madebymike.com.au/demos/html5-periodic-table/) as well. It's much prettier than mine, PLUS, it has a definition feature.
 
 <img srcset="/assets/images/posts/grid-placement/mike-480.png 480w, /assets/images/posts/grid-placement/mike-640.png 640w, /assets/images/posts/grid-placement/mike-960.png 960w, /assets/images/posts/grid-placement/mike-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/grid-placement/mike-640.png" alt="Mike Riethmuller's implementation of the HTML periodic table of elements that showed the definition of the element when clicked on">
 

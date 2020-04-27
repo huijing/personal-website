@@ -170,7 +170,7 @@ I got stuck after this because I never received the email, so this is sort of an
 
 ## Paid options
 
-There are also a number of paid options, like [pagekite](https://pagekite.net/), [Forward](https://forwardhq.com/) and [Burrow.io](https://burrow.io/). I did not try them out, because for me, the free options more than cover my needs. But I'm putting them up here anyway just in case they cover some of your use cases.
+There are also a number of paid options, like [pagekite](https://pagekite.net/), [Forward](https://web.archive.org/web/20191003171231/https://forwardhq.com/) and [Burrow.io](https://burrow.io/). I did not try them out, because for me, the free options more than cover my needs. But I'm putting them up here anyway just in case they cover some of your use cases.
 
 ## Wrapping up
 

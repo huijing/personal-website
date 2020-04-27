@@ -219,6 +219,6 @@ Well, this sums up the stuff I learned about dealing with external posts on Jeky
   <li class="no-margin"><a href="https://yoast.com/rel-canonical/">rel=canonical: the ultimate guide</a></li>
   <li class="no-margin"><a href="https://jekyllrb.com/docs/themes/">Jekyll documentation: Themes</a></li>
   <li class="no-margin"><a href="https://robots.thoughtbot.com/external-posts-in-jekyll">External Posts In Jekyll </a></li>
-  <li class="no-margin"><a href="https://brightpixels.blog/2017/11/exclude-posts-from-rss-in-jekyll/">Exclude Posts From RSS in Jekyll</a></li>
+  <li class="no-margin"><a href="https://www.thetim.blog/exclude-posts-from/">Exclude Posts From RSS in Jekyll</a></li>
   <li><a href="https://learningnerd.com/2017/05/30/">Liz Krane’s notes on Jekyll</a></li>
 </ul>

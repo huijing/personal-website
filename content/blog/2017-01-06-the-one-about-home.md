@@ -10,7 +10,7 @@ tags:
 - side-project
 title: The one about home
 ---
-At the end of 2016, I published a website called [Penang Hokkien 槟城福建话](http://penang-hokkien.gitlab.io). Just a few months prior, I had started playing around with the CSS writing-mode property after having a random thought on my daily bicycle commute to work. That grew into a really long blog post on [Chinese typography on the web](/blog/chinese-web-typography/), and an experimental [layout-switching demo](https://www.chenhuijing.com/zh-type/). During that period, I also discovered the [Penang Hokkien Podcast](http://penanghokkien.com/).
+At the end of 2016, I published a website called [Penang Hokkien 槟城福建话](http://penang-hokkien.gitlab.io). Just a few months prior, I had started playing around with the CSS writing-mode property after having a random thought on my daily bicycle commute to work. That grew into a really long blog post on [Chinese typography on the web](/blog/chinese-web-typography/), and an experimental [layout-switching demo](https://huijing.github.io/zh-type/). During that period, I also discovered the [Penang Hokkien Podcast](http://penanghokkien.com/).
 
 Penang Hokkien is a variant of the Hokkien dialect that is unique to the northern states of Malaysia, and is essentially the lingua franca of Penang. It is also my mother tongue, and the main language spoken within my household. Penang Hokkien holds a special place in my heart. It represents where I come, where I belong, it is the language of home.
 
@@ -36,7 +36,7 @@ I wanted the site to be fully-responsive and cross-browser compatible. It defini
 
 ### Switchy-switchy
 
-In my first [writing-mode demo](/zh-type), I had a checkbox that toggled between horizontal and vertical writing modes. In that case, it was the same block of content, displayed differently (via a CSS class).
+In my first [writing-mode demo](https://huijing.github.io/zh-type), I had a checkbox that toggled between horizontal and vertical writing modes. In that case, it was the same block of content, displayed differently (via a CSS class).
 
 This site utilised a similar concept, in that there would be a toggle, but this time it'd be to switch between 2 blocks of content. The same technique used for [pure CSS tabs](http://codepen.io/huijing/pen/qOLXmy), just that the "tabs" would be styled to look like buttons.
 

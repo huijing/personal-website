@@ -9,7 +9,7 @@ First of all, British spelling. Now that's out of the way, I recently created a 
 
 There are already thousands (I'm guessing) of colour schemes out there already, so if you have better things to do with your life than pick colours, then please, carry on. I personally loved [CodePen's Oceanic Next dark theme](https://blog.codepen.io/2016/02/21/five-brand-new-themes/) but just couldn't find an existing theme that looked like it.
 
-The original [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) theme by [Dmitri Voronianski](http://pixelhunter.me/) looks awesome, but somehow my files didn't turn out as colourful as they did in the screenshot. Probably has to do with the fact that it was optimised for babel-sublime? I dont know… <span class="kaomoji">¯\\\_(ツ)_/¯</span>
+The original [Oceanic Next](https://web.archive.org/web/20191129071611/https://labs.voronianski.com/oceanic-next-color-scheme/) theme by [Dmitri Voronianski](http://pixelhunter.me/) looks awesome, but somehow my files didn't turn out as colourful as they did in the screenshot. Probably has to do with the fact that it was optimised for babel-sublime? I dont know… <span class="kaomoji">¯\\\_(ツ)_/¯</span>
 
 ## UI theme versus Colour Scheme
 

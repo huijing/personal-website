@@ -11,13 +11,13 @@ title: Be kinder to each other
 ---
 The month of March has seen a mini-burst of hype around CSS grid, with Mozilla kicking things off by releasing Firefox 52, closely followed by Google with Chrome 57. Even Safari has gotten in on the grid game, which is scheduled to ship in the upcoming 10.1. Microsoft has the *Update CSS Grid* task marked as *On the backlog*.
 
-Microsoft has a platform for garnering feedback from developers called [Windows Developer Feedback](https://wpdev.uservoice.com/). It is a place for developers to add new ideas for features they want to see in Edge, and let's other developers vote on these ideas. It's also a way for the Edge engineers to inform developers which features have made it to public release.
+Microsoft has a platform for garnering feedback from developers called [Windows Developer Feedback](https://web.archive.org/web/20190331214200/https://wpdev.uservoice.com/). It is a place for developers to add new ideas for features they want to see in Edge, and let's other developers vote on these ideas. It's also a way for the Edge engineers to inform developers which features have made it to public release.
 
 A short while back I came across this tweet by [Patrick Kettner](https://twitter.com/patrickkettner), who is part of the team working on Edge at Microsoft.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/marcosc">@marcosc</a> <a href="https://twitter.com/jsscclr">@jsscclr</a> tons of thoughts, and not enough time to tweetstorm, so... <a href="https://t.co/KO4zAgk0Ot">pic.twitter.com/KO4zAgk0Ot</a></p>&mdash; Patrick Kettner (@patrickkettner) <a href="https://twitter.com/patrickkettner/status/843264670429409281">March 19, 2017</a></blockquote>
 
-[Jen Simmons](http://jensimmons.com/), who has been one of the most passionate people I know when it comes to the web, wrote a [really nice piece of feedback](https://wpdev.uservoice.com/users/195272907-jen-simmons) on the *Update CSS grid* thread. Here it is in totality:
+[Jen Simmons](http://jensimmons.com/), who has been one of the most passionate people I know when it comes to the web, wrote a really nice piece of feedback on the *Update CSS grid* thread. Here it is in totality:
 
 <blockquote>
   <p>Thank you Microsoft for making CSS Grid happen. For working on the spec. For shipping the early implementation back when IE10 was new.</p>

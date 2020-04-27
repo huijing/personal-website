@@ -104,7 +104,7 @@ Just the night before, I was chatting with [Tomomi Imura](https://girliemac.com/
 
 I was also fresh off the experience of organising the Singapore chapter of [global diversity CFP day](https://www.globaldiversitycfpday.com/), so maybe that was a factor as well. Regardless, this talk was an organisation of the many thoughts and opinions I've had in my head for a while.
 
-That being said, I don't recommend pulling together a talk on the day itself, even if it is a lightning talk (maybe especially if it is a lightning talk, because of stricter time constraints). Thankfully, I received positive feedback about it and I think it was recorded, so I'll share that when it gets published as well. Meanwhile, have some [slides](https://www.chenhuijing.com/slides/52-devrelcon-2019/).
+That being said, I don't recommend pulling together a talk on the day itself, even if it is a lightning talk (maybe especially if it is a lightning talk, because of stricter time constraints). Thankfully, I received positive feedback about it and I think it was recorded, so I'll share that when it gets published as well. Meanwhile, have some [slides](https://huijing.github.io/slides/52-devrelcon-2019/).
 
 *Update:*  
 Video has been released, and here it is! <span class="kaomoji">ヾ(＾ᴗ＾)ノ</span>

@@ -342,7 +342,7 @@ For Chinese, I thought it would be the generic `zh` or `zh-hans`, but nooooooo.
 
 If you look at the post, you'll find that the code for Simplified Chinese was `cmn-Hans-CN`, which is what I used in my test demo. Speaking of which, the test demo involves you yelling a zodiac animal name at your browser.
 
-It's called [十二生肖](https://www.chenhuijing.com/talk-zodiac/) and doesn't take into account what happens if you don't say the right thing. Because I haven't gotten around to that yet. Be accurate, my friends.
+It's called [十二生肖](https://huijing.github.io/talk-zodiac/) and doesn't take into account what happens if you don't say the right thing. Because I haven't gotten around to that yet. Be accurate, my friends.
 
 <img srcset="/assets/images/posts/web-speech/zodiac-480.png 480w, /assets/images/posts/web-speech/zodiac-640.png 640w, /assets/images/posts/web-speech/zodiac-960.png 960w, /assets/images/posts/web-speech/zodiac-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/web-speech/zodiac-640.png" alt="Test demo for Chinese recognition">
 

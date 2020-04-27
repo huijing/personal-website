@@ -161,7 +161,7 @@ My portable wifi router was called into play to set up a separate network (unfor
 
 ## Serving a website
 
-The web server that DSL came with was [Monkey](http://monkey-project.com/). And in theory, all we had to do was dump our website files into the `/opt/monkey-0.9.2/htdocs/` folder and start the server. File transfer wasn't a problem, but I just couldn't figure out how to run the server, because the instructions were for a Desktop environment and we were in terminal because X had issues.
+The web server that DSL came with was [Monkey](https://web.archive.org/web/20200229054452/http://monkey-project.com/). And in theory, all we had to do was dump our website files into the `/opt/monkey-0.9.2/htdocs/` folder and start the server. File transfer wasn't a problem, but I just couldn't figure out how to run the server, because the instructions were for a Desktop environment and we were in terminal because X had issues.
 
 Eventually Kheng Meng found the command was 
 <pre style="margin-bottom:1rem;"><code class="language-bash">/opt/monkey/bin/banana start</code></pre>

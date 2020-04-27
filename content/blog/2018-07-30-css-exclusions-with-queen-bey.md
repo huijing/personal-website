@@ -138,7 +138,7 @@ Here's my attempt at demonstrating the different values of `wrap-flow` and `wrap
 
 <p data-height="400" data-theme-id="9162" data-slug-hash="JBORXW" data-default-tab="result" data-user="huijing" data-pen-title="CSS exclusions demo" class="codepen">See the Pen <a href="https://codepen.io/huijing/pen/JBORXW/">CSS exclusions demo</a> by Chen Hui Jing (<a href="https://codepen.io/huijing">@huijing</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
-Also, here's the [standalone demo](/demos/exclusions/), and [source code on GitHub](https://github.com/huijing/demos/tree/master/exclusions).
+Also, here's the [standalone demo](https://huijing.github.io/demos/exclusions/), and [source code on GitHub](https://github.com/huijing/demos/tree/master/exclusions).
 
 ## Support and fallbacks
 

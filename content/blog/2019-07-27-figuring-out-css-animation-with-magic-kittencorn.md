@@ -422,7 +422,7 @@ If you want to see the code for yourself or modify it to do other things, here's
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-There's also a full page [no Codepen demo version](https://www.chenhuijing.com/demos/magical-kittencorn/), and source code on [GitHub](https://github.com/huijing/demos/tree/master/magical-kittencorn).
+There's also a full page [no Codepen demo version](https://huijing.github.io/demos/magical-kittencorn/), and source code on [GitHub](https://github.com/huijing/demos/tree/master/magical-kittencorn).
 
 ## So you want to restart your animation
 
@@ -472,7 +472,7 @@ It's going to be a lightning talk series of 4–5 lightning talks each meetup wi
 
 CSS kittencorn's kid sibling is kind of the unofficial mascot for <code class="no-break"><RK⚡️ /></code>, I think? Go ask Wei about it. <span class="kaomoji">¯\\\_(ツ)_/¯</span>
 
-So if you happen to be in Singapore during the first week of any month, drop by [Talk.CSS](https://www.meetup.com/SingaporeCSS/) or [React Knowledgeable](https://www.meetup.com/React-Knowledgeable/) and come see the kids. The meetups will be at least not bad. This is an official Hui Jing guarantee.
+So if you happen to be in Singapore during the first week of any month, drop by [Talk.CSS](https://www.meetup.com/SingaporeCSS/) or [React Knowledgeable](https://reactknowledgeable.org/) and come see the kids. The meetups will be at least not bad. This is an official Hui Jing guarantee.
 
 ## Resources
 

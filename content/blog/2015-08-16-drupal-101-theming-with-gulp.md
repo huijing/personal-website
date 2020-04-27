@@ -13,7 +13,7 @@ tags:
 - gulp
 title: 'Drupal 101: Theming Drupal 7 with gulp'
 ---
-*Update: There's a newer post that covers the [gulp setup for theming Drupal 8](/blog/drupal-101-theming-drupal-8-with-gulp/) which highlights a few changes from this post. Don't worry, the changes are rather minor and most of this post is still relevant.*
+*Update: There's a newer post that covers the [gulp setup for theming Drupal 8](/blog/drupal-101-theming-with-gulp-again/) which highlights a few changes from this post. Don't worry, the changes are rather minor and most of this post is still relevant.*
 
 I still remember the first Drupal 7 theme I built. It was for the [Singapore Gastric Cancer Consortium website](/blog/the-one-i-cut-my-teeth-on/), and at the time I barely knew my way around HTML and CSS. I used the [Zen](https://www.drupal.org/project/zen) theme as my starter theme, and unknowingly wrote my CSS in `.scss` files without realising the distinction.
 

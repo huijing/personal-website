@@ -172,7 +172,7 @@ And the toggled versus un-toggled states looked like this:
   }
 }</code></pre>
 
-I kinda like it. So TIL, the issue isn't with writing-mode, it's with the Grid Inspector tool, but knowing Mozilla, the team is already working on the problem. Source code for the grid version of the demo [on GitHub](https://github.com/huijing/demos/tree/master/grids-vertical), and [live version viewable here](https://www.chenhuijing.com/demos/grids-vertical/).
+I kinda like it. So TIL, the issue isn't with writing-mode, it's with the Grid Inspector tool, but knowing Mozilla, the team is already working on the problem. Source code for the grid version of the demo [on GitHub](https://github.com/huijing/demos/tree/master/grids-vertical), and [live version viewable here](https://huijing.github.io/demos/grids-vertical/).
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">YES! I wish I were there with you. Tomorrow. :D <br><br>We *have* to sit around and hack on demos this week. :D <br><br>Also, our Grid Inspector doesn’t properly work w/ non-horizontal LTR writing modes yet, but the team is on it. We should track down the engineers working on it this week.</p>&mdash; Jen Simmons (@jensimmons) <a href="https://twitter.com/jensimmons/status/940455924111630336?ref_src=twsrc%5Etfw">12 December 2017</a></blockquote>
 
