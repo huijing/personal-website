@@ -1,11 +1,11 @@
-baseURL: https://www.chenhuijing.com
+baseURL: https://chenhuijing.com
 languageCode: en
 title: Chen Hui Jing
 summaryLength: 20
 
 params:
   title: Chen Hui Jing
-  baseURL: https://www.chenhuijing.com
+  baseURL: https://chenhuijing.com
   description: The chronicles of a self-taught designer and developer.
   images:
   - assets/images/avatar.jpg
