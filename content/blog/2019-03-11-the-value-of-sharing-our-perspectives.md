@@ -50,7 +50,7 @@ Or scripts that utilise Han characters, like Chinese, Japanese and Korean, which
 
 Voice recognition software has become more prevalent in recent years, we have Siri, Alexa, Cortana and so on. But Rachael Tatman, a linguist researcher and National Science Foundation Graduate Research Fellow at the University of Washington, found that automatic transcriptions on Youtube were almost [70% more accurate](https://www.dailydot.com/debug/google-voice-recognition-gender-bias/) for male speakers than female.
 
-And when the auto industry started implementing voice commands in vehicles, women had a [tougher time utilising this technology](https://www.autoblog.com/2011/05/31/women-voice-command-systems/) than men.
+And when the auto industry started implementing voice commands in vehicles, women had a [tougher time utilising this technology](https://web.archive.org/web/20190718220949/https://www.autoblog.com/2011/05/31/women-voice-command-systems/) than men.
 
 Training of such software requires large datasets, and developers who build them either record their own voices or voices of other linguistic researches, but sometimes these datasets don’t include diverse speakers.
 

@@ -302,7 +302,7 @@ This property also only applies to vertical writing modes. It combines multiple 
 [Typochina](http://www.comdesignlab.com/typochina/) is a research group out of [Comdesign Lab](http://www.comdesignlab.com/), a design research institution established by the School of Design of Hunan University. They've published a number of articles about the history, various resources and research on Han characters. If you can read Chinese, you definitely should check it out. I've used the article [文字的故事](http://www.comdesignlab.com/typochina/chinese/archives/393) for this typographical experiment.
 
 <figure>
-    <figcaption>Here be <a href="/zh-type">the demo</a>.</figcaption>
+    <figcaption>Here be <a href="https://huijing.github.io/zh-type">the demo</a>.</figcaption>
     {{<img4w filename="posts/zh-type/demo" filetype="jpg" alt="Demo screenshot">}}
 </figure>
 

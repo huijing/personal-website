@@ -491,7 +491,7 @@ I need to create a simplified test case for using grid with vertical writing mod
 
 ## Winning solution?
 
-The currently active implementation of my [stand-alone demo](https://www.chenhuijing.com/zh-type/) is the checkbox hack without flexbox solution. I'm retaining the checkbox hack version to track the Edge bug. But the flexbox solution, if you don't mind the extra wrappers, works fine as well. The markup for the Javascript implementation also looks nicer, because you can wrap the toggle in a `div` and style that.
+The currently active implementation of my [stand-alone demo](https://huijing.github.io/zh-type/) is the checkbox hack without flexbox solution. I'm retaining the checkbox hack version to track the Edge bug. But the flexbox solution, if you don't mind the extra wrappers, works fine as well. The markup for the Javascript implementation also looks nicer, because you can wrap the toggle in a `div` and style that.
 
 But at the end of the day, there are so many ways to achieve the same end result. It's fine to copy code from elsewhere, but the trouble comes when something does go wrong and you can't figure out why. You don't have to write everything from scratch, but make sure there's no “magic” that you can't decipher. 
 
