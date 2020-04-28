@@ -28,3 +28,8 @@ HUGO_VERSION = "0.69.2"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/slides"
+  to = "/talks"
+  status = 302
