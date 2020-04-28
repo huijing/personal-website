@@ -7,7 +7,7 @@ tags:
 - nodejs
 - javascript
 - nexmo
-title: Add Texting Functionality to a Video Chat With Vonage Video API
+title: Add Texting Functionality to a Video Chat With the Vonage Video API
 ---
 This series of tutorials will explore the [Vonage Video API (formerly TokBox OpenTok)](https://tokbox.com/developer/) and what you can build with it. The Video API is very robust and highly customizable, and in each post we’ll show how to implement a specific feature using the API. This time we will look at how to add texting to a basic audio-video chat.
 
