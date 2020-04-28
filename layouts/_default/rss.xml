@@ -12,7 +12,7 @@
       <link>{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid isPermaLink="true">{{ if .Params.external_url }}{{ .Params.external_url }}{{ else }}{{ .Permalink }}{{ end }}</guid>
-      <description>{{ .Summary | html }}</description>
+      <description>{{ .Content | html }}</description>
     </item>
     {{ end }}{{ end }}
   </channel>
