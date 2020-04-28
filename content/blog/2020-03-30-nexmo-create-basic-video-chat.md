@@ -7,7 +7,7 @@ tags:
 - nodejs
 - javascript
 - nexmo
-title: Create a Basic Video Chat with Vonage Video API
+title: Create a Basic Video Chat With the Vonage Video API
 ---
 This series of tutorials will explore the [Vonage Video API (formerly TokBox OpenTok)](https://tokbox.com/developer/) and what you can build with it. The Video API is very robust and highly customisable, and in each post we’ll show how to implement a specific feature using the API, starting with the most basic audio-video chat.
 
