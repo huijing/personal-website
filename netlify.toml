@@ -32,4 +32,5 @@ HUGO_ENABLEGITINFO = "true"
 [[redirects]]
   from = "/slides"
   to = "/talks"
-  status = 302
+  status = 301
+  force = true
