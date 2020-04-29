@@ -4,8 +4,6 @@ title: Chen Hui Jing
 summaryLength: 20
 
 params:
-  title: Chen Hui Jing
-  baseURL: http://localhost:4321
   githubURL: https://huijing.github.io
   description: The chronicles of a self-taught designer and developer.
   images:
