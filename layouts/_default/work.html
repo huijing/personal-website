@@ -17,7 +17,7 @@
       {{ else }}
       <a class="no-underline" href="{{ .Page.RelPermalink }}">
       {{ end }}
-        <img class="project__image" srcset="{{ .Site.Params.baseUrl }}/assets/images/posts/projects/{{ .Params.image }}@2x.png 2x" src="{{ .Site.Params.baseUrl }}/assets/images/posts/projects/{{ .Params.image }}.png" alt="{{ .Params.project }}"/>
+        <img class="project__image" srcset="{{ .Site.BaseURL }}/assets/images/posts/projects/{{ .Params.image }}@2x.png 2x" src="{{ .Site.BaseURL }}/assets/images/posts/projects/{{ .Params.image }}.png" alt="{{ .Params.project }}"/>
         <h3 class="project__title no-margin">{{ .Params.project }}</h3>
       </a>
     </div>
@@ -29,7 +29,7 @@
     {{ range (index .Site.Taxonomies.tags "side-project") }}
     <div class="project">
       <a class="no-underline" href="{{ .Page.RelPermalink }}">
-        <img class="project__image" srcset="{{ .Site.Params.baseUrl }}/assets/images/posts/projects/{{ .Params.image }}@2x.png 2x" src="{{ .Site.Params.baseUrl }}/assets/images/posts/projects/{{ .Params.image }}.png" alt="{{ .Params.project }}"/>
+        <img class="project__image" srcset="{{ .Site.BaseURL }}/assets/images/posts/projects/{{ .Params.image }}@2x.png 2x" src="{{ .Site.BaseURL }}/assets/images/posts/projects/{{ .Params.image }}.png" alt="{{ .Params.project }}"/>
         <h3 class="project__title no-margin">{{ .Params.project }}</h3>
       </a>
     </div>
@@ -42,7 +42,7 @@
       {{ else }}
       <a class="no-underline" href="{{ $projectUrl }}/{{ $project.id }}">
       {{ end }}
-        <img class="project__image" srcset="{{ .Site.Params.baseUrl }}/assets/images/posts/projects/{{ $project.image }}@2x.png 2x" src="{{ .Site.Params.baseUrl }}/assets/images/posts/projects/{{ $project.image }}.png" alt="{{ $project.title }}"/>
+        <img class="project__image" srcset="{{ .Site.BaseURL }}/assets/images/posts/projects/{{ $project.image }}@2x.png 2x" src="{{ .Site.BaseURL }}/assets/images/posts/projects/{{ $project.image }}.png" alt="{{ $project.title }}"/>
         <h3 class="project__title no-margin">{{ $project.title }}</h3>
       </a>
     </div>

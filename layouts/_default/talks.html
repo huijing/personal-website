@@ -18,7 +18,7 @@
         {{ else }}
       <a class="no-underline" href="{{ $slidesUrl }}/slides/{{ .count }}-{{ .id }}">
         {{ end }}
-        <img srcset="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}">
+        <img srcset="{{ .Site.BaseURL }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.BaseURL }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}">
       </a>
 
         {{ if isset . "video" }}
@@ -35,7 +35,7 @@
     </div>
       {{ else }}
     <div class="talk">
-      <img srcset="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}"/>
+      <img srcset="{{ .Site.BaseURL }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.BaseURL }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}"/>
       <p class="no-margin">Coming soon!</p>
       <p><a class="no-margin" href="{{ .website }}">Event details</a></p>
     </div>
@@ -51,7 +51,7 @@
       {{ if eq .released true }}
     <div class="talk">
       <a class="no-underline" href="{{ $slidesUrl }}/slides/{{ .count }}-{{ .id }}">
-        <img srcset="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}"/>
+        <img srcset="{{ .Site.BaseURL }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.BaseURL }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}"/>
       </a>
 
         {{ if isset . "video" }}
@@ -68,7 +68,7 @@
     </div>
       {{ else }}
     <div class="talk">
-        <img srcset="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.Params.baseUrl }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}"/>
+        <img srcset="{{ .Site.BaseURL }}/assets/images/slides/{{ .id }}@2x.jpg 2x" src="{{ .Site.BaseURL }}/assets/images/slides/{{ .id }}.jpg" alt="{{ .title }}"/>
         <p class="no-margin">Coming soon!</p>
         <p><a class="no-margin" href="{{ .website }}">Event details</a></p>
     </div>
