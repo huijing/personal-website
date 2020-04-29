@@ -1,9 +1,9 @@
 <header class="site-header">
   <div class="site-header__wrapper">
     <div class="site-branding">
-      <a class="no-underline" href="{{ .Site.Params.baseurl }}/"><span class="site-branding__image">Home</span></a>
+      <a class="no-underline" href="{{ .Site.BaseURL }}"><span class="site-branding__image">Home</span></a>
       <div class="site-branding__wrapper">
-        <h1 class="site-branding__title"><a class="no-underline" href="{{ .Site.Params.baseurl }}/">{{ .Site.Params.title }}</a></h1>
+        <h1 class="site-branding__title"><a class="no-underline" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
         <p class="site-branding__description">{{ .Site.Params.description }}</p>
       </div>
     </div>
