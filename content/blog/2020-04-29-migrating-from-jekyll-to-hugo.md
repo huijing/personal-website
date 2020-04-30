@@ -613,7 +613,7 @@ The earliest posts were the worst. Because I hadn't discovered that long paragra
 
 Had to modify front matter for images, because I wanted to use Hugo's internal templates for Open Graph and Twitter. Also, permalinks for each blog post. This is where I wanted to slap myself. Hugo, by default, uses the post title word for word as the path. Jekyll, however, uses the file name.
 
-By the time I got halfway through 2016, changing all the internal references along the way, I realised this was a bad idea, because it would break links to my posts from everywhere. Hugo has a `slug` variable that lets ypu override the title-as-path implementation.
+By the time I got halfway through 2016, changing all the internal references along the way, I realised this was a bad idea, because it would break links to my posts from everywhere. Hugo has a `slug` variable that lets you override the title-as-path implementation.
 
 So I had to go back and change the internal references **back to the original**, then add the correct `slug` which matched the file name instead.
 
