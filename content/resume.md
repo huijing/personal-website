@@ -25,8 +25,8 @@ permalink: /resume/
 ### Work experience
   
 <section class="jobs">
-  <input id="nexmo" name="job" type="checkbox" checked="checked">
-  <label for="nexmo"><h4>Nexmo <small>(Sep 2018 - Present)</small></h4></label>
+  <input id="nexmo" name="job" type="checkbox">
+  <label for="nexmo"><h4>Nexmo <small>(Sep 2018 - Apr 2020)</small></h4></label>
   <article>
     <p>As a <strong>Developer Advocate</strong>, my job is to build relationships and support the developer community through learning, creating, sharing and helping others. I act as the interface between developer communities and the Nexmo product team to ensure our products provide a great developer experience.</p>
     <ul>
