@@ -184,10 +184,8 @@ kbd {
   text-shadow: 0 1px 0 color('white');
 }
 
-iframe {
-  margin-bottom: 1em;
-}
-
-picture img {
+iframe,
+picture img,
+video {
   margin-bottom: 1em;
 }
