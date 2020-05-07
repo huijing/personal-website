@@ -30,9 +30,13 @@
   <link href="https://micro.blog/huijing" rel="me">
 
   {{ if (eq .Type "blog") }}
-  <link rel="stylesheet" href="/assets/css/posts.css">
+  {{ $options := (dict "targetPath" "posts.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+  {{ $style := resources.Get "sass/posts.scss" | resources.ToCSS $options }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   {{ else }}
-  <link rel="stylesheet" href="/assets/css/pages.css">
+  {{ $options := (dict "targetPath" "pages.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+  {{ $style := resources.Get "sass/pages.scss" | resources.ToCSS $options }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   {{ end }}
   
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -43,5 +47,4 @@
   <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
   <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-
 </head>

@@ -1,12 +1,12 @@
 /* Custom javascript */
-var lifeInEmoji = ['🇲🇾', '👾', '🏀', '🚲', '🖌', '👟', '💻', '🖊', '🎙', '🦊', '🧗‍♀️', '🏳️‍🌈']
+const lifeInEmoji = ['🇲🇾', '👾', '🏀', '🚲', '🖌', '👟', '💻', '🖊', '🎙', '🦊', '🧗‍♀️', '🏳️‍🌈']
 
 if (navigator.userAgent.indexOf('Mac OS X') !== -1) {
   window.location.replace('#' + lifeInEmoji[Math.floor(Math.random() * (lifeInEmoji.length - 1 ))])
 }
 
-var blendCheckbox = document.getElementById('blendToggle')
-var blender = document.getElementById('blender')
+const blendCheckbox = document.getElementById('blendToggle')
+const blender = document.getElementById('blender')
 blendCheckbox.addEventListener('click', toggleBlend, false)
 
 function toggleBlend(e) {

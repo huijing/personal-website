@@ -1,4 +1,8 @@
-<script src="/assets/js/scripts.js"></script>
+{{ $plugins := resources.Get "js/lib/prism.js" }}
+{{ $opts := dict "noComments" true "minified" true }}
+{{- $transpiled := resources.Get "js/custom.js" | babel $opts -}}
+{{ $scripts := slice $plugins $transpiled | resources.Concat "js/scripts.js" }}
+<script src="{{ $scripts.RelPermalink }}"></script>
 {{ if (and (eq .Type "blog") (isset .Params "hastweet")) }}<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>{{ end }}
 {{ if (and (eq .Type "blog") (isset .Params "hascaniuse")) }}<script async src="//cdn.jsdelivr.net/caniuse-embed/1.0.1/caniuse-embed.min.js"></script>{{ end }}
 {{ if (and (eq .Type "blog") (isset .Params "hascodepen")) }}<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>{{ end }}

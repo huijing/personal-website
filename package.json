@@ -4,7 +4,7 @@
   "description": "The chronicles of a self-taught designer and developer",
   "main": "gulpfile.js",
   "scripts": {
-    "hugo": "hugo server -p 4321 -D -F -e development"
+    "hugo": "hugo server -p 4321 -D -F -e development --bind=0.0.0.0"
   },
   "repository": {
     "type": "git",
@@ -17,13 +17,8 @@
   },
   "homepage": "https://github.com/huijing/personal-website#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-cssnano": "^2.1.3",
-    "gulp-sass": "^4.1.0",
-    "gulp-uglify": "^3.0.2",
-    "node-sass": "^4.14.0"
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
   }
 }
