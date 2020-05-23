@@ -12,8 +12,8 @@ params:
   github_username:  huijing
   mastadon_username: huijing
   about: "I'm Hui Jing, a front-end designer and developer who believes HTML and CSS are the foundation of the web."
-  is_playing: Pharoah
-  is_reading: Lightning Wires
+  is_playing: Golden Wake
+  is_reading: Anna Karenina
   is_watching: Babylon Berlin
 
 permalinks:
