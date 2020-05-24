@@ -1,7 +1,5 @@
 ---
 date: 2020-05-24T10:26:25+08:00
-draft: true
-hastweet: true
 tags:
 - drupal8
 - site-building
