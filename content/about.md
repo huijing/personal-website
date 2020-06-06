@@ -40,7 +40,8 @@ Oh, and I cycle everywhere on my trusty second-hand Muji commuter bicycle.
   <li class="no-margin"><a href="https://github.com/web-standards-ru/podcast/blob/master/src/episodes/139.md">Web standards podcast: Episode #139</a></li>
   <li class="no-margin"><a href="https://mediatemple.net/blog/tips/the-web-layout-revolution-with-css/">The Web Layout Revolution: An Interview with Chen Hui Jing</a></li>
   <li class="no-margin"><a href="https://www.shopify.com/partners/blog/web-design-trends#2019">Web Design Trends to Watch 2019</a></li>
-  <li><a href="https://www.welcometothejungle.com/en/articles/btc-css-limits">Extending the Limits of CSS</a></li>
+  <li class="no-margin"><a href="https://www.welcometothejungle.com/en/articles/btc-css-limits">Extending the Limits of CSS</a></li>
+  <li><a href="https://www.shopify.com/partners/blog/internationalization">Internationalization: Practical Tips to Build for a Global Audience</a></li>
 </ul>
 
 ### So how was this site built?
