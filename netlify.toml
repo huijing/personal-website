@@ -34,3 +34,69 @@ HUGO_ENABLEGITINFO = "true"
   to = "/talks"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/slides/*"
+  to = "https://huijing.github.io/slides/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/demos"
+  to = "https://huijing.github.io/demos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/demos/*"
+  to = "https://huijing.github.io/demos/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soundboard"
+  to = "https://huijing.github.io/soundboard"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/css-property-syntax"
+  to = "https://huijing.github.io/css-property-syntax"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/css-colours"
+  to = "https://huijing.github.io/css-colours"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/generic-fonts"
+  to = "https://huijing.github.io/generic-fonts"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/touch-action"
+  to = "https://huijing.github.io/touch-action"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-type"
+  to = "https://huijing.github.io/zh-type"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/html-piano"
+  to = "https://huijing.github.io/html-piano"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/layouts-demo"
+  to = "https://huijing.github.io/layouts-demo"
+  status = 301
+  force = true
