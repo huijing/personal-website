@@ -100,6 +100,8 @@ Of course, there were also some light-hearted moments in there. Tongue-in-cheek 
 - [what happened to the pantone colors?](https://lists.w3.org/Archives/Public/www-style/1997Dec/0038.html)
 - [ChromaFuzz](https://lists.w3.org/Archives/Public/www-style/1997Dec/0040.html)
 
+*Update: Increment Magazine's Frontend edition includes [a feature by Chris Lilley](https://increment.com/frontend/ask-an-expert-why-is-css-the-way-it-is/) which explains why the X11 colours were added to CSS. It's a must-read!*
+
 ### A story about `orange`
 
 [Eric Meyer](https://meyerweb.com/) offered this lovely story of how `orange` made it into the CSS2 specification. Turns out, he used `color: orange` for a lot of tests in the CSS1 Test Suite, which the W3C published and browsers supported just fine.
