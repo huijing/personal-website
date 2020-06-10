@@ -755,3 +755,11 @@
   type: conference
   released: true
   pdf: false
+
+- title: "CSS for internationalisation"
+  id: css-i18n
+  count: "84"
+  event: Reactive Meetups
+  type: meetup
+  released: true
+  pdf: true
