@@ -141,7 +141,7 @@
 - title: "Chinese typography on the web"
   id: pitercss-2017
   count: "18"
-  video: https://www.youtube.com/watch?v=QGAb9Ugv3TQ
+  video: https://youtu.be/QGAb9Ugv3TQ
   event: pitercss conference
   website: https://pitercss.com/
   type: conference
@@ -187,7 +187,7 @@
 - title: "When East meets West: web typography and how it can inspire modern layouts"
   id: yglf-2017
   count: "23"
-  video: https://www.youtube.com/watch?v=jFGyvIHufRY
+  video: https://youtu.be/jFGyvIHufRY
   event: You Gotta Love Frontend 2017
   website: https://yougottalovefrontend.com/
   type: conference
@@ -216,7 +216,7 @@
 - title: "Between East and West: web typography and how it can inspire modern layouts"
   id: jsconf-2018
   count: "26"
-  video: https://www.youtube.com/watch?v=Tqxo269aORM
+  video: https://youtu.be/Tqxo269aORM
   event: JSConf.Asia 2018
   website: https://2018.jsconf.asia/
   type: conference
@@ -450,13 +450,13 @@
 - title: "Creating art with CSS"
   id: css-art
   count: "51"
-  video: https://youtu.be/8fThZGnrJTU
+  video: https://engineers.sg/video/creating-art-with-css-talk-css-36--3227
   event: Talk.CSS
   type: meetup
   released: true
   pdf: true
 
-- title: "The value of sharing our persectives"
+- title: "The value of sharing our perspectives"
   id: devrelcon-2019
   count: "52"
   video: https://youtu.be/m9Bp3GGKz8s
@@ -535,7 +535,7 @@
 - title: "Can your site work on IE3"
   id: ie3-challenge
   count: "60"
-  video: https://youtu.be/dVdBD3SQMl4
+  video: https://engineers.sg/video/can-your-site-work-on-ie3-talk-css-39--3391
   event: Talk.CSS
   type: meetup
   released: true
@@ -646,7 +646,7 @@
 - title: "You mean you don't resize your browser 1000 times a day?"
   id: browser-resize-1000
   count: "72"
-  video: https://youtu.be/yV3_09UUsSM
+  video: https://engineers.sg/video/you-mean-you-don-t-resize-your-browser-1000-times-a-day-talk-css-44--3671
   event: Talk.CSS
   type: meetup
   released: true
@@ -663,6 +663,7 @@
 - title: "Making CSS from Good to Great: The Power of Subgrid"
   id: mdr-asia-2019
   count: "74"
+  video: https://youtu.be/Ksc0dIg-DFQ
   event: Mozilla Developer Roadshow Asia 2019
   website: https://mozilla-tito-devr.netlify.com/
   type: conference
