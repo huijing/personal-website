@@ -1,6 +1,5 @@
 ---
 date: "2020-06-14T00:00:00Z"
-draft: true
 hastweet: true
 tags:
 - web-monetization
