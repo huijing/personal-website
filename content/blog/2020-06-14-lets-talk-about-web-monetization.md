@@ -37,6 +37,8 @@ In August 2019, Adrian Hope-Bailie proposed the [Web Monetization API](https://d
     <li><a href="https://webmonetization.org/docs/api">Web Monetization</a>, <a href="https://webmonetization.org/specification.html">W3C Community Group Draft Report</a></li>
 </ul>
 
+There is quite a lot of technical detail in them, but still, it's pretty cool to see the process of introducing a new protocol to the web. As I mentioned earlier, there's a growing amount of content about web monetization, albeit slightly scattered and piece-meal at the moment.
+
 ## Why are you talking about Web Monetization?
 
 I'm one of the [Grant for the Web Ambassadors](https://www.grantfortheweb.org/post/ambassadors-hj-chen-and-cris-beasley) and if you poke around the stuff I do, you'll find that I pretty much do standard web developer things.
