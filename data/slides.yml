@@ -764,3 +764,11 @@
   type: meetup
   released: true
   pdf: true
+
+- title: "Colours in CSS"
+  id: css-colours
+  count: "85"
+  event: React Knowledgeable
+  type: meetup
+  released: true
+  pdf: true
