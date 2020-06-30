@@ -1,6 +1,8 @@
 ---
 date: "2020-06-14T00:00:00Z"
 hastweet: true
+images: 
+- /assets/images/posts/web-monetization.jpg
 monetise: true
 tags:
 - web-monetization
