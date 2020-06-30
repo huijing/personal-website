@@ -1,6 +1,7 @@
 ---
 date: "2020-06-14T00:00:00Z"
 hastweet: true
+monetise: true
 tags:
 - web-monetization
 title: Let's talk about Web Monetization
