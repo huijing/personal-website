@@ -10,13 +10,13 @@ My name is Chen Hui Jing. I first dipped my toe into the waters of web developme
 
 From there, I discovered the existence of content management systems and migrated the site over to Drupal. I stopped working on the site a year later and put my web development journey on hold (the original site no longer exists either). 
 
-After a 4-year sabbatical (from web development), I decided to restart this journey by diving in head-first this time. In September of 2013, I got a job in the web industry and this website chronicles my experiences as I learn new things, fail spectacularly and make cool stuff along the way.
+After a 4-year sabbatical (from web development), I decided to restart this journey by diving in head-first this time. In September 2013, I got a job in the web industry and this website chronicles my experiences as I learn new things, fail spectacularly and make cool stuff along the way.
 
 I also founded [Talk.CSS](https://singaporecss.github.io), a meetup around all things CSS, with [Chris Lienert](https://twitter.com/cliener), and now run it with my best mate, [Gao Wei](https://twitter.com/wgao19).
 
 The idea for Talk.CSS was born on the [Kopi.JS](http://kopijs.org/) slack channel on October 26, 2015 and within 2 hours, we had a [logo](https://github.com/Singapore-CSS/logo), a [Gitter channel](https://gitter.im/Singapore-CSS/discussions), a [Meetup.com](http://www.meetup.com/Singapore-CSS/) account, a venue for the meetup and a couple speakers. Colour us efficient <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span>.
 
-Right now, I'm a Developer Advocate for [Nexmo](https://www.nexmo.com/), as well as a [Mozilla Techspeaker](https://events.mozilla.org/techspeakers).
+There are a bunch of things I'm involved with lately. Most important is my day job as a UX Developer at [Shopify](https://www.shopify.com/). I also recently joined the [CSSWG](https://wiki.csswg.org/) and am desperately trying to get up to speed and contribute more to my favourite thing in the world.
 
 ### Anything not related to the web?
 
