@@ -28,10 +28,7 @@
   {{ end -}}
   
   <link href="https://micro.blog/huijing" rel="me">
-
-  {{ if .Params.monetise }}
   <meta name="monetization" content="$ilp.uphold.com/UHgjUa7kRNJF" />
-  {{ end }}
 
   {{ if (eq .Type "blog") }}
   {{ $options := (dict "targetPath" "posts.css" "outputStyle" "compressed" "enableSourceMap" true) }}
