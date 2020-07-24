@@ -23,7 +23,7 @@ Now, in my prior two projects, I was playing the back-end site builder role, so 
 
 In all seriousness though, I realised I was the kind of person who retained knowledge if I had hands-on experience. All the reading and watching tutorial videos in the world never did much for me if there wasn't a real world task for me to get my hands dirty with.
 
-Once again, I leveraged on the [Zen theme](https://www.drupal.org/project/zen) as the base theme for this site. I had also levelled up on Sass since my last theming project, thanks to the experience of working with a brilliant front-end developer and all-round good guy, [Zell Liew](http://zell-weekeat.com/). Plus, I'd also read a number of very useful articles on Sass and those I referred to most for this project were:
+Once again, I leveraged on the [Zen theme](https://www.drupal.org/project/zen) as the base theme for this site. I had also levelled up on Sass since my last theming project, thanks to the experience of working with a brilliant front-end developer and all-round good guy, [Zell Liew](https://zellwk.com/). Plus, I'd also read a number of very useful articles on Sass and those I referred to most for this project were:
 
 - [Architecture for a Sass Project](http://www.sitepoint.com/architecture-sass-project/) by [Hugo Giraudel](http://hugogiraudel.com/)
 - [When to use Sass mixins, extends and variables](https://coderwall.com/p/7p7w2a) by [Rachel Nabors](http://rachelnabors.com/)

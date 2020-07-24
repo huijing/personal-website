@@ -85,9 +85,11 @@ You can also replay a particular request. So if triggering a particular request 
 
 ngrok is very feature-ful, so it's a good idea to poke around the [documentation](https://ngrok.com/docs) to see what's possible. ngrok's paid features include use of custom/reserved domains (instead of having a random string every time you run it), reserving of TCP addresses and IP whitelisting, among others.
 
-### Serveo
+### ~~Serveo~~
 
-[Serveo](https://serveo.net/) is an alternative to ngrok. It even says so on its website. A key difference is there is no installation required. Serveo forwards all traffic that hits the unique URL it provides you to your localhost server via SSH.
+*Update (24 Jul 2020): seems like they have gone offline*
+
+Serveo (used to be at https://serveo.net/) is an alternative to ngrok. It even says so on its website. A key difference is there is no installation required. Serveo forwards all traffic that hits the unique URL it provides you to your localhost server via SSH.
 
 To get that public URL (adjust your port number and hostname accordingly), run the following:
 

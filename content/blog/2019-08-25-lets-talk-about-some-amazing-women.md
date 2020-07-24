@@ -10,7 +10,7 @@ Earlier this week, I had the opportunity to speak on a panel during a Women of I
 
 The luncheon was organised by my long-time friend, [Elisha Tan](http://elishatan.com/). She is a kick-ass woman in tech doing a myriad of awesome things, including [TechLadies](http://www.techladies.co/), a community-led initiative for women in Asia to connect, learn, and advance as programmers.
 
-We first met around the time she was launching the inaugural [TechLadies Bootcamp](https://www.facebook.com/elishatan/posts/10153786579902597?__xts__[0]=68.ARAIGuHneVqdsBBKeSGX9x2nGrXuPtkfUkYKFIxIRRjIFF6NWRz2GdQquxViAAnB8BQ38k0C8jpd3CfvImJnWik1trM3gjDGaJgIab9Srw4Q2rooK1MPt55z4ClyfLrijpqIyyn7Y35bbuty-dgMpes-VY_v0nIg8bsKLQLS4EpNOLUMhf9qfJhAMG9TFFjuN4CPQNgpBve8kmUrQw&__tn__=-R) and she asked if I wanted to speak on her panel. Are you sensing a trend here? At the time, I hadn't done much public speaking, probably a grand total of 3 meetup talks to my name. But she put me on there anyway.
+We first met around the time she was launching the inaugural TechLadies Bootcamp and she asked if I wanted to speak on her panel. Are you sensing a trend here? At the time, I hadn't done much public speaking, probably a grand total of 3 meetup talks to my name. But she put me on there anyway.
 
 <img src="/assets/images/posts/women-in-tech/techladies.jpg" srcset="/assets/images/posts/women-in-tech/techladies@2x.jpg 2x" alt="Panel at inaugural TechLadies launch event">
 

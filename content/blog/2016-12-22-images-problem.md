@@ -238,7 +238,7 @@ Okay, that went on for longer than I expected. But that's because images is such
   <li class="no-margin"><a href="http://blogs.worldbank.org/opendata/where-are-cheapest-and-most-expensive-countries-own-mobile-phone">Where are the cheapest and most expensive countries to own a mobile phone?</a></li>
   <li class="no-margin"><a href="https://talks.jensimmons.com/SwuNnf/modern-layouts-getting-out-of-our-ruts">Modern Layouts: Getting Out Of Our Ruts</a></li>
   <li class="no-margin"><a href="https://medium.com/@duhroach/how-png-works-f1174e3cc7b7#.ssxzmtqdz">How PNG works</a></li>
-  <li class="no-margin"><a href="https://medium.freecodecamp.com/how-jpg-works-a4dbd2316f35#.miudhz3wq">How JPG Works</a></li>
+  <li class="no-margin"><a href="https://www.freecodecamp.org/news/how-jpg-works-a4dbd2316f35/">How JPG Works</a></li>
   <li class="no-margin"><a href="http://ericportis.com/posts/2014/srcset-sizes/">Srcset and sizes</a></li>
   <li class="no-margin"><a href="http://alistapart.com/article/using-responsive-images-now">Using Responsive Images (Now)</a></li>
   <li><a href="https://responsiveimages.org/">Responsive Images Community Group</a></li>

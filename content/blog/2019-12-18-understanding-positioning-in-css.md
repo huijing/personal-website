@@ -10,7 +10,7 @@ title: Understanding positioning in CSS
 ---
 I was at [JSConf China](https://2019.jsconfchina.com/) earlier this year, which happened in Shanghai from 19–20 Oct. There was fairly decent representation from Singapore I would say. 
 
-[Wei](https://uuei.io/) (whom I probably mention every second blog post I write) was the opening keynote for Day 2, and it was one of the best if not THE best talk of the conference IMHO.
+[Wei](https://wgao19.cc/) (whom I probably mention every second blog post I write) was the opening keynote for Day 2, and it was one of the best if not THE best talk of the conference IMHO.
 
 <img srcset="/assets/images/posts/css-positioning/wei-480.jpg 480w, /assets/images/posts/css-positioning/wei-640.jpg 640w, /assets/images/posts/css-positioning/wei-960.jpg 960w, /assets/images/posts/css-positioning/wei-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/css-positioning/wei-640.jpg" alt="Wei on stage at JSConf China">
 

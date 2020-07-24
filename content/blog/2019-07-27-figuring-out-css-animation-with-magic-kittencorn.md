@@ -18,7 +18,7 @@ Soon after that meetup, I thought it'd be nice to add our unofficial mascot to t
 
 <img src="/assets/images/posts/magical-kittencorn/css-kittencorn.svg" style="max-height:15em" alt="CSS Kittencorn">
 
-But times have changed. CSS kittencorn (until somebody thinks of a better name) is now standing guard over [Wei's](https://uuei.io) desk at work, and has showed up for multiple meetups since the 2 of them got acquainted this year. And, it's now got a younger sibling. More on that in future.
+But times have changed. CSS kittencorn (until somebody thinks of a better name) is now standing guard over [Wei's](https://wgao19.cc/) desk at work, and has showed up for multiple meetups since the 2 of them got acquainted this year. And, it's now got a younger sibling. More on that in future.
 
 Long story short, CSS kittencorn will probably no longer be the kind-of-secret mascot that it was for 2 years, and should feature prominently in all future Talk.CSSes moving forward. I hope.
 

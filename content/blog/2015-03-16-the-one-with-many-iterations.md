@@ -20,7 +20,7 @@ In retrospect, we made a number of *\*gasp\** assumptions with regards to how th
 
 ![Redemption Hill Church homepage](/assets/images/posts/rhc/rhc.jpg)
 
-After getting my feet wet with the previous two projects, I felt more at ease with Drupal at this point. Although I'd been flying solo up till then, this time, I'd be working with another developer, [Zell Liew](http://zell-weekeat.com/) (this is the origin story of how we became good friends).
+After getting my feet wet with the previous two projects, I felt more at ease with Drupal at this point. Although I'd been flying solo up till then, this time, I'd be working with another developer, [Zell Liew](https://zellwk.com/) (this is the origin story of how we became good friends).
 
 I would build the site with all its functionality, and Zell would make it look pretty. Zell is essentially the Susy guy, I mean, he did write [a book](https://learnsusy.zellwk.com/) about it. You really should check it out.
 

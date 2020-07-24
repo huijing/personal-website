@@ -462,7 +462,7 @@ Anyway, on to Amsterdam.
 
 [View Source](https://2019.viewsourceconf.org/) is Sandra's thing. And I think we've established that I would do anything for Sandra at this point if she says the word. She has looked out for me in so many ways and I will never stop saying how much I appreciate her.
 
-A lot of Budapest ended up in Amsterdam, but 1 person who was missing from Budapest was the indomitable [Anjana Vakil](https://twitter.com/AnjanaVakil), who was in Amsterdam for the Mozilla Techspeakers meetup as well as Fronteers. Also, [Mandy Michael](http://batmandy.com/) was around for Fronteers as well. Did I mention how much I love seeing my awesome friends who I never get to see otherwise?
+A lot of Budapest ended up in Amsterdam, but 1 person who was missing from Budapest was the indomitable [Anjana Vakil](https://twitter.com/AnjanaVakil), who was in Amsterdam for the Mozilla Techspeakers meetup as well as Fronteers. Also, [Mandy Michael](https://mandymichael.com/) was around for Fronteers as well. Did I mention how much I love seeing my awesome friends who I never get to see otherwise?
 
 For View Source, however, I was kind of conferenced out at this point, so I pretty much skipped out most of Day 1. And I was also in 2 minds about the talk, which was the DevTools one yet again, but it would be the last time I was doing it.
 
@@ -526,7 +526,7 @@ My remaining speaking engagements are all in Asia, and on a relatively more sane
 
 ### Intermission: <span class="emoji" role="img" tabindex="0" aria-label="China">&#x1F1E8;&#x1F1F3;</span> @ JSConf China
 
-If it hasn't been obvious enough, [Wei](https://uuei.io/) has clearly featured heavily in my life this year. She's just special, okay? Anyway, I've told her that I would follow her anywhere she gives a talk at a conference. And she did at [JSConf China](https://2019.jsconfchina.com/).
+If it hasn't been obvious enough, [Wei](https://wgao19.cc/) has clearly featured heavily in my life this year. She's just special, okay? Anyway, I've told her that I would follow her anywhere she gives a talk at a conference. And she did at [JSConf China](https://2019.jsconfchina.com/).
 
 Also, Nexmo was a sponsor at the conference, so I was going to be there either way. But let's be honest, even if Nexmo wasn't involved, I'd get myself there hell or high water. I wouldn't have lived it down if I wasn't there to watch her talk in person because it was the best talk of the conference IMHO.
 
