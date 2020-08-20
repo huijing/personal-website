@@ -24,6 +24,8 @@ Sure. I love playing basketball and did so full-time for 6 years until the end o
 
 I also love to [draw](http://cyern.deviantart.com), though I do less of it now. At one point in time, I customised canvas sneakers for friends and some random clients under the name FUZN designs. The [Facebook page](https://www.facebook.com/fuzndesigns?fref=ts) still exists, though on an indefinite hiatus.
 
+*2020 life update! Wei and I are working on a project called [RedViolaPanda](https://redviolapanda.com/). It's about the adventures of a red panda named Viola (who loves playing her viola) and all her fluffy musician friends. Please ask me to tell you more.*
+
 I play a lot of video games as well, mostly on my PC now since I built my own gaming rig in 2012 (It's still running beautifully, might I add). I got myself a PS3, almost 10 years after it was first released to play a bunch of exclusives I always wanted. And now, also a Nintendo Switch.
 
 Oh, and I cycle everywhere on my trusty second-hand Muji commuter bicycle.
@@ -40,7 +42,8 @@ Oh, and I cycle everywhere on my trusty second-hand Muji commuter bicycle.
   <li class="no-margin"><a href="https://mediatemple.net/blog/tips/the-web-layout-revolution-with-css/">The Web Layout Revolution: An Interview with Chen Hui Jing</a></li>
   <li class="no-margin"><a href="https://www.shopify.com/partners/blog/web-design-trends#2019">Web Design Trends to Watch 2019</a></li>
   <li class="no-margin"><a href="https://www.welcometothejungle.com/en/articles/btc-css-limits">Extending the Limits of CSS</a></li>
-  <li><a href="https://www.shopify.com/partners/blog/internationalization">Internationalization: Practical Tips to Build for a Global Audience</a></li>
+  <li class="no-margin"><a href="https://www.shopify.com/partners/blog/internationalization">Internationalization: Practical Tips to Build for a Global Audience</a></li>
+  <li><a href="https://dev.to/devteam/devdiscuss-s2e2-you-can-do-that-with-css-3f9e">DevDiscuss S2E2: You Can Do That With CSS?</a></li>
 </ul>
 
 ### So how was this site built?
