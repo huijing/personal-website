@@ -43,7 +43,8 @@ Oh, and I cycle everywhere on my trusty second-hand Muji commuter bicycle.
   <li class="no-margin"><a href="https://www.shopify.com/partners/blog/web-design-trends#2019">Web Design Trends to Watch 2019</a></li>
   <li class="no-margin"><a href="https://www.welcometothejungle.com/en/articles/btc-css-limits">Extending the Limits of CSS</a></li>
   <li class="no-margin"><a href="https://www.shopify.com/partners/blog/internationalization">Internationalization: Practical Tips to Build for a Global Audience</a></li>
-  <li><a href="https://dev.to/devteam/devdiscuss-s2e2-you-can-do-that-with-css-3f9e">DevDiscuss S2E2: You Can Do That With CSS?</a></li>
+  <li class="no-margin"><a href="https://dev.to/devteam/devdiscuss-s2e2-you-can-do-that-with-css-3f9e">DevDiscuss S2E2: You Can Do That With CSS?</a></li>
+  <li><a href="https://www.codenewbie.org/podcast/why-you-shouldn-t-forget-about-css">CodeNewbie S13E4: Why you shouldn’t forget about CSS</a></li>
 </ul>
 
 ### So how was this site built?
