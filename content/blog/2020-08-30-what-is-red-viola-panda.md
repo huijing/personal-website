@@ -9,7 +9,7 @@ title: "What is RedViolaPanda?"
 ---
 This is a question that is impossible to explain with a short answer. But let's give it a try. Red pandas are very cute and very fluffy. Violas are part of the string instrument family. And… okay, can't be done. Long-winded story time!
 
-So my most mathy best friend, [Wei](https://twitter.com/wgao19) is also my most musical friend,  used to play the violin for many years. Recently, she decided to start playing the viola and discovered that it was THE instrument for her.
+So my most mathy best friend, [Wei](https://twitter.com/wgao19), is also my most musical friend. And she used to play the violin for many years. Recently, she decided to start playing the viola and discovered that it was THE instrument for her.
 
 Note that we both are certified experts in the field of nonsense, hence it is not a surprise that shenanigans are a regular part of our lives.
 
