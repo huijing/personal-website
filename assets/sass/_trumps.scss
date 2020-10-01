@@ -25,3 +25,8 @@ a.no-underline:hover {
 .italicise {
   font-style: italic;
 }
+
+.sr-only {
+  position: absolute;
+  opacity: 0;
+}

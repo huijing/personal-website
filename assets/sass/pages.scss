@@ -168,8 +168,15 @@
   color: color('english-walnut');
 }
 
-.post-summary {
-  margin-bottom: 0.5em;
+.post-content__tag {
+  padding: 0.5em 0 0.25em;
+  border-bottom: 0;
+  text-decoration: underline;
+  display: inline-block;
+
+  &:hover {
+    border-bottom: 0;
+  }
 }
 
 .post-tags {

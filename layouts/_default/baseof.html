@@ -4,7 +4,7 @@
   <body>
     <div class="blender" id="blender"></div>
     <input type="checkbox" class="blend-checkbox" id="blendToggle">
-    <label for="blendToggle" class="blend-toggle"></label>
+    <label for="blendToggle" class="blend-toggle"><span class="sr-only">Blend-mode toggle</label>
     {{ partial "header.html" . }}
     <main class="content">
       {{ block "main" . }}{{ end }}
