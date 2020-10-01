@@ -49,6 +49,7 @@ $max-font: 22;
        url('/assets/fonts/magnetic-pro-light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -57,6 +58,7 @@ $max-font: 22;
        url('/assets/fonts/magnetic-pro-medium.woff') format('woff');
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -65,6 +67,7 @@ $max-font: 22;
        url('/assets/fonts/magnetic-pro-light-italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -73,6 +76,7 @@ $max-font: 22;
        url('/assets/fonts/magnetic-pro-thin-italic.woff') format('woff');
   font-weight: 100;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -81,6 +85,7 @@ $max-font: 22;
        url('/assets/fonts/eightbitoperatorplus8-bold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -89,6 +94,7 @@ $max-font: 22;
        url('/assets/fonts/eightbitoperatorplus-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 // Base font stacks

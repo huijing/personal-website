@@ -39,6 +39,11 @@
   {{ $style := resources.Get "sass/pages.scss" | resources.ToCSS $options }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   {{ end }}
+
+  <link rel="preload" href="/assets/fonts/eightbitoperatorplus8-bold-webfont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/eightbitoperatorplus8-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/magnetic-pro-black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/magnetic-pro-light.woff2" as="font" type="font/woff2" crossorigin>
   
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
