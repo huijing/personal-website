@@ -24,6 +24,8 @@ Now that I've set the context, let's talk about [umami](https://umami.is/), an o
 
 I took a look at it, and the live demo, and found it so much easier to understand than Google Analytics. It told me how many people visited my site (and pages), how long they stayed, which geographical location traffic was coming from and browser/OS numbers.
 
+<img srcset="/assets/images/posts/umami/dashboard-480.png 480w, /assets/images/posts/umami/dashboard-640.png 640w, /assets/images/posts/umami/dashboard-960.png 960w, /assets/images/posts/umami/dashboard-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/umami/dashboard-640.png" alt="umami analytics dashboard">
+
 These are data points that my tiny little brain actually comprehends. Ah-mazing. I felt like less of an idiot at this point. It was always at the back of my mind to get around to setting it up, because the documentation provided very clear instructions for doing so.
 
 I finally got around to doing it after [Wei](https://wgao19.cc/) and I launched the [Fluffy Philharmonic](https://fluffyphil.org/) website. This is our music/art/web project about a group of fluffy musicians who love music, centred around a red panda named Viola, who loves playing the viola.
@@ -82,6 +84,6 @@ You will end up with a login account with username **admin** and password **umam
 
 I've been running it for a week, and am pretty happy with how it's working. It hasn't had an impact on site performance thus far (our Lighthouse score fluctuates around 98-100). But depending on your site traffic, odds are you will hit the threshold of 10,000 rows on the *Hobby Dev* free tier.
 
-<img srcset="/assets/images/posts/umami/dashboard-480.png 480w, /assets/images/posts/umami/dashboard-640.png 640w, /assets/images/posts/umami/dashboard-960.png 960w, /assets/images/posts/umami/dashboard-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/umami/dashboard-640.png" alt="umami dashboard when you first login">
+<img src="/assets/images/posts/umami/lighthouse.png" srcset="/assets/images/posts/umami/lighthouse@2x.png 2x" alt="Lighthouse score of 100">
 
 If you are happy with it and want to continue using umami, you should probably upgrade to a higher tier on Heroku, or search for some other service that doesn't have such limits. I'll leave that research up to you.
