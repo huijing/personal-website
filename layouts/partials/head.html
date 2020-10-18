@@ -24,11 +24,11 @@
   {{ end }}
   
   {{ with .OutputFormats.Get "RSS" -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
   
   <link href="https://micro.blog/huijing" rel="me">
-  <meta name="monetization" content="$ilp.uphold.com/UHgjUa7kRNJF" />
+  <meta name="monetization" content="$ilp.uphold.com/UHgjUa7kRNJF">
 
   {{ if (eq .Type "blog") }}
   {{ $options := (dict "targetPath" "posts.css" "outputStyle" "compressed" "enableSourceMap" true) }}
