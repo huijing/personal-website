@@ -733,8 +733,8 @@
   event: TypeTechMunich Meetup 2020
   website: https://type-tech.net/
   type: conference
-  released: false
-  pdf: false
+  released: true
+  pdf: true
 
 - title: "DevTools, more than just a debugger"
   id: jsfwdays-2020
@@ -820,3 +820,12 @@
   type: conference
   released: true
   pdf: false
+
+- title: "CSS for internationalisation"
+  id: confoo-2021
+  count: "91"
+  event: Confoo Online 2021
+  website: https://confoo.ca/en
+  type: conference
+  released: true
+  pdf: true
