@@ -136,6 +136,8 @@ Because cookies are strings, doing things based on cookie data involves mostly s
 
 <a href="https://huijing.github.io/demos/cookie/"><img srcset="/assets/images/posts/cookie/demo-480.png 480w, /assets/images/posts/cookie/demo-640.png 640w, /assets/images/posts/cookie/demo-960.png 960w, /assets/images/posts/cookie/demo-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/cookie/demo-640.png" alt="Screenshot of cookie demo site"></a>
 
+*Update: [Thomas Steiner](https://twitter.com/tomayac) shared about the [Cookie Store API](https://developer.mozilla.org/en-US/docs/Web/API/Cookie_Store_API) and its [polyfill](https://github.com/markcellus/cookie-store) which lets us avoid having to the do not fun string manipulations mentioned above.*
+
 ## Wrapping up
 
 It's been a while since I last published anything. I suppose this is the longest hiatus I've had since I started this blog, but somehow being stuck in the same place doesn't seem to motivate me to write words. But we'll see.
