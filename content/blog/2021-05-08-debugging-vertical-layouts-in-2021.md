@@ -88,6 +88,11 @@ Okay, something is a little off at the moment. Scrolling performance with the ov
 
 But I went over to [Webkit's bug tracker](https://bugs.webkit.org/) and found: [Bug 224051 - Web Inspector: Grid overlay does not honor writing modes and RTL layout direction](https://bugs.webkit.org/show_bug.cgi?id=224051). It appears that the issue had been flagged and fixed, so I'm guessing the next Safari Technology Preview release would contain this fix. <span class="emoji" role="img" tabindex="0" aria-label="rocket">&#x1F680;</span>
 
+*Update!*  
+*The bug has been fixed and resolved in Safari 124. Updating here because I just got the version bump. What a difference a day makes <span class="emoji" role="img" tabindex="0" aria-label="person dancing">&#x1F483;</span>.*
+
+<img srcset="/assets/images/posts/grid-vertical/dt-safari-fix-480.png 480w, /assets/images/posts/grid-vertical/dt-safari-fix-640.png 640w, /assets/images/posts/grid-vertical/dt-safari-fix-960.png 960w, /assets/images/posts/grid-vertical/dt-safari-fix-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/grid-vertical/dt-safari-fix-640.png" alt="Safari TP 124 Grid inspector overlay on a vertical layout">
+
 ## Wrapping up
 
 Hokay, it's time to wrap up “Hui Jing breaks things yet again” segment. I want to say thank you to all the browser engineers who are busy fixing all these bugs and working hard to make the web a better experience for all of us. <span class="emoji" role="img" tabindex="0" aria-label="person bowing">&#x1F647;&#x200D;&#x2640;&#xFE0F;</span>
