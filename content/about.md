@@ -12,11 +12,11 @@ From there, I discovered the existence of content management systems and migrate
 
 After a 4-year sabbatical (from web development), I decided to restart this journey by diving in head-first this time. In September 2013, I got a job in the web industry and this website chronicles my experiences as I learn new things, fail spectacularly and make cool stuff along the way.
 
-I also founded [Talk.CSS](https://singaporecss.github.io), a meetup around all things CSS, with [Chris Lienert](https://twitter.com/cliener), and now run it with my best mate, [Gao Wei](https://twitter.com/wgao19).
+I also founded [Talk.CSS](https://singaporecss.github.io), a meetup around all things CSS, with [Chris Lienert](https://twitter.com/cliener), and ran it with my best mate, [Gao Wei](https://twitter.com/wgao19) after Chris returned to Australia.
 
 The idea for Talk.CSS was born on the [Kopi.JS](http://kopijs.org/) slack channel on October 26, 2015 and within 2 hours, we had a [logo](https://github.com/Singapore-CSS/logo), a [Gitter channel](https://gitter.im/Singapore-CSS/discussions), a [Meetup.com](http://www.meetup.com/Singapore-CSS/) account, a venue for the meetup and a couple speakers. Colour us efficient <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span>.
 
-There are a bunch of things I'm involved with lately. Most important is my day job as a UX Developer at [Shopify](https://www.shopify.com/). I also recently joined the [CSSWG](https://wiki.csswg.org/) and am desperately trying to get up to speed and contribute more to my favourite thing in the world.
+I also have a day job as a Frontend Developer at [Shopify](https://www.shopify.com/), because we all need to pay the bills.
 
 ### Anything not related to the web?
 
@@ -24,7 +24,7 @@ Sure. I love playing basketball and did so full-time for 6 years until the end o
 
 I also love to [draw](http://cyern.deviantart.com), though I do less of it now. At one point in time, I customised canvas sneakers for friends and some random clients under the name FUZN designs. The [Facebook page](https://www.facebook.com/fuzndesigns?fref=ts) still exists, though on an indefinite hiatus.
 
-*2020 life update! Wei and I are working on a project called [RedViolaPanda](https://redviolapanda.com/). It's about the adventures of a red panda named Viola (who loves playing her viola) and all her fluffy musician friends. Read the [intro blog post](/blog/what-is-red-viola-panda/) and please ask me to tell you more. All this music has also compelled me to return to the piano after a 20-year hiatus, we'll see how that develops.*
+Wei and I are working on a project called [RedViolaPanda](https://redviolapanda.com/). It's about the adventures of a red panda named Viola (who loves playing her viola) and all her fluffy musician friends. Read the [intro blog post](/blog/what-is-red-viola-panda/) and please ask me to tell you more.
 
 I play a lot of video games as well, mostly on my PC now since I built my own gaming rig in 2012 (It's still running beautifully, might I add). I got myself a PS3, almost 10 years after it was first released to play a bunch of exclusives I always wanted. And now, also a Nintendo Switch.
 
