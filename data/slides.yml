@@ -730,6 +730,7 @@
 - title: "East Asian typography on the modern web"
   id: typetechmunich-2020
   count: "81"
+  video: https://youtu.be/_wCLpryhgCE
   event: TypeTechMunich Meetup 2020
   website: https://type-tech.net/
   type: conference
@@ -834,7 +835,7 @@
   id: jsnation-2021
   count: "92"
   event: JSNation Live 2021
-  website: https://jsnation.com/
+  website: https://live.jsnation.com/
   type: conference
   released: false
   pdf: true
