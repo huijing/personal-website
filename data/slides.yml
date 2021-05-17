@@ -829,3 +829,12 @@
   type: conference
   released: true
   pdf: true
+
+- title: "CSS can do that too!"
+  id: jsnation-2021
+  count: "92"
+  event: JSNation Live 2021
+  website: https://jsnation.com/
+  type: conference
+  released: false
+  pdf: true
