@@ -9,7 +9,7 @@ title: Where did CSS named colours come from?
 ---
 Talk.CSS, which is Singapore's monthly CSS meetup, has a segment called CSS colour of the month, where we mention 1 of the 148 named CSS colours. This works out to more than 12 years worth of meetups, and I figured we'd run out of meetups before we ran out of colours.
 
-Since [Wei](https://wgao19.cc/) became a co-organiser, we've each been taking turns picking the CSS colour of the month, and for the August edition, she picked `snow`. The hex code for `snow` is `#fffafa`, which works out to a RGB value of `rgb(255, 250, 250)`.
+Since [Wei](https://wgea.io/) became a co-organiser, we've each been taking turns picking the CSS colour of the month, and for the August edition, she picked `snow`. The hex code for `snow` is `#fffafa`, which works out to a RGB value of `rgb(255, 250, 250)`.
 
 Some of you who are familiar with the notation may already have realised that this gives us a gentle tinge of red. Very, very slight, but still, red. And Wei noticed that `snow` was red(ish). I had no idea why that was, but I wanted to figure it out.
 

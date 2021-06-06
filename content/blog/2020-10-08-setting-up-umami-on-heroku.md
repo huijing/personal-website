@@ -28,7 +28,7 @@ I took a look at it, and the live demo, and found it so much easier to understan
 
 These are data points that my tiny little brain actually comprehends. Ah-mazing. I felt like less of an idiot at this point. It was always at the back of my mind to get around to setting it up, because the documentation provided very clear instructions for doing so.
 
-I finally got around to doing it after [Wei](https://wgao19.cc/) and I launched the [Fluffy Philharmonic](https://fluffyphil.org/) website. This is our music/art/web project about a group of fluffy musicians who love music, centred around a red panda named Viola, who loves playing the viola.
+I finally got around to doing it after [Wei](https://wgea.io/) and I launched the [Fluffy Philharmonic](https://fluffyphil.org/) website. This is our music/art/web project about a group of fluffy musicians who love music, centred around a red panda named Viola, who loves playing the viola.
 
 <img src="/assets/images/posts/umami/fluffy-phil.png" srcset="/assets/images/posts/umami/fluffy-phil@2x.png 2x" alt="Family photo of the Fluffy Philharmonic as of 8 Oct">
 

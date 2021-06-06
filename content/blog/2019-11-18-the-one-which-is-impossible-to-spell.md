@@ -18,7 +18,7 @@ This is the result of an amalgamation of factors, some of which were due to effo
 
 Community leaders like [Michael Cheng](https://coderkungfu.com/), [Winston Teo](http://winstonyw.com/), [Chinmay Pendharkar](https://chinmay.audio/), [Sayanee Basu](https://sayan.ee/), just to name a few, made a lasting impression on me when I first joined the Singapore tech community back in 2013. The community they built was and still is inclusive, welcoming and open.
 
-Earlier this year, I got to know [Gao Wei](https://wgao19.cc/), who is one of the most amazing human beings I've ever met. At the time she was running an internal sharing at [Shopee](https://shopee.sg) called React Knowledgeable or `<RK />`. I am unable to spell the word “Knowledgeable” without thinking hard, even now, hence the title of this post.
+Earlier this year, I got to know [Gao Wei](https://wgea.io/), who is one of the most amazing human beings I've ever met. At the time she was running an internal sharing at [Shopee](https://shopee.sg) called React Knowledgeable or `<RK />`. I am unable to spell the word “Knowledgeable” without thinking hard, even now, hence the title of this post.
 
 <figure>
   <figcaption>One of Shopee's internal sharing sessions</figcaption>

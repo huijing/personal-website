@@ -12,7 +12,7 @@ Recently I got the chance to do an interview with [Vitaly Friedman](https://twit
 
 <iframe src="https://player.vimeo.com/video/353173490" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-My good friend, [Wei](https://wgao19.cc/), is an incredible technical writer who is very involved in documentation for open-source projects. She wrote most of the [React-Redux](https://react-redux.js.org/) documentation and is one of the core maintainers for [Docusaurus](https://docusaurus.io/).
+My good friend, [Wei](https://wgea.io/), is an incredible technical writer who is very involved in documentation for open-source projects. She wrote most of the [React-Redux](https://react-redux.js.org/) documentation and is one of the core maintainers for [Docusaurus](https://docusaurus.io/).
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">.<a href="https://twitter.com/wgao19?ref_src=twsrc%5Etfw">@wgao19</a> wrote large sections of our new React-Redux docs, and has done a fantastic job (which I think is what got her involved with Docusaurus in the first place). She&#39;s worth following, and this umbrella issue on documenting Docusaurus v2 looks worth reading! <a href="https://t.co/oltj6XEgh2">https://t.co/oltj6XEgh2</a></p>&mdash; Mark Erikson (@acemarke) <a href="https://twitter.com/acemarke/status/1156012102114430981?ref_src=twsrc%5Etfw">July 30, 2019</a></blockquote>
 

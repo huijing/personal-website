@@ -34,7 +34,7 @@ I had started reading more typography articles written in Chinese as well, but s
 
 In 2019, I was invited to speak at CSSConf China, and chose to give my talk in Chinese. Because it seemed like a good idea at the time. Also, it was like a bucket list kind of thing, you know. “Give talk at conference in mother tongue.” *\*check*\*
 
-Thankfully, the fates gifted me the opportunity to cross paths with [Wei](https://wgao19.cc/) over a month before the conference date. And she pretty much edited out all the weird sentence structures I had in my script.
+Thankfully, the fates gifted me the opportunity to cross paths with [Wei](https://wgea.io/) over a month before the conference date. And she pretty much edited out all the weird sentence structures I had in my script.
 
 The talk went reasonably well. I personally think the audience had lower expectations of my standard of Chinese given I wasn't local (dis is a good thing), and was maybe pleasantly surprised I kind of sounded local.
 

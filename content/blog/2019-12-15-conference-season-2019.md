@@ -526,7 +526,7 @@ My remaining speaking engagements are all in Asia, and on a relatively more sane
 
 ### Intermission: <span class="emoji" role="img" tabindex="0" aria-label="China">&#x1F1E8;&#x1F1F3;</span> @ JSConf China
 
-If it hasn't been obvious enough, [Wei](https://wgao19.cc/) has clearly featured heavily in my life this year. She's just special, okay? Anyway, I've told her that I would follow her anywhere she gives a talk at a conference. And she did at [JSConf China](https://2019.jsconfchina.com/).
+If it hasn't been obvious enough, [Wei](https://wgea.io/) has clearly featured heavily in my life this year. She's just special, okay? Anyway, I've told her that I would follow her anywhere she gives a talk at a conference. And she did at [JSConf China](https://2019.jsconfchina.com/).
 
 Also, Nexmo was a sponsor at the conference, so I was going to be there either way. But let's be honest, even if Nexmo wasn't involved, I'd get myself there hell or high water. I wouldn't have lived it down if I wasn't there to watch her talk in person because it was the best talk of the conference IMHO.
 
