@@ -13,8 +13,8 @@ params:
   mastadon_username: huijing
   about: "I'm Hui Jing, a front-end designer and developer who believes HTML and CSS are the foundation of the web."
   is_playing: Cyberpunk Dreams
-  is_reading: Elantris
-  is_watching: 힘쎈여자 도봉순
+  is_reading: The Culture Map
+  is_watching: Mare of Easttown
 
 permalinks:
   blog: /blog/:slug/
