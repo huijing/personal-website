@@ -837,7 +837,7 @@
   event: JSNation Live 2021
   website: https://live.jsnation.com/
   type: conference
-  released: false
+  released: true
   pdf: true
 
 - title: "Wait, CSS can do that now?"
