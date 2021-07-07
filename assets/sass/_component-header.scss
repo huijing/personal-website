@@ -1,6 +1,7 @@
 // Header styles
 .site-header {
   background: url('/assets/images/bg-header.jpg');
+  flex: 1 0 auto; // IE11 fix
 }
 
 .site-header__wrapper {
