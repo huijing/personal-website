@@ -79,7 +79,7 @@ main {
   font-family: $base-font;
   max-width: 48em;
   width: 100%;
-  flex: 1 0 auto;
+  flex: 1 0 auto; //IE11 fix
 
   h1,
   h2,
