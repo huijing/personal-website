@@ -860,3 +860,12 @@
   type: conference
   released: true
   pdf: true
+
+- title: "Revisiting styling techniques in 2021"
+  id: cssconf-2021
+  count: "95"
+  event: CSS Conf Armenia 2021
+  website: https://cssconf.am/
+  type: conference
+  released: false
+  pdf: true
