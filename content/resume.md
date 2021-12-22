@@ -25,6 +25,12 @@ permalink: /resume/
 ### Work experience
   
 <section class="jobs">
+  <input id="shopify" name="job" type="checkbox" checked>
+  <label for="shopify"><h4>Shopify <small>(May 2020 - Present)</small></h4></label>
+  <article>
+    <p>I'm currently a <strong>Senior Frontend Developer</strong> at Shopify on the Website Platform team where we work on Shopify.com and all its regional sites.</p>
+  </article>
+
   <input id="nexmo" name="job" type="checkbox">
   <label for="nexmo"><h4>Nexmo <small>(Sep 2018 - Apr 2020)</small></h4></label>
   <article>

@@ -58,3 +58,23 @@ outputs:
   - HTML
   taxonomy:
   - HTML
+
+security:
+  enableInlineShortcodes: false
+  exec:
+    allow:
+    - ^babel$
+    - ^dart-sass-embedded$
+    - ^go$
+    - ^npx$
+    - ^postcss$
+    osEnv:
+    - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$
+  funcs:
+    getenv:
+    - ^HUGO_
+  http:
+    methods:
+    - (?i)GET|POST
+    urls:
+    - .*
