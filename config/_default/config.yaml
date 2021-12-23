@@ -7,7 +7,7 @@ params:
   githubURL: https://huijing.github.io
   description: The chronicles of a self-taught designer and developer.
   images:
-  - assets/images/avatar.jpg
+  - assets/images/avatar-mask.png
   twitter_username: hj_chen
   github_username:  huijing
   mastadon_username: huijing
