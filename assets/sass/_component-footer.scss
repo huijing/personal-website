@@ -95,6 +95,7 @@
   min-width: 200px;
   width: 200px;
   margin: 1em auto;
+  background-color: color('sugarcane');
 
   @include mappy-bp(large) {
     flex: 1 0 0;
