@@ -264,7 +264,7 @@
   input[type=checkbox]:checked + label + article {
     display: block;
     height: auto;
-    max-height: initial;
+    max-height: none;
     padding: 0.25em 1em;
   }
 }
