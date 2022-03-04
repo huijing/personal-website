@@ -12,9 +12,9 @@ params:
   github_username:  huijing
   mastadon_username: huijing
   about: "I'm Hui Jing, a front-end designer and developer who believes HTML and CSS are the foundation of the web."
-  is_playing: 'Final Fantasy XII: The Zodiac Age'
-  is_reading: Your Computer Is On Fire
-  is_watching: 'The L Word: Generation Q'
+  is_playing: 'Mass Effect: Andromeda'
+  is_reading: 'Creeping Jenny'
+  is_watching: 'Killing Eve'
 
 permalinks:
   blog: /blog/:slug/
