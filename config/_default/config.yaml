@@ -14,7 +14,7 @@ params:
   about: "I'm Hui Jing, a front-end designer and developer who believes HTML and CSS are the foundation of the web."
   is_playing: 'Mass Effect: Andromeda'
   is_reading: 'Creeping Jenny'
-  is_watching: 'Killing Eve'
+  is_watching: '굿 캐스팅'
 
 permalinks:
   blog: /blog/:slug/
