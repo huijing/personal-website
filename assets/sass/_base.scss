@@ -171,6 +171,10 @@ figcaption {
   margin-bottom: 0.25em;
 }
 
+figcaption:lang(zh) {
+  font-style: normal;
+}
+
 kbd {
   font-size: 70%;
   background-color: #f7f7f7;

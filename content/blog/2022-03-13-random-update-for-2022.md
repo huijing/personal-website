@@ -4,7 +4,6 @@ tags:
 - opinion
 title: "Random update for 2022"
 ---
-
 I had a conversation with my brother-from-another-mother, [Zell](https://zellwk.com/), a couple days ago. Half catch-up and half discussion on the project we're working on, which I'll be honest, I have not been keeping up with very well. Project in question being a course called Essential CSS.
 
 There are a still a couple chapters to be written. And the content is all in my head, but somehow, the process of getting the thoughts out into lesson form is proving more effort-ful than anticipated. Overall, since mid 2020, I've published a lot fewer blog posts and talks.
