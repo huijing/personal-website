@@ -18,7 +18,7 @@
   "homepage": "https://github.com/huijing/personal-website#readme",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
-    "@babel/core": "^7.17.10",
-    "@babel/preset-env": "^7.17.10"
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2"
   }
 }
