@@ -107,6 +107,25 @@ figure {
   }
 }
 
+.overflow-scroll {
+  overflow-x: scroll;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  text-align: left;
+}
+
+th, td {
+  border: #f0f0f0 1px solid;
+  padding: 0.5em;
+}
+
 .table {
   margin-bottom: 1.5em;
 
