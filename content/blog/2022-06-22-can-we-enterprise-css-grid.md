@@ -1,9 +1,8 @@
 ---
-date: 2022-06-22T10:50:11+08:00
-draft: true
+date: 2022-06-23T10:50:11+08:00
 hastweet: true
 images:
-- /assets/images/posts/XX/XX.jpg
+- /assets/images/posts/enterprise-css.jpg
 tags:
 - css
 title: "Can we enterprise CSS grid?"
@@ -16,7 +15,7 @@ So, CSS grid has been supported in major browsers for around 5 years now. And ba
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">You don’t need a framework to use CSS Grid. CSS Grid *is* a framework. — says <a href="https://twitter.com/rachelandrew?ref_src=twsrc%5Etfw">@rachelandrew</a>, about to be ruthlessly copied by me</p>&mdash; Jen Simmons (@jensimmons) <a href="https://twitter.com/jensimmons/status/771019489915891712?ref_src=twsrc%5Etfw">August 31, 2016</a></blockquote>
 
-Personally, I very much agree with her. CSS grid was developed to tackle the use-case of web applications. If you go to [1.1. Background and Motivation]() of the CSS Grid Layout Module Level 1 specification, it clearly states:
+Personally, I very much agree with her. CSS grid was developed to tackle the use-case of web applications. If you go to [1.1. Background and Motivation](https://www.w3.org/TR/css-grid-1/#background) of the CSS Grid Layout Module Level 1 specification, it clearly states:
 
 > As websites evolved from simple documents into complex, interactive applications, techniques for document layout, e.g. floats, were not necessarily well suited for application layout. […] The capabilities of grid layout address these problems. It provides a mechanism for authors to divide available space for layout into columns and rows using a set of predictable sizing behaviors.
 
@@ -133,14 +132,6 @@ All of the specifications from the table above would be defined on the grid cont
   margin-right: 16px;
 }
 
-@media screen and (min-width: 320px) {
-  .grid {
-    grid-template-columns: repeat(8, 1fr);
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-}
-
 @media screen and (min-width: 640px) {
   .grid {
     grid-template-columns: repeat(8, 1fr);
@@ -173,3 +164,288 @@ All of the specifications from the table above would be defined on the grid cont
 }
 ```
 
+This approach allows the item placement code to go on the component styles. And if there are common placement patterns that recur very often in the design, then you could consider having some pre-written styles to cater to those situations.
+
+```css
+.grid__item--full,
+.grid__item--half,
+.grid__item--third,
+.grid__item--quarter {
+  grid-column: 1 / -1;
+}
+
+@media screen and (min-width: 640px) {
+  .grid__item--quarter {
+    grid-column: span 4;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .grid__item--half {
+    grid-column: span 6;
+  }
+
+  .grid__item--third {
+    grid-column: span 4;
+  }
+
+  .grid__item--quarter {
+    grid-column: span 3;
+  }
+}
+```
+
+And if you do need some custom placement, those styles could be part of the component styles like this:
+
+```css
+.custom-thingy {
+  grid-column: 1 / -1;
+  font-size: var( --step-1);
+}
+
+@media screen and (min-width: 640px) {
+  .custom-thingy {
+    grid-column: 1 / 6;
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .custom-thingy {
+    grid-column: 1 / 7;
+  }
+}
+```
+
+### Option 2: Container and Item components
+
+Another approach is to have wrapper components for the container and item respectively. This means the grid code is tied to the wrapper components instead of being loaded in the global stylesheet.
+
+I ran into some specificity issues with this approach with CSS modules that I managed to workaround relatively painlessly, but it *is* something to take note of.
+
+The setup involves creating a Grid component and a Col component and their corresponding stylesheets.
+
+```bash
+src/
+  └── components/
+      ├── Col/
+      │   ├── Col.module.css
+      │   └── Col.tsx
+      └── Grid/
+          ├── Grid.module.css
+          └── Grid.tsx
+```
+
+These components don't do much other than provide grid-related styling, so they're not very big or complicated. They have props for passing custom class names, modifying the element tag (which defaults to `div`) but generally does not restrict users from passing in other props either.
+
+**Grid.tsx**
+```tsx
+import { ReactNode, createElement } from "react";
+import styles from "./Grid.module.scss";
+
+interface GridProps extends React.HTMLProps<HTMLElement> {
+  className?: string;
+  children: ReactNode;
+  tag?: keyof JSX.IntrinsicElements;
+}
+
+export default function Grid({
+  className = "",
+  children,
+  tag = "div",
+  ...props
+}: GridProps) {
+  const Wrapper = tag;
+  return createElement(
+    Wrapper,
+    {
+      className: `${styles.grid} ${className}`,
+      ...props
+    },
+    children
+  );
+}
+```
+
+**Col.tsx**
+```tsx
+import { ReactNode, createElement } from "react";
+import cn from "classnames";
+import styles from "./Col.module.scss";
+
+interface ColProps extends React.HTMLProps<HTMLElement> {
+  className?: string;
+  children: ReactNode;
+  colWidth?: "full" | "half" | "third" | "quarter";
+  tag?: keyof JSX.IntrinsicElements;
+}
+
+export default function Col({
+  className = "",
+  children,
+  colWidth,
+  tag = "div",
+  ...props
+}: ColProps) {
+  const Wrapper = tag;
+
+  return createElement(
+    Wrapper,
+    {
+      className: cn(className, { [styles[`${colWidth}`]]: colWidth }),
+      ...props
+    },
+    children
+  );
+}
+```
+
+The styles would be the same as in option 1 but because this approach uses CSS modules, you can sort of be more “casual” with naming your classes? The grid container styles are literally exactly the same as option 1, while the item classes can look like this or however you like to name them:
+
+**Col.module.css**
+```css
+.full,
+.half,
+.third,
+.quarter {
+  grid-column: 1 / -1;
+}
+
+@media screen and (min-width: 640px) {
+  .quarter {
+    grid-column: span 4;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .half {
+    grid-column: span 6;
+  }
+
+  .third {
+    grid-column: span 4;
+  }
+
+  .quarter {
+    grid-column: span 3;
+  }
+}
+```
+
+The issue I ran into when using these components was that, if I wanted to override the pre-written item styles, I had to bump the specificity of my component styles up a little bit because CSS modules loaded the component styles *before* the wrapper styles. <span class="kaomoji">¯\\\_(ツ)_/¯</span>
+
+I like to keep specificity low in general, so I went with bumping up by 1 element tag's worth.
+
+```css
+p.customThingy {
+  grid-column: 1 / -1;
+  font-size: var( --step-1);
+}
+
+@media screen and (min-width: 640px) {
+  p.customThingy {
+    grid-column: 1 / 6;
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  p.customThingy {
+    grid-column: 1 / 7;
+  }
+}
+```
+
+If someone more knowledgeable has advice on a better way of dealing with this style loading order, please let me know.
+
+### Option 3: Using Tailwind classes
+
+This may or may not be a spicy option. I'll be up front about this, I do not think the way Tailwind does CSS is ideal. The major issue I have with Tailwind is, if you use it the way it was intended, the cascade is almost completely negated.
+
+It is called Cascading Stylesheets for a reason. Maybe call it “Tailwind SS” instead? That being said, I'm not a very dogmatic person. I may write a longer Tailwind-specific blog post in future (but do I really want Opinionated tech bros telling me why I'm very very wrong?), we'll see.
+
+For now, I accept the reality that there are quite a number of teams that use Tailwind CSS in their applications and it's working well for them. That's great. What if those teams want to use CSS grid? Well, it is absolutely doable.
+
+Even though I'm not a big fan of how the CSS is being done in Tailwind, I must admit its build process is very solid and the documentation is also great. Tailwind has exposed almost every API possible for you to modify the default configuration to suit your custom specifications.
+
+So the grid specification can be set up like so (abstracted to just show the breakpoints):
+
+```js
+module.exports = {
+  theme: {
+    screens: {
+      xs: "320px",
+      sm: "640px",
+      md: "900px",
+      lg: "1200px",
+      xl: "1600px",
+      maxSm: { max: "639px" },
+      maxMd: { max: "899px" },
+      btwSmMd: { min: "640px", max: "899px" }
+    },
+  },
+  prefix: "tw-"
+};
+```
+
+You would then have to apply these classes to your component accordingly:
+
+```tsx
+export default function Option3() {
+  return (
+    <section className="tw-grid xs:tw-grid-cols-4 sm:tw-grid-cols-8 md:tw-grid-cols-12 xs:tw-gap-3 lg:tw-gap-4 xs:tw-mx-3 sm:tw-mx-[30px] md:tw-mx-[50px] lg:tw-mx-[90px] xl:tw-mx-[180px]">
+      <p className="tw-col-span-full">Full width</p>
+      <p className="tw-col-span-full md:tw-col-span-6">Half width</p>
+      <p className="tw-col-span-full md:tw-col-span-4">Third width</p>
+      <p className="tw-col-span-full md:tw-col-span-3">Quarter width</p>
+    </section>
+  );
+}
+```
+
+I'm sure the Tailwind experts have come up with something to abstract regularly used combinations of classes into something else but this is the most basic version and it achieves the same end result as the other options.
+
+### Code and demo
+
+If you'd like to see how the code performs in an actual design, you can check out this CodeSandbox:
+[https://codesandbox.io/s/enterprise-css-grid-vnjozr](https://codesandbox.io/s/enterprise-css-grid-vnjozr)
+
+<img srcset="/assets/images/posts/enterprise-css/mockup-480.jpg 480w, /assets/images/posts/enterprise-css/mockup-640.jpg 640w, /assets/images/posts/enterprise-css/mockup-960.jpg 960w, /assets/images/posts/enterprise-css/mockup-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/enterprise-css/mockup-640.jpg" alt="Imaginary hotel website mockup">
+
+I put the code on Github: [https://github.com/huijing/enterprise-css-grid](https://github.com/huijing/enterprise-css-grid), since I found that if you try to clone the CodeSandbox, you don't get the container version (which you want for Tailwind styles to compile properly).
+
+## The people problem
+
+I only proposed 3 options but I'm sure there are more possible approaches to writing styles. Are any one of these approaches the “correct” one or the “best” one? The answer is a resounding **NO**. At least, not without taking into account the context in which the code needs to be used.
+
+Technically, every approach does the job. The level of difficulty of the technical implementation sometimes pale in comparison to the issues and considerations around code organisation, maintainability and developer experience. Especially for larger teams.
+
+There is always the chance that someone from above you in the hierarchy “mandates” that you use a certain technology. Have I heard some executive (who used to code) say “I could have built this myself in a day with INSERT_SUGGESTED_LIBRARY_HERE”? Well, yes. <span class="kaomoji">( ⚆ _ ⚆ )</span>
+
+Sometimes there are things out of your control. And that's okay. But in those instances you are able to influence technical decisions, I think is more important during the assessment process is to ask the following questions:
+
+<ul>
+  <li class="no-margin">Are there preferred technologies used within the organisation?</li>
+  <li class="no-margin">How is big is your application and how is it structured?</li>
+  <li class="no-margin">Are there cases where code is contributed by new developers often?</li>
+  <li class="no-margin">Who is responsible for the maintenance and development of new components or pages on the application?</li>
+  <ul>
+    <li class="no-margin">Is it a small team of full-time developers overseeing the entire project?</li>
+    <li class="no-margin">Is it numerous teams responsible for their own respective set of components and pages?</li>
+    <li class="no-margin">What is the overall CSS skill level of the developers contributing to the codebase?</li>
+    <li class="no-margin">What is the overall React skill level of the developers contributing to the codebase?</li>
+  </ul>
+  <li>How flexible does the design system need to be? Can a small set of components cater for most of the use cases? Or do bespoke requirements come up a lot?</li>
+</ul>
+
+On-boarding folks onto a new codebase is not a trivial matter. And it does help if we can articulate and document the reasons behind why certain decisions were made. Having this “paper trail” will also make it easier to clear off technical debt, especially if something was done due to a circumstance/constraint that no longer exists.
+
+## Wrapping up
+
+Well, that's about all I have for now. If you thought that CSS is just a simple annoyance that's getting in your way of writing “real code”, you're probably not reading this article right now, eh? But seriously, I think CSS at scale is an interesting problem to reason about.
+
+The future is impossible to predict. We do need to find a balance between trying to cater for all possible scenarios versus building for the most obvious use-case.
+
+In a large organisation, it's common for us to focus only on our small part, but we do need an awareness of the bigger picture to ensure our decisions don't cause major problems down the road.
