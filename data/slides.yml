@@ -869,3 +869,30 @@
   type: conference
   released: true
   pdf: true
+
+- title: "A deep dive into Flexbox and Grid"
+  id: io-extended-kl-2022
+  count: "96"
+  event: I/O Extended Kuala Lumpur 2022
+  website: https://gdg.community.dev/events/details/google-gdg-kuala-lumpur-presents-io-extended-kuala-lumpur-2022-1/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "Building layouts the way the web intended"
+  id: jsfwdays-2022
+  count: "97"
+  event: JS+React fwdays’22 conference
+  website: https://fwdays.com/en/event/react-fwdays-2022
+  type: conference
+  released: false
+  pdf: false
+
+- title: "Architecting CSS grid in a design system"
+  id: front-zurich-2022
+  count: "98"
+  event: Front Conference Zurich
+  website: https://frontconference.com/
+  type: conference
+  released: false
+  pdf: false
