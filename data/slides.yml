@@ -873,11 +873,12 @@
 - title: "A deep dive into Flexbox and Grid"
   id: io-extended-kl-2022
   count: "96"
+  video: https://www.youtube.com/watch?v=o_9S448-2Js&t=9135s
   event: I/O Extended Kuala Lumpur 2022
   website: https://gdg.community.dev/events/details/google-gdg-kuala-lumpur-presents-io-extended-kuala-lumpur-2022-1/
   type: conference
-  released: false
-  pdf: false
+  released: true
+  pdf: true
 
 - title: "Building layouts the way the web intended"
   id: jsfwdays-2022
