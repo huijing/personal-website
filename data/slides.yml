@@ -873,6 +873,7 @@
 - title: "A deep dive into Flexbox and Grid"
   id: io-extended-2022
   count: "96"
+  video: https://www.youtube.com/watch?v=o_9S448-2Js&t=9135s
   event: Google I/O Extended
   type: meetup
   released: true
