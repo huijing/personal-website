@@ -62,6 +62,43 @@ The code will look like this:
 
 IE11 actually does not support `@supports`, which works out fine because it just means this entire code block gets ignored and the text is rendered in black, without any bells and whistles. Just like how Opera Mini handled it.
 
+*Update on the fallback bit!*  
+Someone pinged me to say that the text was not rendering right on iOS Safari 15.2.1 and after digging into the problem, I am fairly confident that it was due to [this Webkit bug](https://bugs.webkit.org/show_bug.cgi?id=169125) that was fixed and shipped in 15.5.
+
+Turns out, the people who were trying to use `background-clip: text` supported iOS by adding `-webkit-box-decoration-break: clone;` as a workaround. Based on my understanding of the `box-decoration-break` property, it tells the browser [how to render elements that have been broken up](https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break) into fragments.
+
+The unfortunate side-effect of this fix is that my gradient hack doesn't work exactly as intended because the gradient is then applied onto each line independently with this property turned to `clone`.
+
+<img src="/assets/images/posts/background-clip/fallback.png" alt="Gradient hack with box-decoration-break set to clone" />
+
+I could hack feature queries to target those Webkit browsers before 15.5 by using the `contain` property which was released in 15.4. As you can see, we are really mucking around in hack-land right now. But the code would now look like this:
+
+```css
+@supports (-webkit-background-clip: text) {
+  .highlight {
+    display: inline;
+    background-image: linear-gradient(to right, black 0%, black 63.5%, midnightblue 63.5%, darkturquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@supports not (contain: size) {
+  .highlight {
+    -webkit-box-decoration-break: clone; /* For Webkit versions earlier than 15.4 */
+  }
+}
+```
+
+This might be an overkill solution but I just wanted to exhaust all possibilities because I like doing such things. Unfortunately, it seems like the 15.4 browsers will fall through the crack and still bug out because it doesn't fall into my fallback coverage.
+
+I did some investigation around iOS version usage numbers and found that the data showed adoption of newer versions is fairly high.
+
+<img src="/assets/images/posts/background-clip/ios.png" srcset="/assets/images/posts/background-clip/ios@2x.png 2x" alt="iOS version usage trend between July 2021 and July 2022" />
+
+So over time, the number of people impacted by the bug will continue to drop and I can actually get away with this?
+
 ## The actual hackiness
 
 Now that we've covered the scenario where you have all the control over your markup and styles, let's add some constraints. Because sometimes, you're using some existing framework or component library that does not allow you modify the markup as you please.
