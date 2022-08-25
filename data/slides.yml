@@ -894,5 +894,5 @@
   event: Front Conference Zurich
   website: https://frontconference.com/
   type: conference
-  released: false
-  pdf: false
+  released: true
+  pdf: true
