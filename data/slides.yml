@@ -896,3 +896,12 @@
   type: conference
   released: true
   pdf: true
+
+- title: "Many Flavours of Enterprise CSS Grid"
+  id: jsconfkr-2022
+  count: "99"
+  event: JSConf Korea 2022
+  website: https://2022.jsconf.kr/
+  type: conference
+  released: false
+  pdf: false
