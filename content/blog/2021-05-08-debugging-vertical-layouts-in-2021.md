@@ -49,7 +49,7 @@ Okay, let's give it a shot.
 
 <figure>
     <figcaption>Hmmm, something is a little bit off here…</figcaption>
-    <video src="/assets/videos/dt-chrome-bug.mp4" controls autoplay loop></video>
+    {{<video filename="dt-chrome-bug">}}
 </figure>
 
 Scrolling with the overlay active was a little janky, and the overlay lines are off-kilter. Again, this is not unexpected. And when I checked the Chromium bug tracker, lo and behold, someone already filed the issue: [Issue 1203251: Grid overlay is misplaced for CSS grids with a vertical writing mode](https://bugs.chromium.org/p/chromium/issues/detail?id=1203251&q=devtools%20grid&can=2).
@@ -60,7 +60,7 @@ Time to give Chrome's new Flexbox inspector a spin as well. The overlay looked f
 
 <figure>
     <figcaption>Wait a minute… did my text just get left behind?</figcaption>
-    <video src="/assets/videos/dt-chrome-flex-bug.mp4" controls autoplay loop></video>
+    {{<video filename="dt-chrome-flex-bug">}}
 </figure>
 
 I did log a bug on the Chromium bug tracker, if anyone is interested. [Issue 1206903: Alignment tool causes incorrect rendering for vertical layout](https://bugs.chromium.org/p/chromium/issues/detail?id=1206903). I think my issue is related to this one: [Issue 1120156: CSS Grid `align-items: end;` with vertical `writing-mode` doesn't work properly in a Flexbox](https://bugs.chromium.org/p/chromium/issues/detail?id=1120156).
@@ -69,7 +69,7 @@ And in the process to trying to document the bug properly, I found another weird
 
 <figure>
     <figcaption>Hey, why is my text lagging?</figcaption>
-    <video src="/assets/videos/chrome-flex-bug.mp4" controls autoplay loop></video>
+    {{<video filename="chrome-flex-bug">}}
 </figure>
 
 If I were to describe this in words, it would be, when the document is in `vertical-rl` mode, content within a flex item does not respond to viewport resizing on the x-axis.

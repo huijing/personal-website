@@ -55,7 +55,7 @@ But that's not all, you can switch up the different alignment properties from th
 
 <figure>
     <figcaption>Toggle different alignment values</figcaption>
-    <video src="/assets/videos/dt21-chrome.mp4" controls autoplay loop></video>
+    {{<video filename="dt21-chrome">}}
 </figure>
 
 As you can see, there are feature differences between the 2 browsers, but don't we all have multiple browsers installed on our machines when we're working in this industry? <span class="kaomoji">¯\\\_(ツ)_/¯</span>
@@ -88,7 +88,7 @@ What's nice about Firefox DevTools is that they ship the corresponding DevTools 
 
 <figure>
     <figcaption>Animation of grid rows and columns</figcaption>
-    <video src="/assets/videos/dt21-animate.mp4" controls autoplay loop></video>
+    {{<video filename="dt21-animate">}}
 </figure>
 
 Speaking of features that are currently only supported in Firefox, we have to mention CSS Grid Level 2, which specifies Subgrid.
