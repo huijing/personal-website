@@ -855,8 +855,8 @@
 - title: "Our Stylish Future"
   id: aea-2021
   count: "94"
-  event: An Event Apart
-  website: https://fwdays.com/en/event/javascript-fwdays-2021
+  event: "An Event Apart: Fall Summit 2021"
+  website: https://aneventapart.com/event/fall-summit-2021
   type: conference
   released: true
   pdf: true
@@ -902,6 +902,15 @@
   count: "99"
   event: JSConf Korea 2022
   website: https://2022.jsconf.kr/
+  type: conference
+  released: true
+  pdf: true
+
+- title: "Overcoming Grid Reluctance"
+  id: aea-2022
+  count: "100"
+  event: "An Event Apart: Denver 2022"
+  website: https://aneventapart.com/event/denver-2022
   type: conference
   released: false
   pdf: false
