@@ -912,5 +912,23 @@
   event: "An Event Apart: Denver 2022"
   website: https://aneventapart.com/event/denver-2022
   type: conference
+  released: true
+  pdf: true
+
+- title: "CSS variables for work and play"
+  id: jsfwdayseu-2022
+  count: "101"
+  event: "JS Fwdays Europe"
+  website: https://fwdays.com/event/javascript-fwdays-2022
+  type: conference
+  released: false
+  pdf: false
+
+- title: "CSS for internationalisation"
+  id: oredev-2022
+  count: "102"
+  event: "Øredev developer conference"
+  website: https://oredev.org/
+  type: conference
   released: false
   pdf: false
