@@ -921,8 +921,8 @@
   event: "JS Fwdays Europe"
   website: https://fwdays.com/event/javascript-fwdays-2022
   type: conference
-  released: false
-  pdf: false
+  released: true
+  pdf: true
 
 - title: "CSS for internationalisation"
   id: oredev-2022
@@ -930,5 +930,5 @@
   event: "Øredev developer conference"
   website: https://oredev.org/
   type: conference
-  released: false
-  pdf: false
+  released: true
+  pdf: true
