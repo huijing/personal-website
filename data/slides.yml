@@ -882,6 +882,7 @@
 - title: "Building layouts the way the web intended"
   id: jsfwdays-2022
   count: "97"
+  video: https://youtu.be/z8FD3gLvTyo
   event: JS+React fwdays’22 conference
   website: https://fwdays.com/en/event/react-fwdays-2022
   type: conference
@@ -900,6 +901,7 @@
 - title: "Many Flavours of Enterprise CSS Grid"
   id: jsconfkr-2022
   count: "99"
+  video: https://youtu.be/r3O3Fj1H2yw
   event: JSConf Korea 2022
   website: https://2022.jsconf.kr/
   type: conference
