@@ -48,7 +48,7 @@ Feel free to skip to that post and experience the trials and tribulations of som
 
 <figure>
     <figcaption>Simple is not easy.</figcaption>
-    {{<img4w filename="/posts/sg50/sg50" filetype="jpg" alt="Site navigation">}}
+    {{<img4w filename="posts/sg50/sg50" filetype="jpg" alt="Site navigation">}}
 </figure>
 
 ### Full page scrolling
