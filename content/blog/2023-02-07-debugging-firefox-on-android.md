@@ -1,6 +1,5 @@
 ---
 date: 2023-02-07T22:54:24+08:00
-draft: true
 images:
 - /assets/images/posts/firefox-android/debugging-1280.jpg
 tags:
