@@ -20,7 +20,7 @@ Firefox official documentation is actually very clear: [about:debugging](https:/
 
 > First make sure you have installed Android Debug Bridge from Android Tools on your computer in order for it to be able to connect to your device. You do not need to install the full Android Studio SDK. Only adb is needed.
 
-To install `adb`, download the SDK Platform Tools from [https://developer.android.com/studio/releases/platform-tools.html](https://developer.android.com/studio/releases/platform-tools.html), there are versions for every OS but I'm using Mac specifically.
+To install `adb`, download the SDK Platform Tools from <a href="https://developer.android.com/studio/releases/platform-tools.html" style="word-break: break-all">https://developer.android.com/studio/releases/platform-tools.html</a>, there are versions for every OS but I'm using Mac specifically.
 
 After that, unzip the files into an easily accessible folder on your computer. From the command line, navigate to folder and run `./adb devices` to see list of devices connected.
 
