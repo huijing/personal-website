@@ -15,26 +15,33 @@ permalink: /resume/
 ### Skills
 
 <ul>
-  <li class="no-margin">Knowledge of <strong>UX methods</strong> like competitive analysis, task flows, user scenarios, personas and interviewing for the creation and testing of UX deliverables</li>
+  <li class="no-margin">Involved with <strong>web standards development</strong> (predominantly CSS and internationalisation)</li>
   <li class="no-margin">Highly proficient in <strong>HTML and CSS (with Sass)</strong> for <strong>rapid prototyping</strong> in the browser</li>
-  <li class="no-margin">Good knowledge of <strong>Javascript</strong>, as well as version control using <strong>Git</strong></li>
-  <li class="no-margin">Familiar with Unix-based server setup (<strong>LAMP</strong> stack) for website deployment and very comfortable working in the command line environment</li>
-  <li class>Skilled in <strong>Adobe Photoshop</strong>, <strong>Illustrator</strong> and <strong>Sketch</strong> for the creation of web assets</li>
+  <li class="no-margin">Adept in <strong>Javascript</strong> and <strong>Typescript</strong>, as well as version control using <strong>Git</strong></li>
+  <li class="no-margin">Prior experience in variety of languages and frameworks for web projects, including <strong>Ruby on Rails</strong>, <strong>Python (Flash)</strong> and <strong>PHP (Drupal)</strong></li>
+  <li>Familiar with <strong>Unix-based server setups</strong> for website deployment and very comfortable working in the command line environment</li>
 </ul>
 
 ### Work experience
   
 <section class="jobs">
-  <input id="shopify" name="job" type="checkbox" checked>
-  <label for="shopify"><h4>Shopify <small>(May 2020 - Present)</small></h4></label>
+  <input id="shopify" name="job" type="checkbox">
+  <label for="shopify"><h4>Shopify <small>(May 2020 - May 2023)</small></h4></label>
   <article>
-    <p>I'm currently a <strong>Senior Frontend Developer</strong> at Shopify on the Website Platform team where we work on Shopify.com and all its regional sites.</p>
+    <p>I was a <strong>Senior Frontend Developer</strong> on the Website Platform team, which worked on Shopify.com and all its regional sites, and later the Partners team, where we worked on the platform for Shopify Partners. I was involved in a number of projects, notably:</p>
+    <ul>
+      <li class="no-margin">The migration and maintenance of the Shopify.cn website from external Drupal application back to Shopify’s internal tech stack and deployment pipeline</li>
+      <li class="no-margin">The ccTLD migration project which executed code changes across multiple codebases and fully documented a clear migration playbook that allowed non-developers to undertake the process themselves</li>
+      <li class="no-margin">The migration to a new React-based tech stack for the Shopify.com codebase</li>
+      <li class="no-margin">The implementation of the redesign for Partners home page and Affiliates home page on Shopify.com</li>
+      <li>The Partners dashboard home page project, for which I championed, coordinating with all the different stakeholders, crafting the build plan, organising tasks as well as building out the frontend for the home page</li>
+    </ul>
   </article>
 
   <input id="nexmo" name="job" type="checkbox">
   <label for="nexmo"><h4>Nexmo <small>(Sep 2018 - Apr 2020)</small></h4></label>
   <article>
-    <p>As a <strong>Developer Advocate</strong>, my job is to build relationships and support the developer community through learning, creating, sharing and helping others. I act as the interface between developer communities and the Nexmo product team to ensure our products provide a great developer experience.</p>
+    <p>As a <strong>Developer Advocate</strong>, I acted as the interface between developer communities and the Nexmo product team to ensure our products provided a great developer experience by:</p>
     <ul>
       <li class="no-margin">Building and maintaining quick start samples, demos, example apps and other developer productivity
     tools and enablers</li>

@@ -936,3 +936,12 @@
   type: conference
   released: true
   pdf: true
+
+- title: "Do your regional websites talk funny?"
+  id: fossasia-2023
+  count: "103"
+  event: "FOSSASIA Summit 2023"
+  website: https://eventyay.com/e/7cfe0771
+  type: conference
+  released: true
+  pdf: true
