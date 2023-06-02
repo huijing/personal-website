@@ -1,5 +1,5 @@
 // CSS architecture for Talk.CSS website
-// Developed by Chen Hui Jing <kakyou_tensai@yahoo.com>
+// Developed by Chen Hui Jing <1461498+huijing@users.noreply.github.com>
 // -----
 // Structure based on ITCSS by Harry Roberts
 // http://csswizardry.net/talks/2014/11/itcss-dafed.pdf
@@ -140,6 +140,11 @@
 
 .nexmo::before {
   background: url('/assets/images/icons/icon-nexmo.svg') no-repeat;
+  background-size: cover;
+}
+
+.shopify::before {
+  background: url('/assets/images/icons/icon-shopify.svg') no-repeat;
   background-size: cover;
 }
 

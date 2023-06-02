@@ -81,7 +81,7 @@ To prevent triggering a segmentation fault when running Drush, we need to add a 
   "scripts": {
     "postinstall": "find node_modules/ -name '*.info' -type f -delete"
   },
-  "author": "huijing <kakyou_tensai@yahoo.com>",
+  "author": "huijing <1461498+huijing@users.noreply.github.com>",
   "license": "ISC"
 }</code></pre>
 

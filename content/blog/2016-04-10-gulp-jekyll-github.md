@@ -105,7 +105,7 @@ Now that things are linked up correctly, it's time to get building. The test `in
         "type": "git",
         "url": "git+https://github.com/SingaporeCSS/singaporecss.github.io.git"
       },
-      "author": "huijng <kakyou_tensai@yahoo.com>",
+      "author": "huijng <1461498+huijing@users.noreply.github.com>",
       "license": "ISC",
       "bugs": {
         "url": "https://github.com/SingaporeCSS/singaporecss.github.io/issues"
