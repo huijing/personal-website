@@ -19,6 +19,9 @@ logrocket:
 nexmo:
   name: The Nexmo Blog
 
+shopify:
+  name: Shopify Engineering
+
 smashing:
   name: Smashing Magazine
 
