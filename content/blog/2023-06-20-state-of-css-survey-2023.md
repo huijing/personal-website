@@ -7,7 +7,7 @@ tags:
 title: "State of CSS survey 2023 is live!"
 ---
 
-<a href="https://survey.devographics.com/en-US/survey/state-of-css/2023">
+<a href="https://survey.devographics.com/en-US/survey/state-of-css/2023?source=huijing">
 {{<img4w filename="posts/state-of-css/survey-2023" filetype="png" alt="State of CSS survey 2023">}}
 </a>
 
@@ -23,4 +23,4 @@ Keeping in line with the focus from [last year's survey](https://lea.verou.me/20
 
 This is a completely open-source project and we welcome any contributions, be it bug reports, feedback and even [help with translations](https://github.com/Devographics/locale-en-US#readme).
 
-The State of CSS survey is now in its 5th iteration, and we have tweaked and changed things based on feedback every year. Hopefully, we can continue to improve moving forward. Please [take the survey](https://survey.devographics.com/en-US/survey/state-of-css/2023) if you haven't yet, and share it to the folks around you who write CSS as well!
+The State of CSS survey is now in its 5th iteration, and we have tweaked and changed things based on feedback every year. Hopefully, we can continue to improve moving forward. Please [take the survey](https://survey.devographics.com/en-US/survey/state-of-css/2023?source=huijing) if you haven't yet, and share it to the folks around you who write CSS as well!
