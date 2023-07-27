@@ -945,3 +945,22 @@
   type: conference
   released: true
   pdf: true
+
+- title: "Working with CSS doesn’t have to make you cry"
+  id: lfa-lectures-2023
+  count: "104"
+  video: https://vimeo.com/844452656
+  event: "Letterform Lectures"
+  website: https://letterformarchive.org/shop/working-with-css-doesnt-have-to-make-you-cry/
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Do your regional websites talk funny?"
+  id: cityjssg-2023
+  count: "105"
+  event: "CityJS Singapore"
+  website: https://singapore.cityjsconf.org/
+  type: conference
+  released: true
+  pdf: true
