@@ -2,13 +2,14 @@
 title: About
 permalink: /about/
 ---
+
 ### So who are you?
 
 {{< img2x filename="headshot" filetype="jpg" alt="Profile photo" class="profile-image" >}}
 
-My name is Chen Hui Jing. I first dipped my toe into the waters of web development when I built my first HTML website in 2008 for the Malaysia Basketball Association. 
+My name is Chen Hui Jing. I first dipped my toe into the waters of web development when I built my first HTML website in 2008 for the Malaysia Basketball Association.
 
-From there, I discovered the existence of content management systems and migrated the site over to Drupal. I stopped working on the site a year later and put my web development journey on hold (the original site no longer exists either). 
+From there, I discovered the existence of content management systems and migrated the site over to Drupal. I stopped working on the site a year later and put my web development journey on hold (the original site no longer exists either).
 
 After a 4-year sabbatical (from web development), I decided to restart this journey by diving in head-first this time. In September 2013, I got a job in the web industry and this website chronicles my experiences as I learn new things, fail spectacularly and make cool stuff along the way.
 
@@ -44,17 +45,18 @@ Oh, and I sometimes cycle around town on my trusty second-hand Muji commuter bic
   <li class="no-margin"><a href="https://www.shopify.com/partners/blog/internationalization">Internationalization: Practical Tips to Build for a Global Audience</a></li>
   <li class="no-margin"><a href="https://dev.to/devteam/devdiscuss-s2e2-you-can-do-that-with-css-3f9e">DevDiscuss S2E2: You Can Do That With CSS?</a></li>
   <li><a href="https://www.codenewbie.org/podcast/why-you-shouldn-t-forget-about-css">CodeNewbie S13E4: Why you shouldn’t forget about CSS</a></li>
+  <li><a href="https://podcasts.apple.com/us/podcast/developer-relations-with-peggy-rayzis-and-hui-jing-chen/id1558498059?i=1000524055128">The CodeSandbox Podcast Ep 5: Developer Relations (with Peggy Rayzis and Hui Jing Chen)</a></li>
+  <li><a href="https://shoptalkshow.com/580/">ShopTalk Show 580: Chen Hui Jing and the State of CSS Survey for 2023</a></li>
 </ul>
 
 ### So how was this site built?
 
 With blood, sweat and tears! Nah, I'm just kidding.
 
-*Update: major migration from Jekyll to Hugo which took 3 days during the COVID-19 pandemic.*
+_Update: major migration from Jekyll to Hugo which took 3 days during the COVID-19 pandemic._
 
-This is a ~~[Jekyll](http://jekyllrb.com/)~~ [Hugo](https://gohugo.io/) site, hosted on ~~[GitHub Pages](https://pages.github.com/)~~ [Netlify](https://www.netlify.com/). It was ~~built~~ migrated after months of procrastination and hours upon hours of ~~pressing ⌘-⇧-R, resizing windows~~ ploughing through documentation, googling and of course, actual coding. This site is a constant work-in-progress as I add tweaks, features and content. 
+This is a ~~[Jekyll](http://jekyllrb.com/)~~ [Hugo](https://gohugo.io/) site, hosted on ~~[GitHub Pages](https://pages.github.com/)~~ [Netlify](https://www.netlify.com/). It was ~~built~~ migrated after months of procrastination and hours upon hours of ~~pressing ⌘-⇧-R, resizing windows~~ ploughing through documentation, googling and of course, actual coding. This site is a constant work-in-progress as I add tweaks, features and content.
 
-Since ~~Jekyll~~ Hugo is a static site generator, everything here is HTML, CSS and JS. 
+Since ~~Jekyll~~ Hugo is a static site generator, everything here is HTML, CSS and JS.
 
 No PHP, no Go, no Python, nilch.
-
