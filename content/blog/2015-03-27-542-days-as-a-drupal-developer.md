@@ -1,16 +1,16 @@
 ---
-categories:
-- planet-drupal
+drupalfeed: true
 date: "2015-03-27T00:00:00Z"
-images: 
-- /assets/images/posts/day-542.jpg
+images:
+  - /assets/images/posts/day-542.jpg
 tags:
-- drupal7
-- opinion
-- podcasts
-- devlife
+  - drupal7
+  - opinion
+  - podcasts
+  - devlife
 title: 542 days as a Drupal developer
 ---
+
 I've just listened to the latest episode of the [Modules Unraveled](https://modulesunraveled.com/) podcast by [Bryan Lewis](https://twitter.com/ModsUnraveled), which talked about [The current job market in Drupal](https://modulesunraveled.com/podcast/131-job-market-drupal-mike-anello-modules-unraveled-podcast). And it made me think about my own journey as a Drupal developer, from zero to reasonably competent (I hope).
 
 The thing about this industry is that everything seems to move faster and faster. There's a best new tool or framework released every other day. Developers are creating cool things all the time. And I feel like I'm constantly playing catch-up. But looking back to Day 1, I realised that I did make quite a bit of progress since then.
@@ -31,7 +31,7 @@ Our technical lead was a stickler for detail, and insistent on doing things the 
 
 First thing I learnt was version control, using Git. Now that was a steep learning curve. Oh, the amount of time I spent resolving git conflicts, [undoing damage](/blog/the-epic-git-bomb/) done to git repositories, the list goes on. Though it really feels like learning to ride a bicycle, once you get it, you can't unlearn it.
 
-I also learnt about the multitude of environments needed for web development very early on, as my technical lead patiently explained to me why we needed to follow the proper git workflow. 
+I also learnt about the multitude of environments needed for web development very early on, as my technical lead patiently explained to me why we needed to follow the proper git workflow.
 
 All the time.  
 No, you can't just make the change on the live server.  
@@ -67,10 +67,8 @@ Another thing I did was to attend meet-ups. Even though I felt like a total noob
 
 But I realised that as time went by, I understood more of what was happening. People didn't seem like they were speaking Greek anymore. It's still cool to get my mind blown by all the creative stuff people present at the meet-ups. They remind me of how much more there is to learn.
 
-I found it really beneficial to attend creative meet-ups as well. The perspectives shared by all those speakers triggers me to examine my own thought processes. Because at the end of the day, it's not just about writing code, it's about how the artefacts we create are used by others. 
+I found it really beneficial to attend creative meet-ups as well. The perspectives shared by all those speakers triggers me to examine my own thought processes. Because at the end of the day, it's not just about writing code, it's about how the artefacts we create are used by others.
 
 ## Rounding things off
 
 I'd like to hope that as I get better at this, I'll be able to create more useful stuff. Despite the fact I grumble and rant about fixing UAT bugs (can't we just tell them it's a feature), inheriting legacy code, hitting deadlines and so on, the truth is, I love what I do. Nobody can predict the future, but I do hope that 5420 days in, I'll still be doing this and loving it the same.
-
-

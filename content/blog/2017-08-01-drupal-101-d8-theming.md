@@ -1,16 +1,16 @@
 ---
-categories:
-- planet-drupal
+drupalfeed: true
 date: "2017-08-01T00:00:00Z"
 slug: drupal-101-d8-theming
 tags:
-- drupal8
-- theming
-title: 'Drupal 101: Getting started with Drupal 8 theming'
+  - drupal8
+  - theming
+title: "Drupal 101: Getting started with Drupal 8 theming"
 ---
+
 Yes, I've finally got around to digging my mitts into Drupal 8, and building custom themes for Drupal 8. I have this bare-bones starter theme called [Clarus](https://www.drupal.org/sandbox/hj_chen/2345293) that I developed back in the day when I was theming Drupal 7 sites willy-nilly. I thought I'd keep it, and develop a Drupal 8 branch rather than start a new project.
 
-Drupal 8 has undergone quite a significant revamp under-the-hood, and the folder structure has changed quite a bit. Instead of placing your themes in the *sites/all/themes* folder, all user-created themes go into the *themes* folder. Well, that's an upgrade on the intuitive-ness front.
+Drupal 8 has undergone quite a significant revamp under-the-hood, and the folder structure has changed quite a bit. Instead of placing your themes in the _sites/all/themes_ folder, all user-created themes go into the _themes_ folder. Well, that's an upgrade on the intuitive-ness front.
 
 The [documentation for theming Drupal 8](https://www.drupal.org/docs/8/theming) is really good, and you should read that before anything else if you're planning to do this custom theming thing. I generally follow whatever the guide says with a couple tweaks to suit my personal preferences.
 
@@ -19,18 +19,12 @@ The [documentation for theming Drupal 8](https://www.drupal.org/docs/8/theming) 
 As mentioned, all non-core themes should be placed in the <en>themes</en> folder. Create a new folder with the name of your theme. The guide suggests you put all contrib themes in a subfolder and your custom themes in another, for organisational purposes.
 
 <p class="no-margin">Speaking of organisation, it's best to create some subfolders inside your custom theme folder as well. I use Sass as part of my workflow, so I have an <en>scss</en> folder in there. It's not mandatory.</p>
+
 <pre><code class="language-markup">godzilla/
-|
-|-- css/
-|
-|-- img/
-|
-|-- css/
-|
-|-- scss/
-|
-`-- templates/
-</code></pre>
+    ├── css
+    ├── js
+    ├── scss
+    └── templates</code></pre>
 
 ## The `.info.yml` file
 
@@ -70,7 +64,7 @@ I don't really understand why this is optional, because it seems quite mandatory
 <pre><code class="language-yaml">libraries:
   - godzilla/global-styling</code></pre>
 
-This concept of an asset library is based on the premise that CSS and JS for modules and themes are all loaded via the same system. Part of improving the performance of Drupal 8 is to have assets load only if you tell them to, so not everything is loaded on every page. 
+This concept of an asset library is based on the premise that CSS and JS for modules and themes are all loaded via the same system. Part of improving the performance of Drupal 8 is to have assets load only if you tell them to, so not everything is loaded on every page.
 
 For this bit, I strongly recommend [reading the documentation](https://www.drupal.org/node/2216195), because it goes really in-depth on how this new asset library system works. Here's how a `THEME_NAME.libraries.yml` file looks like:
 
@@ -128,11 +122,11 @@ First of all, we need Drupal to recognise your local development settings file. 
   include $app_root . '/' . $site_path . '/settings.local.php';
 }</code></pre>
 
-Now, check in your `settings.local.php` file. If you made a copy from the `example.settings.local.php` file in the *sites* folder, then you should see this line somewhere in there:
+Now, check in your `settings.local.php` file. If you made a copy from the `example.settings.local.php` file in the _sites_ folder, then you should see this line somewhere in there:
 
 <pre><code class="language-php">$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';</code></pre>
 
-Make sure it's uncommented. This tells Drupal to recognise the development services configuration. If you can't find it, add it in there. The `development.services.yml` file comes by default and should be in your *sites* folder, you shouldn't have to create it.
+Make sure it's uncommented. This tells Drupal to recognise the development services configuration. If you can't find it, add it in there. The `development.services.yml` file comes by default and should be in your _sites_ folder, you shouldn't have to create it.
 
 The default `development.services.yml` file looks like this:
 

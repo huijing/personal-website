@@ -1,13 +1,13 @@
 ---
-categories:
-- planet-drupal
+drupalfeed: true
 date: "2015-08-09T00:00:00Z"
 slug: drupal-101-local-development
 tags:
-- drupal7
-- workflow
-title: 'Drupal 101: Starting Drupal development'
+  - drupal7
+  - workflow
+title: "Drupal 101: Starting Drupal development"
 ---
+
 I recently moved from an agency specialising in building Drupal sites to one which is platform-agnostic, and uses all variety of technologies. As my team was not very familiar with Drupal, I started writing some documentation on setting up locally, installing Drush and commonly used modules, and some other stuff so everyone could get up and running quickly.
 
 I've modified it to be even more beginner-friendly, for people who've never built websites before. This is sort of opinionated so feel free not to follow along exactly.
@@ -71,19 +71,19 @@ I've already written about these two tools and how to install them in a previous
 1. Download the latest stable version of Drupal from [Drupal.org](https://www.drupal.org/start)
 2. Extract the `.zip` file into your localhost directory and set up however you normally do a new local site. The common default alias used for your local environment is localhost, or 127.0.0.1, so we'll be referring to `http://localhost` for this example.
 3. Navigate to the sites/default folder and make a copy of the default.settings.php file. Rename this file settings.php. Set the permissions for this file to writeable. You can do that with the following command.
-    <pre><code class="language-bash">chmod 666 settings.php</code></pre>
-    You could also right-click the file and change the permissions from there, if you wanted to. Drupal will change the permissions to 444, and this is essential to keeping your site secure.
+   <pre><code class="language-bash">chmod 666 settings.php</code></pre>
+   You could also right-click the file and change the permissions from there, if you wanted to. Drupal will change the permissions to 444, and this is essential to keeping your site secure.
 4. Depending on what you use to manage databases, create a new mySQL database. You should have a user name and password which you set up when you installed MySQL on your system earlier. These credentials have to be entered when you install Drupal via the browser interface in the next steps.
 5. On your browser, navigate to the root of the site, in this case, `http://localhost`.
-    - You will be redirected to the `install.php` page. Select *Standard* and continue.
-    <img alt="Install" srcset="/assets/images/posts/local-dev/local-dev-480.jpg 480w, /assets/images/posts/local-dev/local-dev-640.jpg 640w, /assets/images/posts/local-dev/local-dev-960.jpg 960w, /assets/images/posts/local-dev/local-dev-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/local-dev/local-dev-640.jpg">
-    - Choose the default language and click next. For the database setup, enter the name of the database you created earlier, with your MySQL credentials. The advanced options can be left as default.
-    <img alt="Database setup" srcset="/assets/images/posts/local-dev/local-dev2-480.jpg 480w, /assets/images/posts/local-dev/local-dev2-640.jpg 640w, /assets/images/posts/local-dev/local-dev2-960.jpg 960w, /assets/images/posts/local-dev/local-dev2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/local-dev/local-dev2-640.jpg">
-    - Drupal should start installing. 
-    <img alt="Installation running" srcset="/assets/images/posts/local-dev/local-dev3-480.jpg 480w, /assets/images/posts/local-dev/local-dev3-640.jpg 640w, /assets/images/posts/local-dev/local-dev3-960.jpg 960w, /assets/images/posts/local-dev/local-dev3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/local-dev/local-dev3-640.jpg">
-    - Set up the user 1 account. This account is the superadmin account which can access everything on the site.
-    <img alt="Install" srcset="/assets/images/posts/local-dev/local-dev4-480.jpg 480w, /assets/images/posts/local-dev/local-dev4-640.jpg 640w, /assets/images/posts/local-dev/local-dev4-960.jpg 960w, /assets/images/posts/local-dev/local-dev4-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/local-dev/local-dev4-640.jpg">
-    - Your site should be successfully set up.
+   - You will be redirected to the `install.php` page. Select _Standard_ and continue.
+     <img alt="Install" srcset="/assets/images/posts/local-dev/local-dev-480.jpg 480w, /assets/images/posts/local-dev/local-dev-640.jpg 640w, /assets/images/posts/local-dev/local-dev-960.jpg 960w, /assets/images/posts/local-dev/local-dev-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/local-dev/local-dev-640.jpg">
+   - Choose the default language and click next. For the database setup, enter the name of the database you created earlier, with your MySQL credentials. The advanced options can be left as default.
+     <img alt="Database setup" srcset="/assets/images/posts/local-dev/local-dev2-480.jpg 480w, /assets/images/posts/local-dev/local-dev2-640.jpg 640w, /assets/images/posts/local-dev/local-dev2-960.jpg 960w, /assets/images/posts/local-dev/local-dev2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/local-dev/local-dev2-640.jpg">
+   - Drupal should start installing.
+     <img alt="Installation running" srcset="/assets/images/posts/local-dev/local-dev3-480.jpg 480w, /assets/images/posts/local-dev/local-dev3-640.jpg 640w, /assets/images/posts/local-dev/local-dev3-960.jpg 960w, /assets/images/posts/local-dev/local-dev3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/local-dev/local-dev3-640.jpg">
+   - Set up the user 1 account. This account is the superadmin account which can access everything on the site.
+     <img alt="Install" srcset="/assets/images/posts/local-dev/local-dev4-480.jpg 480w, /assets/images/posts/local-dev/local-dev4-640.jpg 640w, /assets/images/posts/local-dev/local-dev4-960.jpg 960w, /assets/images/posts/local-dev/local-dev4-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/local-dev/local-dev4-640.jpg">
+   - Your site should be successfully set up.
 
 <p class="no-margin">You may also need to develop multiple sites concurrently on your machine, and this will require more steps to setup that I will not cover here, but you can check out the following articles to point you in the right direction.</p>
 <ul>
@@ -99,7 +99,7 @@ To double check that Drush is installed correctly on your system, navigate to th
 <pre><code class="language-bash">drush status</code></pre>
 
 You should see something like this:
-  <img alt="Install" srcset="/assets/images/posts/local-dev/drush-480.jpg 480w, /assets/images/posts/local-dev/drush-640.jpg 640w, /assets/images/posts/local-dev/drush-960.jpg 960w, /assets/images/posts/local-dev/drush-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/local-dev/drush-640.jpg">
+<img alt="Install" srcset="/assets/images/posts/local-dev/drush-480.jpg 480w, /assets/images/posts/local-dev/drush-640.jpg 640w, /assets/images/posts/local-dev/drush-960.jpg 960w, /assets/images/posts/local-dev/drush-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="/assets/images/posts/local-dev/drush-640.jpg">
 
 <p class="no-margin">The modules are as follows:</p>
 <ul>
@@ -115,7 +115,6 @@ You should see something like this:
   <li class="no-margin"><a href="https://www.drupal.org/project/smart_trim">Smart trim</a> -&gt; Allows for better management of summary content displays</li>
   <li><a href="https://www.drupal.org/project/registry_rebuild">Registry Rebuild</a> -&gt; To rebuild the registry (a list of PHP classes and the files they go with)</li>
 </ul>
-
 
 <p class="no-margin">Download and enable them by using the following command:</p>
   <pre><code class="language-bash">drush en admin_menu devel views views_ui ds ds_ui ctools token pathauto date libraries smart_trim registry_rebuild -y</code></pre>
@@ -144,4 +143,4 @@ This turns on error reporting, which is extremely helpful when developing. Other
 
 ## Wrap-up
 
-Every developer has their own preferred workflows and processes, and this is mine. Hopefully there are some bits you find helpful and can incorporate into your own Drupal development workflow. 
+Every developer has their own preferred workflows and processes, and this is mine. Hopefully there are some bits you find helpful and can incorporate into your own Drupal development workflow.

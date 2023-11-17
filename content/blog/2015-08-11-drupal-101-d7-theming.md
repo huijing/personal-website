@@ -1,15 +1,15 @@
 ---
-categories:
-- planet-drupal
+drupalfeed: true
 date: "2015-08-11T00:00:00Z"
 slug: drupal-101-d7-theming
 tags:
-- drupal7
-- theming
-- gulp
-title: 'Drupal 101: Getting started with Drupal 7 theming'
+  - drupal7
+  - theming
+  - gulp
+title: "Drupal 101: Getting started with Drupal 7 theming"
 ---
-*Update: I finally got around to writing that [Drupal 8 theming post](/blog/drupal-101-d8-theming) after two years.*
+
+_Update: I finally got around to writing that [Drupal 8 theming post](/blog/drupal-101-d8-theming) after two years._
 
 With Drupal 8 just around the corner, it may seem odd that I would write a post about Drupal 7 theming, but I figured it would take some time for Drupal 8 to really become mainstream. Also, when I do write that Drupal 8 theming post (coming soon), we can do some one to one comparisons on the things that have changed. Trust me, there are a lot of differences between the two.
 
@@ -30,7 +30,7 @@ A theme is like the skin for your website. Drupal 7 theming may seem complicated
 
 The only required file for a Drupal 7 theme is the `.info` file. This file contains all the information, as well as configuration options for your theme. One thing to note is that your theme name **cannot** contain hypens, spaces or punctuation.
 
-This is because Drupal uses this name in PHP functions so the same limitations for name-spacing apply. Numbers and underscores are acceptable though. If you name this file `godzilla.info`, then Drupal will recognise your theme as *godzilla*. Every time you make a change to the `.info` file, you must also clear your cache in order to see the changes.
+This is because Drupal uses this name in PHP functions so the same limitations for name-spacing apply. Numbers and underscores are acceptable though. If you name this file `godzilla.info`, then Drupal will recognise your theme as _godzilla_. Every time you make a change to the `.info` file, you must also clear your cache in order to see the changes.
 
 There are thirteen values that can be used in the `.info` file but not all of them are required. Drupal will just use default values for those not defined. But there are a couple others that we should include as well.
 
@@ -71,6 +71,7 @@ regions[sidebar_second] = Right sidebar
 regions[footer] = Footer</code></pre>
 
 The full list of all options available for the `.info` file can be found [here](https://www.drupal.org/node/171205). A sample `.info` file would look something like this:
+
 <pre><code class="language-markup">name        = Godzilla is rox
 description = A custom responsive Godzilla-based theme
 core        = 7.x
@@ -100,13 +101,13 @@ regions[footer] = Footer</code></pre>
 |
 `-- templates/</code></pre>
 
-The default theme engine for Drupal 7 is [PHPTemplate](https://web.archive.org/web/20150906003104/https://www.drupal.org/phptemplate), written by [Adrian Rossouw](http://daemon.co.za/). Although the template files are recognised as PHP, they are actually a HTML scaffold that utilise PHP statements and variables to pull dynamic data from the database. So if you're familiar with HTML, you'll be just fine, don't be intimidated by all the `<?php ?>` stuff in there. 
+The default theme engine for Drupal 7 is [PHPTemplate](https://web.archive.org/web/20150906003104/https://www.drupal.org/phptemplate), written by [Adrian Rossouw](http://daemon.co.za/). Although the template files are recognised as PHP, they are actually a HTML scaffold that utilise PHP statements and variables to pull dynamic data from the database. So if you're familiar with HTML, you'll be just fine, don't be intimidated by all the `<?php ?>` stuff in there.
 
-I personally chose to override two template files for my theme, the `html.tpl.php` and the `page.tpl.php`. Quick aside, in order to learn all this, I built my own starter theme called [Clarus](https://www.drupal.org/sandbox/hj_chen/2345293) and now use it to start all my custom Drupal 7 themes. 
+I personally chose to override two template files for my theme, the `html.tpl.php` and the `page.tpl.php`. Quick aside, in order to learn all this, I built my own starter theme called [Clarus](https://www.drupal.org/sandbox/hj_chen/2345293) and now use it to start all my custom Drupal 7 themes.
 
 But anyway, as their names suggest, the `html.tpl.php` file serves as the scaffold for the whole HTML document, everything between the `<html>` and `</html>` tags. The `page.tpl.php` controls the markup for the content in the `<body>` of your page.
 
-  Again, you don't have to rewrite any of these template files if you don't want to, you can just theme using CSS, but then you'll have to follow the default Drupal mark-up structure.
+Again, you don't have to rewrite any of these template files if you don't want to, you can just theme using CSS, but then you'll have to follow the default Drupal mark-up structure.
 
 <p class="no-margin">My <code>html.tpl.php</code> file is relatively small. I rewrote this file because I wanted my theme to use HTML5. Drupal provides a lot of variables that you can just call on with a simple <code>&lt;?php print $VARIABLE_NAME ?&gt;</code>. No need to write those by hand. Click <a href="https://www.drupal.org/node/1728208">here</a> for the list of all the variables available for use.</p>
 
@@ -193,9 +194,9 @@ To add content to your page via the Blocks interface, we need to declare regions
 &lt;/aside&gt;
 &lt;?php endif; ?&gt;</code></pre>
 
-Wrapping the mark-up for rendering a region with an if statement like <code >&lt;?php if ($page['highlighted']): ?&gt; /* Your code here */ &lt;?php endif; ?&gt;</code> allows us to check if the regions have any content in them or not before rendering that region.
+Wrapping the mark-up for rendering a region with an if statement like <code >&lt;?php if ($page['highlighted']): ?&gt; /_ Your code here _/ &lt;?php endif; ?&gt;</code> allows us to check if the regions have any content in them or not before rendering that region.
 
-For example, if you're using the default Drupal `html.tpl.php`, and you don't put any content in the *Highlighted* region, then Drupal will not even render that region on your page. 
+For example, if you're using the default Drupal `html.tpl.php`, and you don't put any content in the _Highlighted_ region, then Drupal will not even render that region on your page.
 
 The advantage of using regions is that users can manipulate content directly from the admin interface. For elements that you're fairly certain will remain the same for a long time, you can choose to hard-code them in the `page.tpl.php`. Usually a site logo doesn't change very often, and that can be printed in the `page.tpl.php` directly.
 

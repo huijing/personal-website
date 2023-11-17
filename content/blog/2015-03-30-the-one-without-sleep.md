@@ -1,16 +1,16 @@
 ---
-categories:
-- planet-drupal
+drupalfeed: true
 date: "2015-03-30T00:00:00Z"
 image: project-6
-images: 
-- /assets/images/posts/projects/project-6@2x.png
+images:
+  - /assets/images/posts/projects/project-6@2x.png
 project: Clinic finder
 tags:
-- drupal7
-- side-project
+  - drupal7
+  - side-project
 title: The one without sleep
 ---
+
 So I recently participated in my first ever hackathon over the weekend of March 28. [Battlehack Singapore](https://web.archive.org/web/20150328170549/https://2015.battlehack.org/singapore) to be exact (oddly, there was another [hackathon](https://web.archive.org/web/20160313223556/http://mastersofcode.com/event/singapore/) taking place at the same time). A UX designer friend of mine had told me about the event and asked if I wanted to join as a team.  
 Me: Is there gonna be food at this thing?  
 Her: Erm...yes.  
@@ -31,15 +31,15 @@ I'd like to think this is a relatable scenario. Being idealistic people, we want
 
 The most viable idea we could think of at the time was to work with the relevant government agencies that had access to such data. But since it was a hackathon project, we just wanted to see if we could build out the functionality and make it look decent within 24 hours.
 
-Then, there was the decision of which platform the app would run on. Ideally, this would work well on a mobile device, but our team recognised that we didn't have the capabilities to build out a mobile app in 24 hours. 
+Then, there was the decision of which platform the app would run on. Ideally, this would work well on a mobile device, but our team recognised that we didn't have the capabilities to build out a mobile app in 24 hours.
 
 Our expertise was building Drupal sites. Thus, that would be our best bet to have a working application at the end of 24 hours. Maybe one day we'll join hackathons to win, but not this time. This time, we just wanted to finish. Gotta know how to crawl before learning to walk, and walk before learning to run.
 
 ## Day 1
 
-Battlehack Singapore took place at the [Cliftons office](https://www.cliftons.com/venues/singapore/) in the Finexis Building. Rooms on both floors were set up for teams of four, with power points and LAN cables for each member. We took a spot near the wall because there was a nice spot to the side for napping. Turns out there wouldn't be much of that. 
+Battlehack Singapore took place at the [Cliftons office](https://www.cliftons.com/venues/singapore/) in the Finexis Building. Rooms on both floors were set up for teams of four, with power points and LAN cables for each member. We took a spot near the wall because there was a nice spot to the side for napping. Turns out there wouldn't be much of that.
 
-Shortly into the hackathon, we hit our first snag. The internet access went out. Definitely an "Oh, crap" moment for me. I mentioned in my [last post](/blog/542-days-as-a-drupal-developer/) how much I used Google throughout the day. I guess the Hackathon Fates decided, no Google for you, kiddo. 
+Shortly into the hackathon, we hit our first snag. The internet access went out. Definitely an "Oh, crap" moment for me. I mentioned in my [last post](/blog/542-days-as-a-drupal-developer/) how much I used Google throughout the day. I guess the Hackathon Fates decided, no Google for you, kiddo.
 
 No internet also meant no way to download modules. Luckily for me, I had a bunch of local development sites still sitting in my hard drive, and a majority of the module files I needed were in there somewhere. Sure, they were outdated, but beggars can't be choosers.
 
@@ -47,7 +47,7 @@ The organisers were working hard to fix the problem, so I figured I'd just downl
 
 I'll admit I got a little grumpy about the situation, but pouting wasn't going to solve anything, so why not take a little time to chill with the Dinosaur Game? Just in case you didn't know, as of version 39, the guys at Chrome [snuck an easter egg](http://thenextweb.com/google/2014/09/25/googles-latest-chrome-build-hidden-game-can-play-offline/) into the browser.
 
-*Useless trivia: I eventually got to a 1045 high score* <span class="emoji" role="img" tabindex="0" aria-label="face with stuck-out tongue & closed eyes">&#x1F606;</span>
+_Useless trivia: I eventually got to a 1045 high score_ <span class="emoji" role="img" tabindex="0" aria-label="face with stuck-out tongue & closed eyes">&#x1F606;</span>
 
 ![Chrome Dinosaur Game](/assets/images/posts/battlehack/dino-game.jpg)
 

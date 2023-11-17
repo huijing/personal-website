@@ -1,18 +1,18 @@
 ---
-categories:
-- planet-drupal
+drupalfeed: true
 date: "2017-08-01T00:00:00Z"
 description: If you write a lot of custom Drupal themes, gulp can really help streamline your workflow. Every second saved counts.
-images: 
-- /assets/images/posts/drupal-gulp.jpg
+images:
+  - /assets/images/posts/drupal-gulp.jpg
 slug: drupal-101-theming-with-gulp-again
 tags:
-- drupal8
-- theming
-- workflow
-- gulp
-title: 'Drupal 101: Theming Drupal 8 with gulp'
+  - drupal8
+  - theming
+  - workflow
+  - gulp
+title: "Drupal 101: Theming Drupal 8 with gulp"
 ---
+
 Around two years ago, I wrote a post called [Drupal 101: Theming Drupal 7 with gulp](/blog/drupal-101-theming-with-gulp/), which covered some basics about Sass and gulp. I'm not going to repeat myself, so if you can read that article if you're interested. This one is going to cover the delta for the `gulpfile.js` setup in Drupal 8.
 
 ## gulp-ify your Drupal theme
@@ -23,11 +23,11 @@ I only use gulp to compile Sass, handle ES6 and clear the cache when I update Tw
 
 ### Setting up the package.json file
 
-This part is completely replicated from the Drupal 7 post. Screenshots are tedious, so just replace all instances of *Drupal 7* in the screenshots with *Drupal 8* in your mind, thanks.
+This part is completely replicated from the Drupal 7 post. Screenshots are tedious, so just replace all instances of _Drupal 7_ in the screenshots with _Drupal 8_ in your mind, thanks.
 
 <p class="no-margin">Navigate to the root of your Theme folder and initiate a new node project.</p>
 <pre><code class="language-bash">npm init</code></pre>
-This will trigger a series of prompts for the generation of a `package.json` file. This file will store all the information about the required node packages for your project. 
+This will trigger a series of prompts for the generation of a `package.json` file. This file will store all the information about the required node packages for your project.
 
 {{<img4w filename="posts/drupal-gulp/npm-init" filetype="jpg" alt="npm init">}}
 
@@ -35,7 +35,7 @@ Most of the prompts are pretty intuitive, and if you leave any of the fields bla
 
 {{<img4w filename="posts/drupal-gulp/package-json" filetype="jpg" alt="package.json file">}}
 
-<span class="emoji" role="img" tabindex="0" aria-label="exclamation mark">&#x2757;</span> **Important: Preventing segmentation fault**    
+<span class="emoji" role="img" tabindex="0" aria-label="exclamation mark">&#x2757;</span> **Important: Preventing segmentation fault**  
 To prevent triggering a segmentation fault when running Drush, we need to add a script to the `package.json` file that will remove all `.info` files from the `node_modules` folder. Each node package has it's own `.info` file and it turns out that Drush thinks that they are all part of Drupal. Unfortunately, they are not in a format that Drush recognises and hence everything blows up badly. The `.info` files are not necessary for gulp to run properly so it's safe to remove them.
 
 <p class="no-margin">If you had generated your <code>package.json</code> file by using <code>npm init</code> , locate the section called <code>"scripts":</code> , and replace the line:</p>

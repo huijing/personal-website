@@ -1,20 +1,20 @@
 ---
-categories:
-- planet-drupal
+drupalfeed: true
 date: "2017-08-11T00:00:00Z"
-images: 
-- /assets/images/posts/drupal7v8.jpg
+images:
+  - /assets/images/posts/drupal7v8.jpg
 slug: drupal7-versus-drupal8
 tags:
-- drupal8
-- opinion
+  - drupal8
+  - opinion
 title: Drupal 7 versus Drupal 8
 ---
+
 I've recently embarked on my first official Drupal 8 project, for Sinvict Technology (case study when the project launches), and it was interesting to see how certain things changed for the better, certain things stayed familiar and certain things seemed slightly worse off. I thought I'd write up some comparison notes between the two versions. This is my personal opinion based on my experiences. You should have your own opinion too.
 
 ## Core is so much better
 
-I really like the improvements made to core for Drupal 8. Making views part of core was a great idea, as was making the date field core as well. I felt the organisation of files in the new folder structure was more intuitive than before, you know, like themes go into the *themes* folder, and modules into the *modules* folder. Guess where the core files are? In the *core* folder. Gosh, who'd have thought?
+I really like the improvements made to core for Drupal 8. Making views part of core was a great idea, as was making the date field core as well. I felt the organisation of files in the new folder structure was more intuitive than before, you know, like themes go into the _themes_ folder, and modules into the _modules_ folder. Guess where the core files are? In the _core_ folder. Gosh, who'd have thought?
 
 Switching to YAML for configuration was also a welcome change for me. I'd used Jekyll extensively so this was very much up my alley. I find YAML easier to comprehend at a glance, it feels neater to me.
 
@@ -44,7 +44,7 @@ Fortunately, most of the modules I used for Drupal 7 got ported over just fine, 
 
 For example, one of the things I used to do was create Panel pages for nodes where content authors could still make their updates via the standard edit interface for content types. Using panels allowed us to build a page with content from other sources as well, like views blocks and so on.
 
-Because the interface is slightly different now, it took me quite a while before realising I could do that by selecting *Entity View (Content)* from the *Chaos Tools* section when adding a new block. Also, blocks. There doesn't seem to the option to create custom content panels any more, but the same end result can be achieved with custom blocks anyway, so no biggie.
+Because the interface is slightly different now, it took me quite a while before realising I could do that by selecting _Entity View (Content)_ from the _Chaos Tools_ section when adding a new block. Also, blocks. There doesn't seem to the option to create custom content panels any more, but the same end result can be achieved with custom blocks anyway, so no biggie.
 
 ## Configuration management isn't features...yet
 
