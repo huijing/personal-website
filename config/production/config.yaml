@@ -7,14 +7,14 @@ params:
   githubURL: https://huijing.github.io
   description: The chronicles of a self-taught designer and developer.
   images:
-  - assets/images/avatar-mask.png
+    - assets/images/avatar-mask.png
   twitter_username: hj_chen
-  github_username:  huijing
+  github_username: huijing
   mastadon_username: huijing
   about: "I'm Hui Jing, a front-end designer and developer who believes HTML and CSS are the foundation of the web."
-  is_playing: 'Diablo Immortal'
-  is_reading: 'Bit Rot'
-  is_watching: '블라인드'
+  is_playing: "Diablo Immortal"
+  is_reading: "Bit Rot"
+  is_watching: "블라인드"
 
 permalinks:
   blog: /blog/:slug/
@@ -48,33 +48,31 @@ outputFormats:
 
 outputs:
   home:
-  - HTML
-  - RSS
+    - HTML
+    - RSS
   page:
-  - HTML
+    - HTML
   section:
-  - HTML
-  taxonomyTerm:
-  - HTML
+    - HTML
   taxonomy:
-  - HTML
+    - HTML
 
 security:
   enableInlineShortcodes: false
   exec:
     allow:
-    - ^babel$
-    - ^dart-sass-embedded$
-    - ^go$
-    - ^npx$
-    - ^postcss$
+      - ^babel$
+      - ^dart-sass-embedded$
+      - ^go$
+      - ^npx$
+      - ^postcss$
     osEnv:
-    - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$
+      - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$
   funcs:
     getenv:
-    - ^HUGO_
+      - ^HUGO_
   http:
     methods:
-    - (?i)GET|POST
+      - (?i)GET|POST
     urls:
-    - .*
+      - .*

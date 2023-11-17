@@ -30,7 +30,7 @@ The premise of Interledger is to make sending payments as easy as sending an ema
 
 If you never met me, I think a relatively accurate idea of how I am as a person can be summarised by [my AirBnb reviews](https://www.airbnb.com.sg/users/show/16527790) (the most common descriptor is “clean/tidy”) and feedback from conference talks.
 
-{{< tweet user="taishiling" id="1684925855200694272" >}}
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Catching up on the talks I&#39;ve missed, <a href="https://twitter.com/hj_chen?ref_src=twsrc%5Etfw">@hj_chen</a> opening talk so funny, I laugh til die, almost. But got learn new things. Moral of story, i18n is hard: Use a library please, check the numbers in CJK languages, and talk to your designers about the font stack for diff languages.</p>&mdash; Shi Ling (@taishiling) <a href="https://twitter.com/taishiling/status/1684925855200694272?ref_src=twsrc%5Etfw">July 28, 2023</a></blockquote>
 
 So it seems like to some people, I'm reasonably entertaining, and also, I like to keep things organised. Therefore, it should come as no surprise that I standardised all our documentation sites to use [Starlight](https://starlight.astro.build/getting-started/), which is built on [Astro](https://docs.astro.build/en/getting-started/).
 
