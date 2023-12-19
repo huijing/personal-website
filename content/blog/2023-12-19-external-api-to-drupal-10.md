@@ -8,7 +8,7 @@ title: "Pulling content from external API into Drupal 10"
 
 If you had read my [previous blog post](/blog/omg-im-doing-drupal-again/), you'll have found out that I'm somehow unable to escape Drupal. Not that Drupal is some terrible monster, it's actually not bad. At this point, I'll probably end up finishing my career with some Drupal project, who knows? Drupal 42, let's go.
 
-I had not done Drupal since 2020, and if it wasn't for those blog posts I wrote back then, things would have been much harder. But as I slowly poked around a freshly installed copy of Drupal 10, in spite of the many changes (for the better), there were also many things that remained familiar.
+I had not done Drupal since 2020, and if it wasn't for those blog posts I wrote back then, things would have been much harder. But as I slowly poked around a freshly installed copy of Drupal 10, in spite of the many changes (for the better), I found there were also many things that remained familiar.
 
 {{<img2x filename="posts/d10-feeds/celine" filetype="jpg" alt="Celine Dion singing the line 'I can barely recall but it's all coming back to me now' at her Taking Chances World Tour: The Concert">}}
 
@@ -24,7 +24,7 @@ You do need to tell Feeds which fields from the JSON data map to which fields on
 
 ### Install the module
 
-I have not hardcode Drupal-ed since 2017, so I need to rewire my neurons to the [Composer](https://getcomposer.org/) is king mindest.
+I have not hardcore Drupal-ed since 2017, so I need to rewire my neurons to the [Composer](https://getcomposer.org/) is king mindest.
 
 ```
 composer require 'drupal/feeds:^3.0@beta'
