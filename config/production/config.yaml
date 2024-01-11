@@ -7,14 +7,14 @@ params:
   githubURL: https://huijing.github.io
   description: The chronicles of a self-taught designer and developer.
   images:
-    - assets/images/avatar-mask.png
+    - assets/images/avatar-ponytail.png
   twitter_username: hj_chen
   github_username: huijing
   mastadon_username: huijing
   about: "I'm Hui Jing, a front-end designer and developer who believes HTML and CSS are the foundation of the web."
-  is_playing: "Diablo Immortal"
-  is_reading: "Bit Rot"
-  is_watching: "블라인드"
+  is_playing: "Reverse 1999"
+  is_reading: "Wrong Way"
+  is_watching: "The Brothers Sun"
 
 permalinks:
   blog: /blog/:slug/

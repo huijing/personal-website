@@ -1,1 +1,1 @@
-<img {{ with .Get "alt" }}alt="{{.}}"{{ else }}alt=""{{ end }} {{ with .Get "class" }}class="{{.}}"{{ end }} srcset="{{ .Site.BaseURL }}assets/images/{{ .Get "filename" }}@2x.{{ .Get "filetype" }} 2x" src="{{ .Site.BaseURL }}assets/images/{{ .Get "filename" }}.{{ .Get "filetype" }}">
+<img {{ with .Get "alt" }}alt="{{.}}"{{ else }}alt=""{{ end }} {{ with .Get "class" }}class="{{.}}"{{ end }} srcset="{{ .Site.BaseURL }}/assets/images/{{ .Get "filename" }}@2x.{{ .Get "filetype" }} 2x" src="{{ .Site.BaseURL }}/assets/images/{{ .Get "filename" }}.{{ .Get "filetype" }}">
