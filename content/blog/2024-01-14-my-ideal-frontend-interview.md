@@ -32,7 +32,7 @@ So here's what I think I'm worth paying for: the ability to **explain myself wel
 
 Web development is a wide spectrum these days, ranging from the front of the frontend, all the way back to the servers, networks and security aspects of things.
 
-I personally am very front-of-the-front developer. I like to tell people, if someone behind me just sneezes, I will fall into the design side of things. That's how close to the edge I am.
+I personally am a very front-of-the-front developer. I like to tell people, if someone behind me just sneezes, I will fall into the design side of things. That's how close to the edge I am.
 
 The other fortunate thing about my career is that, I get to work closely with designers and content people. You'd be surprised at how common it is for developers to not have direct working relationships with their designers or content creators. Or at least, that's what I've observed. If you have observed differently, that's cool too.
 
@@ -42,9 +42,9 @@ I think that's why we work well together, which is one of the points I'm trying 
 
 ## What I work on day-to-day
 
-As of time of writing, I have 2 main areas of concern at the Interledger Foundation. I am the custodian of all our documentation sites (we have 6 of them at this point), and our organisation website, Interledger.org (and all the related sub-sites).
+As of time of writing, I have 2 main areas of concern at the [Interledger Foundation](https://interledger.org/). I am the custodian of all our documentation sites (we have 6 of them at this point), and our organisation website, Interledger.org (and all the related sub-sites).
 
-It's a nice split, in my opinion. The documentation sites are built on Starlight, an Astro framework for documentation. All the heavy lifting is done by the words written by our beautiful tech writing team. I just try to keep the home for these words as well maintained as I can.
+It's a nice split, in my opinion. The documentation sites are built on [Starlight](https://starlight.astro.build/), an [Astro](https://astro.build/) framework for documentation. All the heavy lifting is done by the words written by our beautiful tech writing team. I just try to keep the home for these words as well maintained as I can.
 
 The organisation website has a much bigger strategic role, since it is the online face of Interledger.org. And honestly, in my decade long career, I've never worked on an organisation website that was perfectly built from the start. Most organisations change way too much in the initial stages anyway.
 
