@@ -47,7 +47,7 @@ Oh, and I sometimes cycle around town on my trusty second-hand Muji commuter bic
   <li class="no-margin"><a href="https://www.codenewbie.org/podcast/why-you-shouldn-t-forget-about-css">CodeNewbie S13E4: Why you shouldn’t forget about CSS</a></li>
   <li class="no-margin"><a href="https://podcasts.apple.com/us/podcast/developer-relations-with-peggy-rayzis-and-hui-jing-chen/id1558498059?i=1000524055128">The CodeSandbox Podcast Ep 5: Developer Relations (with Peggy Rayzis and Hui Jing Chen)</a></li>
   <li class="no-margin"><a href="https://shoptalkshow.com/580/">ShopTalk Show 580: Chen Hui Jing and the State of CSS Survey for 2023</a></li>
-  <li><a href="https://podcasts.apple.com/us/podcast/internationalization-building-globally-aware-products/id1643136476?i=1000644315975">Internationalization: Building Globally Aware Products with Chen Hui Jing</a></li>
+  <li><a href="https://qualitybits.buzzsprout.com/2037134/14430036-internationalization-building-globally-aware-products-with-chen-hui-jing">Internationalization: Building Globally Aware Products with Chen Hui Jing</a></li>
 </ul>
 
 ### So how was this site built?
