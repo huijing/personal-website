@@ -25,6 +25,6 @@ My [friend](https://alexlakatos.com/about/) who became my colleague is now my bo
 
 Anyway, that's all. Here's a photo of #notmycat looking handsome.
 
-{{<img4w filename="posts/ten-years/hei" filetype="jpg" alt="Hei is a handsome black community cat that lives outside but climbs in through my window to take naps on rainy days">}}
+{{<img4w filename="posts/ten-years/hei" filetype="jpg" alt="Hei is a handsome black community cat that is an outside cat but climbs in through my window to take naps on rainy days">}}
 
 <em><small>Credits: OG:image from <a href="https://www.vecteezy.com/photo/32037195-cat-celebrating-birthday-wearing-party-hat-isolated-on-yellow-background">Vecteezy.com</a></small></em>
