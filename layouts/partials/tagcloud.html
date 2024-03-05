@@ -1,5 +1,5 @@
 <div class="post-tags">
   {{ range .Site.Taxonomies.tags }}
-  <a class="no-underline tag-link" href="{{ .Page.Permalink }}">{{ .Page.Title }} <span class="tag-name">({{ .Count }})</span></a>
+  <a class="no-underline tag-link" href="{{ .Page.Permalink }}">{{ lower .Page.Title }} <span class="tag-name">({{ .Count }})</span></a>
   {{ end }}
 </div>
