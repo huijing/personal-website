@@ -1,15 +1,16 @@
 ---
 date: 2023-02-07T22:54:24+08:00
 images:
-- /assets/images/posts/firefox-android/debugging-1280.jpg
+  - /assets/images/posts/firefox-android/debugging-1280.jpg
 tags:
-- css
-- devtools
+  - css
+  - devtools
 title: "Debugging Firefox on Android"
 ---
+
 I just figured out how to get my Android phone recognised by [Android Debug Bridge (`adb`)](https://developer.android.com/studio/command-line/adb.html) on my MacBook, which finally allowed me to remote debug websites on Firefox Android. Just so I don't forget what I did, this is a short documentation of the steps needed to get everything to work. Hopefully it will stay relevant for a good while.
 
-Firefox official documentation is actually very clear: [about:debugging](https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/index.html), however, the first time I tried it, I could not for the life of myself get it to work. <span class="kaomoji">¯\\\_(ツ)_/¯</span>
+Firefox official documentation is actually very clear: [about:debugging](https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/index.html), however, the first time I tried it, I could not for the life of myself get it to work. <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
 
 <ol>
   <li class="no-margin">Enable Developer menu on your Android device.</li>
@@ -28,7 +29,7 @@ If no devices show up, then the issue might be on the Android device side of thi
 
 After that running `./adb devices` actually did list something.
 
-{{<img filename="posts/firefox-android/adb-list" filetype="png" alt="adb list showing device connected">}}
+![adb list showing device connected](/assets/images/posts/firefox-android/adb-list.png)
 
 Go back to `about:debugging` and refresh the page. If the devices are listed on the command line, they will show up in the left sidebar (at least they did for me).
 
