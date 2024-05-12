@@ -320,7 +320,7 @@
   id: code-2018
   count: "37"
   event: Web Directions Code 2018
-  website: https://www.webdirections.org/code/
+  website: https://webdirections.org/code18/
   type: conference
   released: true
   pdf: true
@@ -961,8 +961,18 @@
 - title: "Do your regional websites talk funny?"
   id: cityjssg-2023
   count: "105"
+  video: https://youtu.be/myGDCC-LUPA
   event: "CityJS Singapore"
   website: https://singapore.cityjsconf.org/
   type: conference
   released: true
   pdf: true
+
+- title: "The State of CSS"
+  id: code-2024
+  count: "106"
+  event: "Web Directions Code"
+  website: https://webdirections.org/code/
+  type: conference
+  released: false
+  pdf: false
