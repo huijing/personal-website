@@ -968,11 +968,20 @@
   released: true
   pdf: true
 
+- title: "The State of the Web Platform"
+  id: code-leaders-2024
+  count: "106"
+  event: "Web Directions Code"
+  website: https://webdirections.org/leaders/
+  type: conference
+  released: true
+  pdf: true
+
 - title: "The State of CSS"
   id: code-2024
-  count: "106"
+  count: "107"
   event: "Web Directions Code"
   website: https://webdirections.org/code/
   type: conference
-  released: false
-  pdf: false
+  released: true
+  pdf: true
