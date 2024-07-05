@@ -11,6 +11,7 @@ h2,
 h3,
 h4,
 ul,
+ol,
 p,
 a,
 img,
@@ -67,7 +68,7 @@ html {
 }
 
 body {
-  background: url('/assets/images/bg-body.jpg');
+  background: url("/assets/images/bg-body.jpg");
   min-width: calc(320em / 18);
   height: 100%;
   display: flex;
@@ -92,7 +93,7 @@ main {
 .content {
   @include center;
   max-width: 40rem;
-  background-color: color('sugarcane');
+  background-color: color("sugarcane");
   padding: 1.5em;
   line-height: 1.5;
 }
