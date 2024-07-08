@@ -32,13 +32,19 @@ Every browser handles their feature flags differently, and after seeing Safari's
 <span class="emoji" role="img" tabindex="0" aria-label="robot">&#x1F916;</span>: Mozilla Firefox introduced feature flags, accessible via about:config, much earlier than Chrome. The about:config interface has been available since at least Firefox 2, which was released in **October 2006**. This interface allows users to modify advanced settings and enable or disable experimental features.
 
 <span class="emoji" role="img" tabindex="0" aria-label="woman raising hand">&#x1F64B;&#x1F3FB;&#x200D;&#x2640;&#xFE0F;</span>: and when did safari roll out it's new feature flag tab in developer settings?  
-<span class="emoji" role="img" tabindex="0" aria-label="robot">&#x1F916;</span>: Safari rolled out its new feature flag tab in the Developer settings with the release of Safari 13, which was introduced in **September 2019**. This feature, accessible through the "Develop" menu, allows developers to enable or disable experimental features and technologies in the browser.
+<s><span class="emoji" role="img" tabindex="0" aria-label="robot">&#x1F916;</span>: Safari rolled out its new feature flag tab in the Developer settings with the release of Safari 13, which was introduced in **September 2019**. This feature, accessible through the "Develop" menu, allows developers to enable or disable experimental features and technologies in the browser.</s>
 
 I think these should be largely accurate, someone tell me if they're not.
 
+_Update! ChatGPT is wrong!! Someone did tell me! Specifically [Curtis Wilcox](https://scholar.harvard.edu/ccwilcox/people/curtis-wilcox) and [Jen Simmons](https://jensimmons.com/)_ <span class="emoji" role="img" tabindex="0" aria-label="person bowing">&#x1F647;&#x1F3FB;</span>
+
+<iframe src="https://c.im/@cwilcox808/112734737122814176/embed" width="400" height="330" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
+
+<iframe src="https://front-end.social/@jensimmons/112735884858878928/embed" width="400" height="480" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
+
 ### Safari
 
-Admittedly, Safari is not a browser I use on the regular, only when testing, and it is generally a cursory load page, scroll page, move on to next page, kind of thing. So sadly, it was only recently (5 years after release) that I noticed “Feature Flags” had a dedicated tab in Developer settings.
+Admittedly, Safari is not a browser I use on the regular, only when testing, and it is generally a cursory load page, scroll page, move on to next page, kind of thing. So sadly, it was only recently (~~5 years~~ 10 months after release) that I noticed “Feature Flags” had a dedicated tab in Developer settings.
 
 {{<img2x filename="posts/experimental-css/safari" filetype="png" alt="Feature flag tab in Safari's developer settings">}}
 
