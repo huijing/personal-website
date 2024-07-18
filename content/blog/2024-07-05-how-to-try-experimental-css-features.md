@@ -72,7 +72,7 @@ Chrome doesn't do feature flags that granularly (at least that's my observation)
 <ol>
   <li class="no-margin">Type <code>chrome://flags</code> in your address bar</li>
   <li class="no-margin">Search for the feature</li>
-  <li class="no-margin">Set value to <strong>Enabled</strong>M</li>
+  <li class="no-margin">Set value to <strong>Enabled</strong></li>
   <li>Relaunch the browser</li>
 </ol>
 

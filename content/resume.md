@@ -2,6 +2,7 @@
 title: Résumé
 permalink: /resume/
 ---
+
 ### Summary
 
 <ul>
@@ -23,15 +24,17 @@ permalink: /resume/
 </ul>
 
 ### Work experience
-  
+
 <section class="jobs">
   <input id="ilf" name="job" type="checkbox" checked>
   <label for="ilf"><h4>Interledger Foundation <small>(Jun 2023 - Present)</small></h4></label>
   <article>
-    <p class="no-margin"><strong>Developer Experience Engineer</strong> responsible for architecting and developing the documentation infrastructure for the Interledger network by:</p>
+    <p class="no-margin"><strong>Principal Engineer</strong> responsible for architecting and developing the web properties for the Interledger Foundation by:</p>
     <ul>
       <li class="no-margin">Building and maintaining an open-source, performant and customisable documentation platform</li>
-      <li>Collaborating closely with the team’s technical writers as well as the open-source community to develop the platform roadmap</li>
+      <li class="no-margin">Collaborating closely with the team’s technical writers to develop the developer experience roadmap</li>
+      <li class="no-margin">Analyse the organisation's technical gaps and either build or delegate work required to plug those gaps</li>
+      <li>Contribute to the strategic planning and decision-making process within the engineering department</li>
     </ul>
   </article>
 
@@ -131,7 +134,7 @@ permalink: /resume/
 ### Education
 
 **University of Nottingham**  
-(2006-2008)
+(2006-2009)
 BA (Hons) Finance, Accounting and Management (2:1)
 
 Click [here](/assets/documents/cv.pdf) to download the official-looking, formal PDF version.
