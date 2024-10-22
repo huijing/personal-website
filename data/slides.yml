@@ -985,3 +985,13 @@
   type: conference
   released: true
   pdf: true
+
+- title: "CSS for internationalisation"
+  id: dsw-2024
+  count: "108"
+  video: https://youtu.be/wpypfDnrw78
+  event: "Design Systems Week 2024"
+  website: https://nldesignsystem.nl/events/design-systems-week-2024/programma
+  type: meetup
+  released: true
+  pdf: true
