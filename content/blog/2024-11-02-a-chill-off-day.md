@@ -1,6 +1,5 @@
 ---
 date: 2024-11-01T20:38:36+08:00
-draft: true
 images:
   - /assets/images/posts/chill-html-css.jpg
 tags:
