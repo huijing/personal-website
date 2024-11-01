@@ -2,8 +2,7 @@
 date: 2024-11-01T20:38:36+08:00
 draft: true
 images:
-  - /assets/images/posts/projects/project-XX@2x.png
-  - /assets/images/posts/XX/XX.jpg
+  - /assets/images/posts/chill-html-css.jpg
 tags:
   - css
   - devlife
