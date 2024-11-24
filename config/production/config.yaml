@@ -8,7 +8,7 @@ params:
   description: The chronicles of a self-taught designer and developer.
   images:
     - assets/images/avatar-ponytail.png
-  twitter_username: hj_chen
+  bluesky_username: huijing
   github_username: huijing
   mastadon_username: huijing
   about: "I'm Hui Jing, a front-end designer and developer who believes HTML and CSS are the foundation of the web."

@@ -995,3 +995,12 @@
   type: meetup
   released: true
   pdf: true
+
+- title: "Expanding the browser experience with web extensions"
+  id: ijs-2024
+  count: "109"
+  event: "International JavaScript Conference Singapore 2024"
+  website: https://javascript-conference.com/singapore/
+  type: conference
+  released: true
+  pdf: true
