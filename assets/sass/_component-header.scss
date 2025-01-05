@@ -1,6 +1,6 @@
 // Header styles
 .site-header {
-  background: url('/assets/images/bg-header.jpg');
+  background: url("/assets/images/bg-header.jpg");
   flex: 1 0 auto; // IE11 fix
 }
 
@@ -27,7 +27,7 @@
 
 .site-branding__image {
   @include image-replacement;
-  background: url('/assets/images/retropc-static.png');
+  background: url("/assets/images/retropc-static.png");
   background-size: cover;
   display: block;
   height: 90px;
@@ -40,14 +40,14 @@
   }
 
   &::before {
-    content: url('/assets/images/retropc-dynamic.gif');
+    content: url("/assets/images/retropc-dynamic.gif");
     height: 0;
     visibility: hidden;
     width: 0;
   }
 
   &:hover {
-    background: url('/assets/images/retropc-dynamic.gif');
+    background: url("/assets/images/retropc-dynamic.gif");
     background-size: cover;
   }
 }
@@ -58,19 +58,19 @@
 }
 
 .site-branding__wrapper {
-  margin-left: 1em;
+  margin-inline-start: 1em;
 }
 
 .site-branding__title {
-  margin-bottom: 0.25rem;
+  margin-block-end: 0.25rem;
 
-   a {
+  a {
     font-size: 85%;
     font-family: $display-font;
-    color: color('english-walnut');
+    color: color("english-walnut");
 
     &:hover {
-      color: color('english-walnut');
+      color: color("english-walnut");
     }
   }
 }
@@ -83,22 +83,22 @@
 
 .site-nav {
   display: flex;
-  margin-top: 1em;
+  margin-block-start: 1em;
   width: 100%;
   font-family: $display-font;
   font-size: 90%;
 
   @include mappy-bp(x-large) {
-    margin-top: 0;
+    margin-block-start: 0;
   }
 
   a {
     flex: auto;
     text-align: center;
-    color: color('english-walnut');
+    color: color("english-walnut");
   }
 }
 
 .site-nav__link:hover {
-  color: color('english-walnut');
+  color: color("english-walnut");
 }

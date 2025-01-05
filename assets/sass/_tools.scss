@@ -5,15 +5,15 @@
 @mixin cf {
   &::after {
     clear: both;
-    content: '';
+    content: "";
     display: table;
   }
 }
 
 @mixin center {
   float: none;
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }
 
 @mixin image-replacement {

@@ -9,39 +9,39 @@
 // ==========
 // SETTINGS - Global variables, config switches
 // ==========
-@import 'settings';
+@import "settings";
 // ==========
 // TOOLS - Default mixins and functions
 // ==========
-@import 'tools';
+@import "tools";
 // ==========
 // VENDOR LIBRARIES - Third-party stylesheets
 // ==========
-@import 'lib/prism';
+@import "lib/prism";
 // ==========
 // GENERIC - Ground-zero styles (Normalize.css, resets, box-sizing)
 // ==========
-@import 'generic';
+@import "generic";
 // ==========
 // BASE - Unclassed HTML elements (type selectors)
 // ==========
-@import 'base';
+@import "base";
 // ==========
 // OBJECTS - Cosmetic-free design patterns
 // ==========
-@import 'objects';
+@import "objects";
 // ==========
 // COMPONENTS - Designed components, chunks of UI
 // ==========
-@import 'component-header';
-@import 'component-footer';
+@import "component-header";
+@import "component-footer";
 
 .post-content {
   @include center;
   max-width: 36rem;
 
   img {
-    margin-bottom: 1rem;
+    margin-block-end: 1rem;
   }
 }
 
@@ -53,7 +53,7 @@
 
   @include mappy-bp(small) {
     flex-flow: row nowrap;
-    margin-bottom: 1.5em;
+    margin-block-end: 1.5em;
   }
 }
 
@@ -62,7 +62,7 @@ figure {
   font-size: 85%;
 
   iframe {
-    margin-bottom: 0;
+    margin-block-end: 0;
   }
 }
 
@@ -77,7 +77,7 @@ figure {
 
 .double {
   img:first-of-type {
-    margin-bottom: 1rem;
+    margin-block-end: 1rem;
   }
 
   @include mappy-bp(small) {
@@ -86,7 +86,7 @@ figure {
     gap: 1em;
 
     img:first-of-type {
-      margin-bottom: 0;
+      margin-block-end: 0;
     }
   }
 }
@@ -99,7 +99,7 @@ figure {
   float: left;
   shape-image-threshold: 0.5;
   shape-margin: 1em;
-  shape-outside: url('/assets/images/posts/css-shapes/beyonce.png');
+  shape-outside: url("/assets/images/posts/css-shapes/beyonce.png");
   width: 50%;
 
   @include mappy-bp(small) {
@@ -109,7 +109,7 @@ figure {
 
 .overflow-scroll {
   overflow-x: scroll;
-  margin-bottom: 1rem;
+  margin-block-end: 1rem;
 }
 
 table {
@@ -121,13 +121,14 @@ thead {
   text-align: left;
 }
 
-th, td {
+th,
+td {
   border: #f0f0f0 1px solid;
   padding: 0.5em;
 }
 
 .table {
-  margin-bottom: 1.5em;
+  margin-block-end: 1.5em;
 
   @include mappy-bp(medium) {
     display: table;
@@ -137,7 +138,7 @@ th, td {
 }
 
 .tr {
-  margin-bottom: 1.5em;
+  margin-block-end: 1.5em;
 
   @include mappy-bp(medium) {
     display: table-row;
@@ -165,18 +166,18 @@ th, td {
 .display {
   .th {
     &::before {
-      content: 'display: ';
+      content: "display: ";
 
       @include mappy-bp(medium) {
-        content: '';
+        content: "";
       }
     }
 
     &::after {
-      content: ';';
+      content: ";";
 
       @include mappy-bp(medium) {
-        content: '';
+        content: "";
       }
     }
   }
@@ -206,27 +207,27 @@ th, td {
 }
 
 .note {
-  background: url('/assets/images/bg-note.jpg');
+  background: url("/assets/images/bg-note.jpg");
   padding: 0.5em 1em;
   font-size: 85%;
-  border-left: 0.5em solid color('winter-hazel');
-  margin-bottom: 1rem;
+  border-inline-start: 0.5em solid color("winter-hazel");
+  margin-block-end: 1rem;
 }
 
 // Key styles
 .p159 {
   display: flex;
   overflow-x: scroll;
-  background-color: color('apple');
-  margin-bottom: 1rem;
+  background-color: color("apple");
+  margin-block-end: 1rem;
 }
 
 .p159__item {
   width: 9em;
   flex: none;
-  margin-right: 1em;
+  margin-inline-end: 1em;
   background-color: white;
-  
+
   img {
     object-fit: cover;
   }
@@ -235,9 +236,9 @@ th, td {
     margin: 0;
     text-align: center;
   }
-  
+
   &:last-child {
-    margin-right: 0;
+    margin-inline-end: 0;
   }
 
   .card__txt {
@@ -246,7 +247,7 @@ th, td {
 }
 
 .p159.problem {
-  padding: 1em;  
+  padding: 1em;
 }
 
 .p159.border {
@@ -255,17 +256,17 @@ th, td {
 
 .p159.pseudo-elem {
   padding: 1em;
-  
+
   &::after {
-    content: '';
+    content: "";
     padding: 0.5em;
   }
 }
 // ==========
 // TRUMPS - Helpers and overrides
 // ==========
-@import 'trumps';
+@import "trumps";
 // ==========
 // SHAME - For ad-hoc debugging or testing. Should be empty by default.
 // ==========
-@import 'shame';
+@import "shame";

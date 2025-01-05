@@ -13,7 +13,7 @@
     {{ if .Params.external_site }}
     <p class="note italicise">This article was originally published on {{ (index .Site.Data.publications .Params.external_site).name }}.</p>
     {{ end }}
-    <p class="post-summary no-margin">{{ .Summary | truncate 130 }}</p>
+    <div class="post-summary">{{ .Content | strings.Truncate 130 }}</div>
     <p class="post-meta">
     {{ $count := (len .Params.tags) }}
     {{ if gt $count 1 }} 

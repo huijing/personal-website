@@ -1,27 +1,27 @@
 // Footer styles
 .site-footer {
   font-family: $display-font;
-  color: color('white');
+  color: color("white");
 
   a {
-    color: color('apple');
+    color: color("apple");
   }
 
   a:hover {
-    color: lighten(color('apple'), 20%);
+    color: lighten(color("apple"), 20%);
   }
 
   svg path {
-    fill: color('apple');
+    fill: color("apple");
   }
 }
 
 .site-footer__wrapper--main {
-  background: url('/assets/images/bg-footer-2.jpg');
+  background: url("/assets/images/bg-footer-2.jpg");
 }
 
 .site-footer__wrapper--secondary {
-  background: url('/assets/images/bg-footer.jpg');
+  background: url("/assets/images/bg-footer.jpg");
 }
 
 .footer-main {
@@ -70,7 +70,7 @@
     top: -6.5em;
     left: 50%;
     transform: translateX(-50%);
-    background-color: color('tuna');
+    background-color: color("tuna");
     padding: 0.25em 0.5em;
     border-radius: 4px;
   }
@@ -85,7 +85,7 @@
   margin: 0 1em 1em;
 
   @include mappy-bp(large) {
-    margin-top: 1em;
+    margin-block-start: 1em;
   }
 }
 
@@ -95,7 +95,7 @@
   min-width: 200px;
   width: 200px;
   margin: 1em auto;
-  background-color: color('sugarcane');
+  background-color: color("sugarcane");
 
   @include mappy-bp(large) {
     flex: 1 0 0;
@@ -118,12 +118,12 @@
   padding: 0.25em;
 
   span:first-child {
-    margin-right: 0.5em;
+    margin-inline-end: 0.5em;
   }
 
   &:hover {
     svg path {
-      fill: lighten(color('apple'), 20%);
+      fill: lighten(color("apple"), 20%);
     }
   }
 }
@@ -152,12 +152,11 @@
     line-height: 2;
 
     @include mappy-bp(max large) {
-      margin-bottom: 1em;
+      margin-block-end: 1em;
     }
 
     @include mappy-bp(large) {
       flex: 5 0 71.4285%;
-      
     }
   }
 }

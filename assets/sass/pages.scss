@@ -156,6 +156,10 @@
   margin-block-end: 0.25rem;
 }
 
+.post-summary p {
+  margin-block-end: 0;
+}
+
 .note {
   font-size: 85%;
   margin-block-end: 0.25em;
@@ -179,12 +183,12 @@
 
 .post-content__tag {
   padding: 0.5em 0 0.25em;
-  border-bottom: 0;
+  border-block-end: 0;
   text-decoration: underline;
   display: inline-block;
 
   &:hover {
-    border-bottom: 0;
+    border-block-end: 0;
   }
 }
 

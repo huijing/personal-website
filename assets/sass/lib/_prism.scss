@@ -97,7 +97,7 @@ pre[class*="language-"] {
 }
 pre[class*="language-"].line-numbers {
   position: relative;
-  padding-left: 3.8em;
+  padding-inline-start: 3.8em;
   counter-reset: linenumber;
 }
 pre[class*="language-"].line-numbers > code {
@@ -112,7 +112,7 @@ pre[class*="language-"].line-numbers > code {
   left: -3.8em;
   width: 3em;
   letter-spacing: -1px;
-  border-right: 1px solid #999;
+  border-inline-end: 1px solid #999;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -126,6 +126,6 @@ pre[class*="language-"].line-numbers > code {
   content: counter(linenumber);
   color: #999;
   display: block;
-  padding-right: 0.8em;
+  padding-inline-end: 0.8em;
   text-align: right;
 }

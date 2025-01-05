@@ -32,11 +32,11 @@
 
   {{ if (eq .Type "blog") }}
   {{ $options := (dict "targetPath" "posts.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-  {{ $style := resources.Get "sass/posts.scss" | resources.ToCSS $options }}
+  {{ $style := resources.Get "sass/posts.scss" | css.Sass $options }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   {{ else }}
   {{ $options := (dict "targetPath" "pages.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-  {{ $style := resources.Get "sass/pages.scss" | resources.ToCSS $options }}
+  {{ $style := resources.Get "sass/pages.scss" | css.Sass $options }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   {{ end }}
 

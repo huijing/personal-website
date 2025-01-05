@@ -9,14 +9,14 @@
     width: 1em;
 
     path {
-      fill: color('japanese-laurel');
+      fill: color("japanese-laurel");
     }
   }
 }
 
 .icon--tag,
 .icon--tags {
-  margin-right: 0.25em;
+  margin-inline-end: 0.25em;
 }
 
 .icon--title {
@@ -32,7 +32,7 @@
     }
 
     path {
-      fill: color('mineshaft');
+      fill: color("mineshaft");
     }
   }
 }
@@ -43,20 +43,21 @@
   font-style: normal;
   display: inline-block;
   vertical-align: baseline;
-  font-family: 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: "Apple Color Emoji", "Segoe UI Emoji";
 }
 
-_:-ms-lang(x), .emoji { 
+_:-ms-lang(x),
+.emoji {
   vertical-align: top;
 }
 
-span[role=img][aria-label],
-span[role=img][aria-label] {
+span[role="img"][aria-label],
+span[role="img"][aria-label] {
   position: relative;
 }
 
-span[role=img][aria-label]:focus::after,
-span[role=img][aria-label]:hover::after {
+span[role="img"][aria-label]:focus::after,
+span[role="img"][aria-label]:hover::after {
   font-size: 50%;
   font-family: $base-font;
   font-weight: 400;
@@ -67,16 +68,16 @@ span[role=img][aria-label]:hover::after {
   z-index: 1;
   bottom: 2.5em;
   left: 0;
-  background: color('english-walnut');
-  color: color('white');
+  background: color("english-walnut");
+  color: color("white");
   padding: 0.25em;
-  border: 1px solid color('white');
-  box-shadow: 2px 2px 4px color('english-walnut');
+  border: 1px solid color("white");
+  box-shadow: 2px 2px 4px color("english-walnut");
 }
 
 @media print {
-  span[role=img][aria-label]::after {
-    content: '('attr(aria-label)')';
+  span[role="img"][aria-label]::after {
+    content: "(" attr(aria-label) ")";
   }
 }
 
@@ -87,7 +88,7 @@ span[role=img][aria-label]:hover::after {
 
 .post-meta {
   font-size: 75%;
-  color: lighten(color('tuna'), 20%);
+  color: lighten(color("tuna"), 20%);
 }
 
 // Night mode toggle
@@ -106,12 +107,12 @@ span[role=img][aria-label]:hover::after {
     left: 1rem;
     bottom: 1rem;
     border-radius: 50%;
-    background-image : url('/assets/images/sun.png');
+    background-image: url("/assets/images/sun.png");
     background-position: center;
     background-size: cover;
     z-index: 1;
     opacity: 0.7;
-  
+
     @include mappy-bp(x-large) {
       left: calc(50% - 24rem);
     }
@@ -119,17 +120,17 @@ span[role=img][aria-label]:hover::after {
 
   .blender {
     position: fixed;
-    background-color: color('sugarcane');
+    background-color: color("sugarcane");
     mix-blend-mode: difference;
     pointer-events: none;
-  
+
     @include mappy-bp(max x-large) {
       opacity: 0;
       height: 100vh;
       width: 100vw;
       transition: opacity 0.5s ease;
     }
-  
+
     @include mappy-bp(x-large) {
       height: 3rem;
       width: 3rem;
@@ -140,28 +141,28 @@ span[role=img][aria-label]:hover::after {
       transition: transform 0.7s ease-out;
     }
   }
-  
+
   .blender.active {
     @include mappy-bp(max x-large) {
       opacity: 1;
     }
-  
+
     @include mappy-bp(x-large) {
       transform: scale(100);
     }
   }
-  
+
   .blender.active ~ .blend-toggle {
-    background-image : url('/assets/images/moon.png');
+    background-image: url("/assets/images/moon.png");
     isolation: isolate;
   }
-  
+
   img,
   .external-url::before,
   .emoji {
     isolation: isolate;
   }
-  
+
   .blend-checkbox:focus ~ label {
     outline: 5px auto -webkit-focus-ring-color;
   }
