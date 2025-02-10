@@ -1,9 +1,16 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = """\
+  curl -LJO https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+  tar -xf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+  rm dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+  export PATH=/opt/build/repo/dart-sass:$PATH && \
+  hugo --gc --minify \
+  """
 
 [context.production.environment]
-HUGO_VERSION = "0.70.0"
+HUGO_VERSION = "0.143.1"
+DART_SASS_VERSION = "1.83.4"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -11,20 +18,23 @@ HUGO_ENABLEGITINFO = "true"
 command = "hugo --gc --minify --enableGitInfo"
 
 [context.split1.environment]
-HUGO_VERSION = "0.70.0"
+HUGO_VERSION = "0.143.1"
+DART_SASS_VERSION = "1.83.4"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.70.0"
+HUGO_VERSION = "0.143.1"
+DART_SASS_VERSION = "1.83.4"
 
 [context.branch-deploy]
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.70.0"
+HUGO_VERSION = "0.143.1"
+DART_SASS_VERSION = "1.83.4"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
