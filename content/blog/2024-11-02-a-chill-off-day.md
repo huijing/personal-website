@@ -14,6 +14,8 @@ However, I really would very much prefer to be building websites. And so, when m
 
 Today is my off-day, which means I get to sit in the same spot as I do when I'm at work but do something completely non-work related. Some people watch Netflix, some people play games, I indulge in my love of writing HTML and CSS.
 
+_Update: It's live! Check it out at [https://tricyrcle.com/](https://tricyrcle.com/)_
+
 ## Not a complicated web page
 
 Don't get me wrong, I do like the challenge of figuring out how to build all those special effects and interactions and things flying around the page, it's genuinely fun to do that. But I also enjoy the simple, straight-forward web page.
