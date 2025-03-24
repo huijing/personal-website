@@ -15,7 +15,7 @@ Back when I built the whole thing in March 2024, the only blog posts we had were
 
 ![I did not add the pagination component after 12 articles](/assets/images/posts/astro-pagination/future-proof.png)
 
-Well, by the time we had to upgrade Astro from 4 to 5 (there will be a blog post on this), I saw that we had 13 blog posts and yikes, the first blog post was gone from the listing. Yikes.
+Well, by the time we had to upgrade Astro from 4 to 5 (there will be a blog post on this), I saw that we had 13 blog posts and yikes, the first blog post was gone from the listing. Yikes indeed.
 
 ## See how other people do stuff
 
