@@ -148,13 +148,13 @@ const paginationList = Array.from({length}, (_, i) => i + 1);
 ---
 <nav aria-label="Blog pages" class="pagination">
   {firstUrl ? (
-    <a href={`/developers${firstUrl}`} class="pagination__link">&#171;</a>
+    <a href={`${firstUrl}`} class="pagination__link">&#171;</a>
   ) : (
   <span class="pagination__link disabled">&#171;</span>
   )}
 
   {prevUrl ? (
-    <a href={`/developers${prevUrl}`} class="pagination__link">&#8249;</a>
+    <a href={`${prevUrl}`} class="pagination__link">&#8249;</a>
   ) : (
     <span class="pagination__link disabled">&#8249;</span>
   )}
@@ -171,11 +171,11 @@ const paginationList = Array.from({length}, (_, i) => i + 1);
   {!nextUrl ? (
     <span class="pagination__link disabled">&#8250;</span>
   ) : (
-    <a href={`/developers${nextUrl}`} class="pagination__link">&#8250;</a>
+    <a href={`${nextUrl}`} class="pagination__link">&#8250;</a>
   )}
 
   {lastUrl ? (
-    <a href={`/developers${lastUrl}`} class="pagination__link">&#187;</a>
+    <a href={`${lastUrl}`} class="pagination__link">&#187;</a>
   ) : (
     <span class="pagination__link disabled">&#187;</span>
   )}
