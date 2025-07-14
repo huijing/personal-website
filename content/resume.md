@@ -27,8 +27,15 @@ permalink: /resume/
 
 <section class="jobs">
   <input id="ilf" name="job" type="checkbox" checked>
-  <label for="ilf"><h4>Interledger Foundation <small>(Jun 2023 - Present)</small></h4></label>
+  <label for="ilf"><h4>Interledger Foundation <small>(Jun 2023 - July 2025)</small></h4></label>
   <article>
+  <p class="no-margin"><strong>Chief Operating Officer</strong> who transitioned from hands-on builder to strategic operational leadership, overseeing the organization's day-to-day operations, implementing strategic initiatives, and driving the Foundation's growth.</p>
+    <ul>
+      <li class="no-margin">Collaborating with CEO to develop and execute on the Foundation’s strategic initiatives and long-term plans</li>
+      <li class="no-margin">Working closely with the Director of Finance to improve the budget management process and enhance communication between the Finance department and respective department leads</li>
+      <li class="no-margin">Reworking outdated organisational policies and documented processes and procedures to drive organizational efficiency, scalability and effectiveness</li>
+      <li>Driving the IT department to develop stronger IT policies and initiatives, and communicate these effectively with the entire organization</li>
+    </ul>
     <p class="no-margin"><strong>Principal Engineer</strong> responsible for architecting and developing the web properties for the Interledger Foundation by:</p>
     <ul>
       <li class="no-margin">Building and maintaining an open-source, performant and customisable documentation platform</li>

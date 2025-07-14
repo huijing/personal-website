@@ -178,3 +178,4 @@ $RECYCLE.BIN/
 package-lock.json
 .hugo_build.lock
 bun.lockb
+bun.lock

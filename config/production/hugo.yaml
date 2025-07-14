@@ -30,7 +30,9 @@ markup:
       taskList: true
       typographer: true
     parser:
-      attribute: true
+      attribute:
+        block: false
+        title: true
       autoHeadingID: true
       autoHeadingIDType: github
     renderer:
@@ -43,7 +45,7 @@ taxonomies:
 
 outputFormats:
   RSS:
-    mediatype: application/rss
+    mediaType: application/rss+xml
     baseName: feed
 
 outputs:
