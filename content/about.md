@@ -1,5 +1,6 @@
 ---
 title: About
+description: "I first dipped my toe into the waters of web development when I built my first HTML website in 2008 for the Malaysia Basketball Association and never looked back."
 permalink: /about/
 ---
 

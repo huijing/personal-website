@@ -5,7 +5,7 @@ summaryLength: 20
 
 params:
   githubURL: https://huijing.github.io
-  description: The chronicles of a self-taught designer and developer.
+  description: "The chronicles of a self-taught designer and developer who started building on the web when HTML tables were being phased out and floats were the hot new thing."
   images:
     - assets/images/avatar-ponytail.png
   bluesky_username: huijing
